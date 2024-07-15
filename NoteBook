@@ -1,4 +1,4 @@
-今天要做到的东西
+//CP//
 bonus continus function
 win label 
 fix spin button 会有background button卡着
@@ -8,4 +8,47 @@ music和bgm要分开mute
 pt035 normal game play
 free game play
 
-1111
+//ISJ//
+Close Power Wealth in xin gaming all game
+Build Xin gaming
+
+Create new game list from BO
+----------------------------------------
+
+1. Setting -> go to Global setting -> game list ->
+- follow others game id and game name
+
+2. go to Operating Management -> Operator
+- click on Actions -> Update -> Jackpot/Pool Settings -> click on Edit -> click on Apply once to make sure game is init
+
+squidgame jackpot pool open (pentajeu, demo player)
+go888king.com jackpot pool open (pentajeu, demo player)
+
+
+3. Operator Setting -> AWP 3.0 Setting -> press + on game list -> add game name
+
+egame socket new game add
+----------------------------
+- app2  
+- plunderpurate.js
+- paylines
+- reel_symbols
+- slots_process
+- game_jackpot_config
+- slotchecker -> game_payout_list
+-need check aoak_paytable (if any of the aoak game)
+
+upload new game folder 
+1 upload build file
+2 bo/staging/image/slot_icon/upload image
+
+//e-game-socket的一些讲解//
+e-gaming-socket
+slot.varible 的slot is go to slot process, slot.slot.varible second slot is go to the slot script.
+inside slot_processs
+that.varible this variable can be create by app2
+//
+
+//SlotCore的一些讲解//
+slotcore 改script而已不用replace meta, 但是加新的script需要加上meta
+

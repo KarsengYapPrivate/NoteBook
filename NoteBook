@@ -11,6 +11,20 @@ free game play
 //ISJ//
 Close Power Wealth in xin gaming all game
 Build Xin gaming
+001
+002
+003
+004
+005
+006
+007
+008
+009
+011 (build)
+012 (build)
+014 (build)
+
+merge responsive script from 006 to 000
 
 Create new game list from BO
 ----------------------------------------
@@ -51,4 +65,11 @@ that.varible this variable can be create by app2
 
 //SlotCore的一些讲解//
 slotcore 改script而已不用replace meta, 但是加新的script需要加上meta
+
+//start-http-server.bat//
+用来host一个index html的server
+double click 这个start-http-server.bat
+开google type http://127.0.0.1:8888/ 然后选要host的folder
+//
+
 

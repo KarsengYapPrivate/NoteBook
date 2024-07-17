@@ -20,11 +20,12 @@ Build Xin gaming
 007
 008
 009
-011 (build)
+011 (build) need to rebuild for detection of power wealth node need to show (the tiny symbol);
 012 (build)
 014 (build)
 
-merge responsive script from 006 to 000
+pt001 when wild appear and player change bet need to destroy (-)
+after wild destroy need to change the 
 
 Create new game list from BO
 ----------------------------------------
@@ -70,6 +71,17 @@ slotcore 改script而已不用replace meta, 但是加新的script需要加上met
 用来host一个index html的server
 double click 这个start-http-server.bat
 开google type http://127.0.0.1:8888/ 然后选要host的folder
+//
+
+//tinypng access key//
+tFgVB7RCXV7xFs7l9fC2kBPtbK0M6N6G
+gvGFHvTJ2DBQ8tCB1fJ4pz3QfJXDZyTF
+2WfVd90KG1klknyNnKHvF2CQm6y98ctL
+2bmrvZLrTg6X3fCc35bTd5RkvNsTg0hp
+9v8hMNnnPT136VdSh4353xpNbVlhxRzs
+LG82ddf4BhC2LP84BbmFfQsfgFCyzDqj
+C36HgC2km76bNBLWQBP7m2Rz3m2YcKcB
+h7044SjH5jvSwt33lM2Q81GWCltmsHmf
 //
 
 

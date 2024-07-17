@@ -84,4 +84,52 @@ C36HgC2km76bNBLWQBP7m2Rz3m2YcKcB
 h7044SjH5jvSwt33lM2Q81GWCltmsHmf
 //
 
+//update BE logic//
+xingaming
+
+------
+search :C/yourname/.ssh (git bash .ssh)
+..will need to change the config folder value depend on the server upload
+//this config folder is for xin gaming//
+Host xin-bastion
+
+        HostName 13.250.136.231
+
+        User ubuntu
+
+        IdentityFile ~/.ssh/XIN.pem
+//
+
+//this config folder is for playtech
+Host playtech-office-dev
+    HostName 13.214.6.105
+    User ubuntu
+	IdentityFile ~/.ssh/playtech.pem
+//
+
+****./socketserver.sh
+
+git bash on .ssh 
+
+->  e.g: ssh (squid-stg-newgit st) server name from Hostyes
+
+-> # cd pm2-processes/staging/e-games-socket
+
+-> # ls
+
+-> # git stash
+
+-> # git pull origin test-cluster / playtech-dev
+
+-> # git stash pop (to show previous stash)
+
+-># pm2 list
+
+-> # pm2 restart e-games-socket
+
+-># pm2 log 2
+
+to log player spinning game
+//
+
 

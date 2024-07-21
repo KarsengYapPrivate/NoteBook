@@ -1,7 +1,4 @@
 //CP//
-win label 
-fix spin button 会有background button卡着
-把auto remain label 放在spin button上面
 when bonus continus stop need to show the auto icon again. 
 music和bgm要分开mute
 
@@ -11,16 +8,13 @@ free game play
 //ISJ//
 Close Power Wealth in xin gaming all game
 Build Xin gaming
-001
-002
-003
-004
-005
-006
-007
-008
-009
-011 (build) need to rebuild for detection of power wealth node need to show (the tiny symbol);
+001 (no need touch first)
+003 (no need touch first)
+005 (no need)
+006 (build)
+008 (build)
+009 (no need)
+011 (build) 
 012 (build)
 014 (build)
 

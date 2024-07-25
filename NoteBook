@@ -124,4 +124,11 @@ git bash on .ssh
 to log player spinning game
 //
 
+//SCMS
+log in scms
+playtech-001 ... -> zip folder -> edit and reupload the folder need to replace
+click playtech -> gameasset -> edit -> update
+
+postman -> fetch get dev fetch api -> headers value 改成我要的api
+
 

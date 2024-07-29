@@ -29,8 +29,6 @@ Build Xin gaming
 012 (build)
 014 (build)
 
-pt001 when wild appear and player change bet need to destroy (-)
-after wild destroy need to change the 
 
 Create new game list from BO
 ----------------------------------------
@@ -136,5 +134,12 @@ git bash on .ssh
 
 to log player spinning game
 //
+
+//SCMS
+log in scms
+playtech-001 ... -> zip folder -> edit and reupload the folder need to replace
+click playtech -> gameasset -> edit -> update
+
+postman -> fetch get dev fetch api -> headers value 改成我要的api
 
 

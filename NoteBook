@@ -2,20 +2,39 @@
 when bonus continus stop need to show the auto icon again. 
 music和bgm要分开mute
 
-pt035 normal game play
-free game play
-
--phase 1
--zeppling result
-
-
 -phase 2
+-super freespin win.
+-reel will gone before get inside freespin
+-background will play animation
+
 -buy free spin dun need confirm ui
--super big win.
 -multiplier win above 2x will have a blue lighting effect
 -出多一个presenter before bigwin to show the blue light effect , and the number of total win amount will become bigger and bigger when the blue effect collab.
 -import sideReel-framemex1 的pattern ， 会变长 in 特别情况
 
+-remove wincontroller and import win presenter
+
+phase 2 version
+-super win feature
+-get into free game
+-fix phase one bug
+-lighting symbol disappear fix
+
+phase 3
+-win controller blue light effect need to jump into total win when multiplier more then two (normal game)
+-win controller blue light effect need to jump into total win when multiplier more then two and multiplier with have 多过一个 (free game)
+-respin feature and super win feature ,win controller no need blue light effect from multiplier, and when respin feature will not show the normal free game pattern
+-freegame transition, reel and UI need to fade out and show free game bg transition then fade in the reel and UI
+-super respin game flow visual , transition intro and outro
+
+-normal game background animation and transition
+-when free game get spin +4 got a animation now missing
+-free game get two PS in one round no need to show scatter reel spinning.
+
+phase 4
+-music import
+-win label 的total win 数字有错误
+-bug fixed
 //ISJ//
 
 

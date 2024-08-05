@@ -21,6 +21,7 @@ phase 2 version
 -lighting symbol disappear fix
 
 phase 3
+-win controller will stuck when getting second lighting symbol when the first one did not show all.(Fix)
 -win controller blue light effect need to jump into total win when multiplier more then two (normal game)
 -win controller blue light effect need to jump into total win when multiplier more then two and multiplier with have 多过一个 (free game)
 -respin feature and super win feature ,win controller no need blue light effect from multiplier, and when respin feature will not show the normal free game pattern

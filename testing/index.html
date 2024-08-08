@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Control</title>
+    <style>
+        #controlPanel {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #controlPanel button {
+            margin: 5px 0;
+        }
+        #gameFrame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="controlPanel">
+        <button onclick="sendCommandToGame('pause-game')">Pause Game</button>
+        <button onclick="sendCommandToGame('resume-game')">Resume Game</button>
+        <button onclick="sendCommandToGame('stop-autoplay')">Stop Autoplay</button>
+        <button onclick="sendCommandToGame('disable-sound')">Disable Sound</button>
+    </div>
+    <iframe id="gameFrame" src="web-mobile-001/index.html"></iframe>
+    <script src="./pauseValue.js" charset="utf-8"></script>
+    <script src="./resumeValue.js" charset="utf-8"></script>
+    <script src="./forceStopAutoPlay.js" charset="utf-8"></script>
+    <script>
+
+        function sendCommandToGame(command, args) {
+            const gameFrame = document.getElementById('gameFrame').contentWindow;
+            if (gameFrame) {
+                if (command === 'pause-game') {
+                    gameFrame.postMessage(window.pauseValue, '*');
+                } else if(command === 'resume-game') {
+                    gameFrame.postMessage(window.resumeValue, '*');
+                } else if(command === 'stop-autoplay') {
+                    gameFrame.postMessage(window.forceStopAutoPlay, '*');
+                } else {
+                    gameFrame.postMessage({ command, args }, '*');
+                }
+            } else {
+                console.warn('Game iframe is not loaded.');
+            }
+        }
+
+        window.addEventListener('message', (event) => {
+            // 这里可以处理从游戏iframe发送回来的消息
+            console.log('Received message from game:', event.data);
+        });
+    </script>
+</body>
+</html>

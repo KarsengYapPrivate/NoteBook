@@ -81,6 +81,7 @@ slotcore 改script而已不用replace meta, 但是加新的script需要加上met
 
 //start-http-server.bat//
 用来host一个index html的server
+npm i -g http-server
 double click 这个start-http-server.bat
 开google type http://127.0.0.1:8888/ 然后选要host的folder
 //

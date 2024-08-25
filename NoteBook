@@ -132,4 +132,15 @@ click playtech -> gameasset -> edit -> update
 
 postman -> fetch get dev fetch api -> headers value 改成我要的api
 
+PT Staging
+https://debug.infozutek.net/test_secret.html
+ 
+PT Dev Lobby (require vpn)
+https://850039-trtpgint.extdev.eu/
+ 
+Internal Dev Panel
+https://demo.playtechgamers.com/demo
+
+在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
+
 

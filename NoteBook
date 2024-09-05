@@ -48,7 +48,7 @@ egame socket new game add
 - reel_symbols
 - slots_process
 - game_jackpot_config
-- slotchecker -> game_payout_list
+- slotchecker -> game_payout_list (Number for Game Code) // 应该是没有用了
 -need check aoak_paytable (if any of the aoak game)
 
 upload new game folder 

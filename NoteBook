@@ -51,6 +51,9 @@ egame socket new game add
 - slotchecker -> game_payout_list (Number for Game Code) // 应该是没有用了
 -need check aoak_paytable (if any of the aoak game)
 
+-pt-lobby 
+-Game need to be on inside BO Game ON/OFF (operator setting)
+
 upload new game folder 
 1 upload build file
 2 bo/staging/image/slot_icon/upload image

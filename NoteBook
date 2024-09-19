@@ -54,6 +54,10 @@ egame socket new game add
 -pt-lobby 
 -Game need to be on inside BO Game ON/OFF (operator setting)
 
+-workbranch
+- gametype update game id
+-global_event_config config value的名字要和 egamesocket app2 的switch case 里面 的value 名字一样
+
 upload new game folder 
 1 upload build file
 2 bo/staging/image/slot_icon/upload image
@@ -115,9 +119,14 @@ git bash on .ssh
 
 ->  e.g: ssh (squid-stg-newgit st) server name from Hostyes
 
+for xin gaming
+-> ./socketserver.sh
+
 -> # cd pm2-processes/staging/e-games-socket
 
 -> # ls
+
+-> git branch
 
 -> # git stash
 

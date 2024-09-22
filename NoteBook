@@ -3,18 +3,6 @@
 https://st-cr.crowdplaygaming.com/lobby/home
 383demo01-10 abcd1234
 
-
-when bonus continus stop need to show the auto icon again. 
-music和bgm要分开mute
-
-
-phase 4
--music import
--bug fixed
--Zeppline Control need to wait after the blue effect fly to the position first
--Zeppline multi label will 消失 when it need to show
--Super win reel wrong 
-
 //ISJ//
 001 - remove full screen , URL button
 002 - URL button
@@ -23,7 +11,6 @@ phase 4
 005 - remove full screen , reel symbol reset;
 
 ask Jinghua about the class type, is it useful for clean up code;
-
 
 Create new game list from BO
 ----------------------------------------

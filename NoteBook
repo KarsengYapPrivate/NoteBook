@@ -16,13 +16,11 @@ https://st-cr.crowdplaygaming.com/lobby/home
 - free spin respin 有問題 (backend logic problem)
 
 //ISJ//
-001 - remove full screen , URL button
-002 - URL button
-003 - URL button
-004 - remove full screen
-005 - remove full screen , reel symbol reset;
+- 007
+- change symbol for PW (done)
+- PW win animation (Done)
+- PW 后面的reel 要dim (done)
 
-ask Jinghua about the class type, is it useful for clean up code;
 
 Create new game list from BO
 ----------------------------------------

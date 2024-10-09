@@ -4,28 +4,16 @@ https://st-cr.crowdplaygaming.com/lobby/home
 383demo01-10 abcd1234
 
 // 現在欠的東西
-- 035
-- turbo spin 
-
-- 036
-- Bonus Icon Effect - bonus resonating effect should be on all bonus icons, instead of just the first one (Urgent)
-
 - Base Game
 - laoding scene
 - Big win assecding (default assecding and can change to one time);
 
 //ISJ//
-- 007
-- change symbol for PW (done)
-- PW win animation (Done)
-- PW 后面的reel 要dim (done)
-- PW spawn了过后需要要play idle animation (done)
-- PS in last symbol no animation (done)
-- PS light ball animation (done)
-- Audio Manager (left intro)
-- freespin count (done)
-- respin button (done)
-- buy feature word dim (done)
+
+Wish Maker
+- Config 不一样
+- Program 
+- Frame Generate
 
 
 Create new game list from BO

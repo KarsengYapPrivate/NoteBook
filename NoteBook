@@ -48,6 +48,7 @@ egame socket new game add
 -workbranch
 - gametype update game id
 -global_event_config config value的名字要和 egamesocket app2 的switch case 里面 的value 名字一样
+-game type;
 
 upload new game folder 
 1 upload build file

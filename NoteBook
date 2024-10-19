@@ -3,6 +3,11 @@
 https://st-cr.crowdplaygaming.com/lobby/home
 383demo01-10 abcd1234
 
+commenH5
+staging - https://duplomex.s3.ap-southeast-1.amazonaws.com/logo-gif/staging/CP/commonH5Script.js
+prod - https://config.go888king.com/production/cp/commonH5Script.js
+
+
 // 現在欠的東西
 - Base Game
 - laoding scene

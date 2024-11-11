@@ -145,10 +145,12 @@ click playtech -> gameasset -> edit -> update
 
 postman -> fetch get dev fetch api -> headers value 改成我要的api
 
-PT Staging
+PT prodcution S3 : PT - production
+
+PT Staging S3 : production
 https://debug.infozutek.net/test_secret.html
  
-PT Dev Lobby (require vpn)
+PT Dev Lobby (require vpn) S3 : PT - Staging
 https://850039-trtpgint.extdev.eu/
  
 Internal Dev Panel
@@ -157,18 +159,14 @@ https://demo.playtechgamers.com/demo
 在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
 
 今天要做完的东西
-- 036 可以开始fix
-- 分类 35，36
-- fix bug
+- 36 fix bug
 - spin pattern
 - 008 bug fixed round two
-- 报销
-- 请假
+- up 006 to pt-staging
+- scms key for pt- staging folder need to change back to St-scms key
 
 - 崩铁 角色手法 （乱破）培养 145速度
-
 - ZZZ 角色任务 (每天三次)
 - 崩铁 主线
 - 养露西
 - 原神 深渊
-

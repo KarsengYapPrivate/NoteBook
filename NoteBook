@@ -138,6 +138,11 @@ for xin gaming
 to log player spinning game
 //
 
+resumeFreespin Jinghua way
+app.js customFeatureGameList 加 gamecode
+slot_processs customFeatureGame 加 gamecode
+game logic 加 feature data
+
 //SCMS
 log in scms
 playtech-001 ... -> zip folder -> edit and reupload the folder need to replace

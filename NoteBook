@@ -163,7 +163,7 @@ https://demo.playtechgamers.com/demo
 
 在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
 
-今天要做完的东西
+今天要做完的东西 不是今天
 - Scatter character need to do hit loop // wait work flow
 - scatter character win no need loop
 - character winning animation
@@ -173,6 +173,13 @@ https://demo.playtechgamers.com/demo
 - 
 
 - reelprefab spin need do for slow spin
+
+- win presenter 要能handle respin過後的東西
+- rabbit respin
+- carrot spawn 
+- rabbit fight
+- win 的時候 最後一個frame的框框要而外handle
+- options : spawn reel的時候可能是要spawn 上面和下面
 
 
 

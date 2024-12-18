@@ -164,13 +164,15 @@ https://demo.playtechgamers.com/demo
 在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
 
 今天要做完的东西
-- extra feature wait kenny
-- p01 feature 每一round的p01 好像没有reset 等kenny
-- Scatter character need to do hit loop
-- 最后一个PS好像不会跑animation 
+- Scatter character need to do hit loop // wait work flow
+- scatter character win no need loop
+- character winning animation
+- Free BG change
+- resume Free spin
+- when have p01 multiplier then win scatter need to reset x2 anot ? Need reset //
+- 
 
 - reelprefab spin need do for slow spin
 
-- when have p01 multipplier then win scatter need to reset x2 anot ? Need reset
 
 

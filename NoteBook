@@ -164,13 +164,9 @@ https://demo.playtechgamers.com/demo
 在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
 
 今天要做完的东西 不是今天
-- Scatter character need to do hit loop // wait work flow
-- scatter character win no need loop
-- character winning animation
-- Free BG change
 - resume Free spin
-- when have p01 multiplier then win scatter need to reset x2 anot ? Need reset //
-- 
+- record extra wild chance
+- 换bet的时候要reset
 
 - reelprefab spin need do for slow spin
 

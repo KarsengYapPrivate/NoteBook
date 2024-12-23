@@ -171,7 +171,12 @@ https://demo.playtechgamers.com/demo
 
 - reelprefab spin need do for slow spin
 - win presenter 要能handle respin過後的東西
-- rabbit respin (先贏 然後 吃東西 再respin) 
+- 贏//
+- 吃東西animation //
+- carrot amount update
+- rabbit amount update
+- respin
+- rabbit 移動
 - rabbit fight
 - win 的時候 最後一個frame的框框要而外handle
 - options : spawn reel的時候可能是要spawn 上面和下面

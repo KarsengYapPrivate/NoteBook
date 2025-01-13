@@ -175,10 +175,13 @@ ZZZ 活动
 - win presenter 要能handle respin過後的東西
 - 贏//
 - 吃東西animation //
-- carrot amount update
-- rabbit amount update
-- respin
-- rabbit 移動
+- carrot amount update //
+- rabbit amount update //
+- respin //
+- rabbit 移動 //
+- 调整carrat的dim Number
+- 调整rabbit的 animation
+- win line还是没有show对
 - rabbit fight
 - win 的時候 最後一個frame的框框要而外handle
 - options : spawn reel的時候可能是要spawn 上面和下面

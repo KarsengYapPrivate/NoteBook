@@ -173,15 +173,18 @@ ZZZ 活动
 
 - reelprefab spin need do for slow spin
 - win presenter 要能handle respin過後的東西
-- 贏//
+- 贏 //
 - 吃東西animation //
 - carrot amount update //
 - rabbit amount update //
 - respin //
 - rabbit 移動 //
-- 调整carrat的dim Number
-- 调整rabbit的 animation
-- win line还是没有show对
+- 调整carrat的dim Number // 
+- 调整rabbit的 animation //
+- win line还是没有show对 //
+- win 的時候 最後一個frame的框框要而外handle //
+- win symbol animation 没有play到 win animation
+- stop spin after respin
+
 - rabbit fight
-- win 的時候 最後一個frame的框框要而外handle
 - options : spawn reel的時候可能是要spawn 上面和下面

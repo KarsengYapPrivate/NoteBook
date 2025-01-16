@@ -163,6 +163,15 @@ https://demo.playtechgamers.com/demo
 
 在BO side new game update should add in awp3.0 for isj (isj staging) and playtech-dev (pt lobby);
 
+Clear free spin record
+workbranch
+
+- users table
+- SELECT * FROM playtech.users where username = "isj_demo_player_JPY";
+- user_setting
+- SELECT * FROM playtech.user_settings where user_id = 29736 and config_tag = "vg-001";
+- delete config_value
+
 忘归人
 ZZZ boss 深渊
 ZZZ 活动

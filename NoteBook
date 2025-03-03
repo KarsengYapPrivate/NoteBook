@@ -9,15 +9,15 @@ prod - https://config.go888king.com/production/cp/commonH5Script.js
 
 
 // 現在欠的東西
-- Base Game
-- laoding scene
-- Big win assecding (default assecding and can change to one time);
+rabbit 
+- all animation
+- free game handle
+- resume game
+- music
+- respin symbol 要亮回来
+- rabbit fighting 要换layer
 
 //ISJ//
-
-008
-pink glow spawn
-
 
 Create new game list from BO
 ----------------------------------------

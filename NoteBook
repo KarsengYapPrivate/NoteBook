@@ -205,11 +205,14 @@ ZZZ 活动
 閃 97
 
 Win line Total amount
-Freespin bonus change to ps
-- show scatter win 
-- when spinning show the PS change to PB02
-- PB02 opacity before start spin
-- presenter make inside enter spin
-In free game PB02 will not disappear
+- 中间的winline
+- total win line 要和tang讨论
+
+tz need to fix the maximen call stack init problem
+
+- ps before enter freegame animation play wrong
+- free game need put character animation
 PS will retrigger in free game
 Number of clover need to follow the animation of clover
+
+- music

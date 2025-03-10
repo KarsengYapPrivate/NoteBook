@@ -200,19 +200,15 @@ ZZZ 活动
 
 - options : spawn reel的時候可能是要spawn 上面和下面
 
-火 70
-冰 72
-閃 97
 
 Win line Total amount
 - 中间的winline
 - total win line 要和tang讨论
 
-tz need to fix the maximen call stack init problem
-
-- ps before enter freegame animation play wrong
-- free game need put character animation
+(tz need to fix the maximen call stack init problem) maybe fix
+total win amount 没有
 PS will retrigger in free game
 Number of clover need to follow the animation of clover
+PS animation only play the last one.
 
 - music

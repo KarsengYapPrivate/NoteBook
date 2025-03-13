@@ -188,7 +188,7 @@ ZZZ 活动
 - rabbit amount update //
 - respin //
 - rabbit 移動 //
-- 调整carrat的dim Number // 
+- 调整carrot的dim Number // 
 - 调整rabbit的 animation //
 - win line还是没有show对 //
 - win 的時候 最後一個frame的框框要而外handle //
@@ -204,10 +204,10 @@ ZZZ 活动
 Win line Total amount
 - total win number 要和tang讨论
 
-PS will retrigger in free game
 Number of clover need to follow the animation of clover
 
-Normal Game PS will jump +1 feature need fix
-Need Check Character Animation
+fight area need to detect the pot position
+
+PS scatter
 
 - music

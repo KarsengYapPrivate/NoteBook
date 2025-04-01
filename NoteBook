@@ -172,12 +172,16 @@ workbranch
 - SELECT * FROM playtech.user_settings where user_id = 29736 and config_tag = "vg-001";
 - delete config_value
 
-忘归人
-ZZZ boss 深渊
-ZZZ 活动
-崩铁活动
-赛马娘活动
+- Slotify Set Up
+test-bo.slotify.online
+masteradm
+abcd1234
+update game
+include game info file
+upload zip folder
+game file replace use index and game info
 
+<<<<<<< HEAD
 今天要做完的东西 不是今天
 
 - reelprefab spin need do for slow spin
@@ -210,3 +214,5 @@ Number of clover need to follow the animation of clover
 
 
 COSMOPUELLABACK
+=======
+>>>>>>> df781412dc7f70f35016439f73148eecefcef632

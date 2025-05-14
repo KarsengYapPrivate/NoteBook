@@ -48,7 +48,27 @@ egame socket new game add
 -pt-lobby 
 -Game need to be on inside BO Game ON/OFF (operator setting)
 
+server 改code
+ebingo-staging:~/programs/baccarat-socket/baccarat_socket
+vim app.js
+: 去到你要改的那行
+:
+wq 是save
+q 是exit
+q! force exit
+restart server
+
+
 -workbranch
+
+workbranch set up
+ssh 进去 Host
+cd/program/baccarat-socket/baccarat_API
+cat .env
+user name : ebingo_admin
+password : m0nvryplU5DfTSV0r3fQ
+mysql hostname : ebingo-staging.cn5gspq2fnua.ap-southeast-1.rds.amazonaws.com
+
 - gametype update game id
 -global_event_config config value的名字要和 egamesocket app2 的switch case 里面 的value 名字一样
 -game type;

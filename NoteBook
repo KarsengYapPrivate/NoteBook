@@ -50,13 +50,16 @@ egame socket new game add
 
 server 改code
 ebingo-staging:~/programs/baccarat-socket/baccarat_socket
-vim app.js
+vim app.js:
 : 去到你要改的那行
-:
-wq 是save
-q 是exit
-q! force exit
+i 是insert 然后esc 退出
+:wq 是save
+:q 是exit
+:q! force exit (no save exit)
 restart server
+
+/>>> search merge conflict
+dd delete row
 
 
 -workbranch

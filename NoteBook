@@ -204,25 +204,10 @@ include game info file
 upload zip folder
 game file replace use index and game info
 
-今天要做完的东西 不是今天
-
-- reelprefab spin need do for slow spin
-- win presenter 要能handle respin過後的東西
-- 贏 //
-- 吃東西animation //
-- carrot amount update //
-- rabbit amount update //
-- respin //
-- rabbit 移動 //
-- 调整carrot的dim Number // 
-- 调整rabbit的 animation //
-- win line还是没有show对 //
-- win 的時候 最後一個frame的框框要而外handle //
-- win symbol animation 没有play到 win animation
-- stop spin after respin
-
-- rabbit fight
-- rabbit fight 需要给我和什么rabbit fight的data
-
-- options : spawn reel的時候可能是要spawn 上面和下面
+big win bonus game - big win bgm
+freegame result intro - total win bgm
+freegame result intro - total win bgm ? 不确定是什么时候call
+pb with crown hit carrot 有皇冠的时候appear
+pb01 free game hit - pb01 inside freegame appear
+rabbit bonus spin end - rabbit 结束加钱的时候 出win amount 播的声音
 

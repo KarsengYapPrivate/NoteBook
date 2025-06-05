@@ -204,10 +204,5 @@ include game info file
 upload zip folder
 game file replace use index and game info
 
-big win bonus game - big win bgm
-freegame result intro - total win bgm
-freegame result intro - total win bgm ? 不确定是什么时候call
-pb with crown hit carrot 有皇冠的时候appear
-pb01 free game hit - pb01 inside freegame appear
-rabbit bonus spin end - rabbit 结束加钱的时候 出win amount 播的声音
+Normal bgm 沒有play after free game end
 

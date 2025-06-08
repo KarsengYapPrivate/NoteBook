@@ -205,4 +205,8 @@ upload zip folder
 game file replace use index and game info
 
 Normal bgm 沒有play after free game end
+Carrot Crown animation
+Background feature game 囘normal game 要自己control opacity 去零 play著 loop
+兔子blur symbol要check
+兔子sprite blur 要check
 

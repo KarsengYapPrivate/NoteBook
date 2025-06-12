@@ -48,6 +48,8 @@ egame socket new game add
 -pt-lobby 
 -Game need to be on inside BO Game ON/OFF (operator setting)
 
+pm2l | grep bacca use for filter
+
 server 改code
 ebingo-staging:~/programs/baccarat-socket/baccarat_socket
 vim app.js:
@@ -205,5 +207,19 @@ upload zip folder
 game file replace use index and game info
 
 - baccarat
-- update spend money excel
-- maple buy figure
+
+-Prisma
+For game side use to do the mysql table view
+npx prisma migrate dev --create-only --name add_total_bet_column_into_bets_baccarat --schema=baccarat_API/prisma/schema.prisma
+// name = to github comment
+// schema = path of schema.prisma;
+
+-migration.sql
+ALTER TABLE `games` ADD COLUMN `bet_type_group` VARCHAR(191) NULL DEFAULT '' AFTER `sub_category`;;
+-after... 用来排版
+
+npx prisma migrate deploy --schema=prisma/schema.prisma
+deploy 是用来up 上去 mysql (dbtable)
+
+npx prisma generate --schema prisma/main/schema.prisma
+generate 用来connect 我的dbvalue to 我socket 本身的class variable

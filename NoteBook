@@ -210,7 +210,7 @@ game file replace use index and game info
 
 -Prisma
 For game side use to do the mysql table view
-npx prisma migrate dev --create-only --name add_total_bet_column_into_bets_baccarat --schema=baccarat_API/prisma/schema.prisma
+npx prisma migrate dev --create-only --name add_session_id_unique_column_into_bets_baccarat --schema=baccarat_API/prisma/schema.prisma
 // name = to github comment
 // schema = path of schema.prisma;
 

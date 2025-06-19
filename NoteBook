@@ -223,3 +223,76 @@ deploy 是用来up 上去 mysql (dbtable)
 
 npx prisma generate --schema prisma/main/schema.prisma
 generate 用来connect 我的dbvalue to 我socket 本身的class variable
+
+
+Setup Up socket
+-download gitignore
+-setup package.json
+    -npm init
+    -entry point : app.js
+    -test command : node app.js
+-npm install dotenv
+
+-API : 很像prefab这样 做logic的
+-Socket : 很像scene这样 call api用的
+
+-api folder
+create .env and .env.exapmle example is for dev push into server git
+-node_env 算是你拿来决定开发环境的一个variable //可以不set up
+-port 是你script的接口
+-IS_ENCRYPT 我们的emit 和 recive data 需要encrypt没有
+-database url : 我进mysql的凭证 user name , password , url;
+-INTERNAL_GRPC_ENDPOINT : bov2 的endpoint;
+
+package.json
+terminal npm install
+"@grpc/grpc-js": "^1.11.0", google 允许客户端直接调用服务器上的函数
+"@grpc/proto-loader": "^0.7.13", 把 .proto 文件 → 加载成 Node.js 可用的服务结构
+"@prisma/client": "^5.16.2", 用给db的data
+"@socket.io/cluster-adapter": "^0.2.2", 确保全部socket可以接到同一个消息
+"@socket.io/sticky": "^1.0.4", 确保我的东西一直connect去同一个socket
+"dotenv": "^16.5.0", 加载 .env 文件中的环境变量到 process.env
+"express": "^5.1.0", 轻量级 web 框架
+"joi": "^17.13.3", 是一个强大的 JavaScript 数据验证库，常用于 对请求数据（如 API 参数、表单数据）进行格式验证。
+"socket.io": "^4.5.0", 是一个用于 实现 Web 实时通信(WebSocket) 的 Node.js 库，支持客户端和服务器之间双向、事件驱动的通信。
+"socket.io-client": "^4.7.5" 是 socket.io 的 客户端库，通常运行在浏览器（或 Node.js 客户端）中，用于连接服务器端 socket.io 实例，实现实时通信功能。
+
+app.js
+base of app.
+require('dotenv').config();
+const port = process.env.PORT_API; 
+const express = require('express'); 使用 Express 创建 HTTP 服务
+const app = express();
+const cluster = require('cluster'); Node.js 原生模块，用于创建多进程（多核）服务，即 Cluster 模式，提升性能。
+const numCPUs = require('os').cpus().length; 获取当前机器的 CPU 核心数，常用于决定要启动多少个 Worker（子进程）。
+const { setupMaster, setupWorker } = require('@socket.io/sticky'); setupMaster()：在主进程中设置粘性会话支持 setupWorker()：在 Worker 子进程中初始化 socket.io
+const { createAdapter, setupPrimary } = require('@socket.io/cluster-adapter'); 引入 cluster-adapter，让多个 Worker 之间的 Socket.IO 实例可以通信（广播消息等）
+const { body, validationResult } = require('express-validator'); 引入 express-validator 中的工具，用于验证请求参数，如登录注册表单字段是否有效。
+const auth = require('./services/auth.js');
+const Joi = require('joi');
+
+app.use(express.json());
+
+if (cluster.isMaster) {
+    //console.log(`Master ${process.pid} is running`);
+
+    for (let i = 0; i < numCPUs; i++) {
+        cluster.fork();
+    }
+
+    cluster.on('exit', (worker) => {
+        //console.log(`Worker ${worker.process.pid} died`);
+        cluster.fork();
+    });
+} else {
+    //console.log(`Start Master ${process.pid} is running`);
+
+    // let server = require('http').Server(app);
+    app.listen(port, () => {
+        //console.log('Example App listenting on port', port);
+    });
+
+    app.get('/', (req, res) => {
+        res.send('Hellow World!');
+    });
+}

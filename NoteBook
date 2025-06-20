@@ -210,7 +210,8 @@ game file replace use index and game info
 
 -Prisma
 For game side use to do the mysql table view
-npx prisma migrate dev --create-only --name add_session_id_unique_column_into_bets_baccarat --schema=baccarat_API/prisma/schema.prisma
+npx prisma migrate dev --create-only --name add_model_jogodobicho_session_info --schema=Jogodobicho_API/prisma/schema.prisma
+npx prisma migrate dev --create-only --name add_model_jogodobicho_session_info --schema=prisma/schema.prisma
 // name = to github comment
 // schema = path of schema.prisma;
 
@@ -273,7 +274,7 @@ const Joi = require('joi');
 
 app.use(express.json());
 
-if (cluster.isMaster) {
+if (cluster.isMaster) { //create fork 如果不是master 通常是不会动到的
     //console.log(`Master ${process.pid} is running`);
 
     for (let i = 0; i < numCPUs; i++) {
@@ -296,3 +297,29 @@ if (cluster.isMaster) {
         res.send('Hellow World!');
     });
 }
+
+as api. post function req 是我从server拿到data res是我拿到data过后send给client 我是中间人。
+
+schema.prisma
+Set up for prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+XAMPP download //use to setup local db
+apache and mysql start
+
+root：默认用户名
+
+@localhost:3306：本地连接
+playtech：你刚创建的数据库名
+密码为空（默认 XAMPP 没有设密码）
+如果你设置了密码，例如 123456，则写：
+DATABASE_URL="mysql://root:123456@localhost:3306/playtech"
+
+prisma update 一个model

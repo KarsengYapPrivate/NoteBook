@@ -211,7 +211,7 @@ game file replace use index and game info
 -Prisma
 For game side use to do the mysql table view
 npx prisma migrate dev --create-only --name add_model_jogodobicho_session_info --schema=Jogodobicho_API/prisma/schema.prisma
-npx prisma migrate dev --create-only --name add_model_jogodobicho_session_info --schema=prisma/schema.prisma
+npx prisma migrate dev --create-only --name add_model_bets_jogodobicho_remove_bet_result --schema=prisma/schema.prisma
 // name = to github comment
 // schema = path of schema.prisma;
 
@@ -223,8 +223,8 @@ npx prisma migrate deploy --schema=prisma/schema.prisma
 deploy 是用来up 上去 mysql (dbtable)
 
 npx prisma generate --schema prisma/main/schema.prisma
+npx prisma generate --schema prisma/schema.prisma
 generate 用来connect 我的dbvalue to 我socket 本身的class variable
-
 
 Setup Up socket
 -download gitignore
@@ -322,4 +322,36 @@ playtech：你刚创建的数据库名
 如果你设置了密码，例如 123456，则写：
 DATABASE_URL="mysql://root:123456@localhost:3306/playtech"
 
+Clone script from local to server github.
+ssh the server
+get into program
+git clone https://github.com/用户名/仓库名
+cd into the socket you clone then npm install.
+cp .env.example .env
+.env 里面的 database_url to db link
+
+cd into api folder
+npx prisma migrate de
+
+api - socket - player
+
+api.post 
+-req socket send api 的 Request
+-res api send 给socket 的 Response
+
+pm2 start app.js --name=jogodobicho-api --time  把东西放进pm2 list 里面
+cd /etc/nginx 还是要找nginx
+cd sites-avaible
+ls
+cat DEFAULT 
+vim default
+
+copy server object
+change access log , server name and porxy pass port Number
+
+sudo ngnix -t
+sudo service nginx reload
+
 prisma update 一个model
+
+Remote - SSH

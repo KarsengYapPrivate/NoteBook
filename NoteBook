@@ -211,7 +211,7 @@ game file replace use index and game info
 -Prisma
 For game side use to do the mysql table view
 npx prisma migrate dev --create-only --name add_model_jogodobicho_session_info --schema=Jogodobicho_API/prisma/schema.prisma
-npx prisma migrate dev --create-only --name add_model_bets_jogodobicho_remove_bet_result --schema=prisma/schema.prisma
+npx prisma migrate dev --create-only --name remove_player_bets_in_jogodobicho_session_info --schema=prisma/schema.prisma
 // name = to github comment
 // schema = path of schema.prisma;
 
@@ -403,4 +403,12 @@ Remote - SSH
     {'number' : '1234'}
     {'number' : '123'}
     {'number' : '12'}
+]
+
+[
+  { index: 1, betWin: 3, animalWin: [ 2 ] },
+  { index: 2, betWin: 9, animalWin: [ 2, 4 ] },
+  { index: 3, betWin: 1.5, animalWin: [ 2, 4 ] },
+  { index: 4, betWin: 1, animalWin: [ 2, 4 ] },
+  { index: 7, betWin: 1 }
 ]

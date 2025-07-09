@@ -355,45 +355,6 @@ sudo service nginx reload
 prisma update 一个model
 
 Remote - SSH
-[ 21, 3, 2, 15, 22 ],
- [
-    [ 1 ],
-    [ 1, 2 ],
-    [ 1, 2, 4 ],
-    [ 1, 2, 4, 23 ],
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-],
-
-[
-    {1 , "2" , 1}
-    {2 , "2" , 0.75}
-    {3 , "2" , 0.25}
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    [ 1, 2, 4, 23, 15 ]
-    {4 , {"2" , "15"} , 0.25}
-]
-
 [
     {"animal" : [1]},
     {"animal" : [1 ,2]},
@@ -412,3 +373,12 @@ Remote - SSH
   { index: 4, betWin: 1, animalWin: [ 2, 4 ] },
   { index: 7, betWin: 1 }
 ]
+
+const redis = invisible BO to store data for global value
+
+// use to get player IP
+const forwarded = socket.handshake.headers['x-forwarded-for']
+const ip = forwarded ? forwarded.split(',')[0].trim() : socket.handshake.address
+
+exapmle x-forwarded-for: 123.45.67.89, 10.0.0.1
+will get 123.45.67.89

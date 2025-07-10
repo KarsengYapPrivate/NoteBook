@@ -346,10 +346,37 @@ ls
 cat DEFAULT 
 vim default
 
+shift g 可以跳到最下面
+
 copy server object
+
+server {
+
+        listen 80;
+        server_name jogodobicho-api.bochap.net;
+
+        add_header 'Access-Control-Allow-Credentials' 'true' always;
+        add_header 'Access-Control-Allow-Headers' 'Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,Keep-Alive,X-Requested-With,If-Modified-Since' always;
+
+        location / {
+
+                client_max_body_size 200M;
+                proxy_pass http://127.0.0.1:7700;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_set_header Origin $http_origin;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_cache_bypass $http_upgrade;
+                proxy_hide_header X-Powered-By;
+        }
+
+        access_log /var/log/nginx/jogodobicho-api.log;
+}
 change access log , server name and porxy pass port Number
 
-sudo ngnix -t
+sudo nginx -t
 sudo service nginx reload
 
 prisma update 一个model

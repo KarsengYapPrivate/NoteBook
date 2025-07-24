@@ -410,6 +410,5 @@ const ip = forwarded ? forwarded.split(',')[0].trim() : socket.handshake.address
 exapmle x-forwarded-for: 123.45.67.89, 10.0.0.1
 will get 123.45.67.89
 
-slot-api has freepin = false
-spawn bonus = PB01
-spawn bonus2 = PB02
+lock button need to lock the bet value after new game.
+get result

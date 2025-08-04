@@ -421,3 +421,63 @@ get result
 -Monitor
 -荧幕
 -椅子
+
+HandOver 
+-Jogo frontend 
+-Big win presenter
+-Hot and cold feature
+-Tutorial
+
+-VG-002
+-Bug fixed 
+-Use Reel Engine as the submodule
+-Build in bov2
+
+-PT 001 playtech version
+-No submodule
+-Build in bov1
+
+-PT 004 playtech version
+-No submodule
+-Build in bov1
+
+-PT 005 playtech version
+-No submodule
+-Build in bov1
+
+-PT 006 playtech version
+-No submodule
+-Build in bov1
+
+-PT 007 playtech version
+-No submodule
+-Build in bov1
+
+-PT 008 playtech version
+-No submodule
+-Build in bov1
+
+-PT 009 playtech version
+-No submodule
+-Build in bov1
+
+All pt game need to put the build file inside S3 (playtech pop staging/ptSlot/Game)
+Need to copy game_info.js from ptslot-001 folder.
+change the game_info game_name value and the window.scmsAPIKey.
+window.scmsAPIKey will get from scms folder. Remember to encrypt the key. Any question can ask TZ.
+Replace the index.html from ptslot-001 also and change the title.
+
+Create the different rtp folder for pt game with the example inside (playtech pop staging/ptSlot)
+Will need to create 4 folder for pt which is normal game folder , 92 , 94 , 96 folder.
+Every Folder inside will have index.html.
+Inside Index.html need to change the gamePath value to the build file you point to.
+gameCode value will need to get the value you create in bov1 and encrypt it before you change.
+
+Need to do the invalidation with the aws account.
+
+After the staging game finish bug fixed. Next progress is to copy the different rtp folder and the game build file to (playtech pop/pt-lobby)
+After build to pt-lobby need to inform jeff. After jeff say ok, then need to inform QA to test the IAT test that require by pt side.
+Everything done then jeff will inform to put the game to (playtech pop/pt-staging)
+Then only to (playtech pop/pt-production)
+
+For pt backend will need to create four gameCode.

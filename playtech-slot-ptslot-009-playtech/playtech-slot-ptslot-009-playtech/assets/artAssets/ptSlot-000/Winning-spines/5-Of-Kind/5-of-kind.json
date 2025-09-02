@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "C9JCqKKy8zMW+e+45L7ARRes3ko=",
+	"spine": "3.8.75",
+	"x": -250,
+	"y": -250,
+	"width": 500,
+	"height": 500,
+	"images": "./resources/",
+	"audio": "C:/Users/AliceLeong/Documents/PlayTech/000-base-slot/empty-spine"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "5-of-kind", "parent": "root" },
+	{ "name": "bg", "parent": "5-of-kind" },
+	{ "name": "emptyspine", "parent": "5-of-kind" }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "5 of kind", "bone": "emptyspine", "attachment": "5 of kind" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"bg": { "width": 500, "height": 500 }
+			},
+			"5 of kind": {
+				"5 of kind": { "y": 0.5, "width": 426, "height": 75 },
+				"BIG WIN": { "y": 89.45, "width": 344, "height": 72 },
+				"TOtal win": { "x": 0.5, "y": 87.42, "width": 281, "height": 174 }
+			}
+		}
+	}
+],
+"animations": {
+	"loop": {
+		"slots": {
+			"5 of kind": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

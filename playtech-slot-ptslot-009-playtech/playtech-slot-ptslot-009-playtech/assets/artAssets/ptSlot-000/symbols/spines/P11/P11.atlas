@@ -1,0 +1,55 @@
+
+P11.png
+size: 71,400
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+APPEAR
+  rotate: true
+  xy: 35, 110
+  size: 146, 31
+  orig: 146, 31
+  offset: 0, 0
+  index: -1
+HIT
+  rotate: false
+  xy: 2, 367
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+HIT LOOP
+  rotate: true
+  xy: 2, 86
+  size: 170, 31
+  orig: 170, 31
+  offset: 0, 0
+  index: -1
+IDLE
+  rotate: true
+  xy: 2, 5
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+NONE
+  rotate: true
+  xy: 35, 2
+  size: 106, 31
+  orig: 106, 31
+  offset: 0, 0
+  index: -1
+P11
+  rotate: true
+  xy: 2, 258
+  size: 107, 53
+  orig: 107, 53
+  offset: 0, 0
+  index: -1
+animation-timer
+  rotate: false
+  xy: 64, 338
+  size: 5, 60
+  orig: 5, 60
+  offset: 0, 0
+  index: -1

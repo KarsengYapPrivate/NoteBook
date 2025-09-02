@@ -1,0 +1,55 @@
+
+P09.png
+size: 101,282
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+APPEAR
+  rotate: true
+  xy: 35, 134
+  size: 146, 31
+  orig: 146, 31
+  offset: 0, 0
+  index: -1
+HIT
+  rotate: true
+  xy: 68, 139
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+HIT LOOP
+  rotate: true
+  xy: 2, 110
+  size: 170, 31
+  orig: 170, 31
+  offset: 0, 0
+  index: -1
+IDLE
+  rotate: true
+  xy: 68, 201
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+NONE
+  rotate: true
+  xy: 2, 2
+  size: 106, 31
+  orig: 106, 31
+  offset: 0, 0
+  index: -1
+P09
+  rotate: true
+  xy: 35, 14
+  size: 118, 54
+  orig: 118, 54
+  offset: 0, 0
+  index: -1
+animation-timer
+  rotate: true
+  xy: 35, 7
+  size: 5, 60
+  orig: 5, 60
+  offset: 0, 0
+  index: -1

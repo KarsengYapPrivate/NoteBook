@@ -1,0 +1,316 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "BigWinAscendingPresenter",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BigWinAscendingPresenter",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 20
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "033c64F//9KVKLQGK6IoaHa",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 3
+    },
+    "presenterOption": {
+      "__id__": 4
+    },
+    "bigWinNode": null,
+    "totalWinAmount": null,
+    "spineComponentNode": null,
+    "buttonCollect": null,
+    "showDelaySecond": 1,
+    "showDelay": 0,
+    "rollingNumberDelay": 0,
+    "skipFinalAmountDelay": 0.5,
+    "hideDelay": 0,
+    "animationSkipDelay": 0.5,
+    "bigWinAnimationSetLevel": [
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "clickToSkipAscending": true,
+    "ascendingMode": true,
+    "testRun": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "7bg8aN+hBHtqCPQ5M8oH5+"
+  },
+  {
+    "__type__": "PresenterOption",
+    "presenterIndex": 0,
+    "gameStateAction": 0,
+    "gameState": 5
+  },
+  {
+    "__type__": "BigWinAnimationSetLevel",
+    "bigWinLevel": 20,
+    "animationQueue": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "rollingNumberDuration": 2,
+    "animationSkipDelay": 0.35,
+    "bigWinAudioIndex": 1
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "1_bigWin1_intro",
+    "changeTierAfterAnimationEnded": true,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": false,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "2_bigWin1_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "2_bigWin1_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": false,
+    "playOnlyWhenSkipToLastTier": true,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "3_bigWin1_outro",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationSetLevel",
+    "bigWinLevel": 30,
+    "animationQueue": [
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      }
+    ],
+    "rollingNumberDuration": 2.5,
+    "animationSkipDelay": 0.35,
+    "bigWinAudioIndex": 1
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "4_bigWin2_intro",
+    "changeTierAfterAnimationEnded": true,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "5_bigWin2_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "5_bigWin2_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": false,
+    "playOnlyWhenSkipToLastTier": true,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "6_bigWin2_outro",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationSetLevel",
+    "bigWinLevel": 40,
+    "animationQueue": [
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 17
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 19
+      }
+    ],
+    "rollingNumberDuration": 3.5,
+    "animationSkipDelay": 0.35,
+    "bigWinAudioIndex": 2
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "7_bigWin3_intro",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "8_bigWin3_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": false,
+    "canSkip": true,
+    "skipPlayWhenSkipTier": true,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "8_bigWin3_loop",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": false,
+    "playOnlyWhenSkipToLastTier": true,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "BigWinAnimationQueue",
+    "animationName": "9_bigWin3_outro",
+    "changeTierAfterAnimationEnded": false,
+    "setTierAmountWhenStart": true,
+    "canSkip": false,
+    "skipPlayWhenSkipTier": false,
+    "playOnlyWhenSkipToLastTier": false,
+    "loopCount": 1,
+    "audioEventName": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "00vZ05KYxKC7bicwAh+1n5",
+    "targetOverrides": null
+  }
+]

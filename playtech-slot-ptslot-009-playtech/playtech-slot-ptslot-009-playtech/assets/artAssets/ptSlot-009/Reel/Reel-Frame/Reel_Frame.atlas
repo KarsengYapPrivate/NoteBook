@@ -1,0 +1,34 @@
+
+Reel_Frame.png
+size: 1971,1636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow bg_vfx
+  rotate: false
+  xy: 1161, 712
+  size: 791, 922
+  orig: 791, 922
+  offset: 0, 0
+  index: -1
+Light glow_vfx
+  rotate: false
+  xy: 2, 2
+  size: 188, 188
+  orig: 202, 202
+  offset: 7, 7
+  index: -1
+Wave glow_vfx
+  rotate: true
+  xy: 1161, 18
+  size: 692, 808
+  orig: 692, 808
+  offset: 0, 0
+  index: -1
+reel-frame
+  rotate: false
+  xy: 2, 192
+  size: 1157, 1442
+  orig: 1157, 1443
+  offset: 0, 0
+  index: -1

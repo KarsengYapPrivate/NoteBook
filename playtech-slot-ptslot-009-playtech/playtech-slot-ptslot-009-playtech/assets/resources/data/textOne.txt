@@ -1,0 +1,8 @@
+{
+    "userSettingAPI" : "https://api-xin-stage.xingamers.com",
+    "roomAPI" : "https://st-ebingo.xingamers.com/getRoomStatus",
+    "augmentedAPI" : "https://api-xin-stage.xingamers.com/api/user/vslot-settings",
+    "favouriteAPI": "https://api-xin-stage.xingamers.com/api/vslot",
+    "lastPlayedAPI": "https://st-ebingo.xingamers.com/getPlayerLastPlay"
+}
+        

@@ -1,0 +1,47 @@
+{
+"skeleton": {
+	"hash": "03H/ST2UJZvMnDSjXolPWgTF3Bs=",
+	"spine": "3.8.75",
+	"x": -250,
+	"y": -250,
+	"width": 500,
+	"height": 500,
+	"images": "./resources/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "emptyspine", "parent": "root" }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "emptyspine", "bone": "emptyspine", "attachment": "emptyspine" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"bg": { "width": 500, "height": 500 }
+			},
+			"emptyspine": {
+				"emptyspine": { "width": 500, "height": 500 }
+			}
+		}
+	}
+],
+"animations": {
+	"loop": {
+		"slots": {
+			"emptyspine": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

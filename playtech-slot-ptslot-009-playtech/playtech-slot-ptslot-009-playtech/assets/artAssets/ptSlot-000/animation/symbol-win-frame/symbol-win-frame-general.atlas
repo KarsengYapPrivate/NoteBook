@@ -1,0 +1,13 @@
+
+symbol-win-frame-general.png
+size: 26,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+obj
+  rotate: false
+  xy: 2, 2
+  size: 22, 267
+  orig: 22, 267
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "13F3QQWkow66aIi1Dg/SLjL/mCI=", "spine": "3.8.75", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "charge_0", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"charge_0": {
+				"charge_0": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_1": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_2": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_3": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_4": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_5": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_6": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_7": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_8": { "y": 0.5, "width": 240, "height": 145 },
+				"charge_9": { "y": 0.5, "width": 240, "height": 145 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"charge_0": {
+				"attachment": [
+					{ "name": "charge_0" },
+					{ "time": 0.0333, "name": "charge_1" },
+					{ "time": 0.0667, "name": "charge_2" },
+					{ "time": 0.1, "name": "charge_3" },
+					{ "time": 0.1333, "name": "charge_4" },
+					{ "time": 0.1667, "name": "charge_5" },
+					{ "time": 0.2, "name": "charge_6" },
+					{ "time": 0.2333, "name": "charge_7" },
+					{ "time": 0.2667, "name": "charge_8" },
+					{ "time": 0.3, "name": "charge_9" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

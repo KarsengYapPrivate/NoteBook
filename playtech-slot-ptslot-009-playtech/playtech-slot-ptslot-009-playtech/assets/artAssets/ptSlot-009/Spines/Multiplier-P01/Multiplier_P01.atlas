@@ -1,0 +1,69 @@
+
+Multiplier_P01.png
+size: 420,703
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_06
+  rotate: true
+  xy: 2, 454
+  size: 247, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Fx_07
+  rotate: false
+  xy: 2, 2
+  size: 228, 226
+  orig: 256, 256
+  offset: 13, 14
+  index: -1
+X2
+  rotate: false
+  xy: 232, 73
+  size: 144, 74
+  orig: 152, 82
+  offset: 4, 4
+  index: -1
+X2 copy 3
+  rotate: false
+  xy: 232, 149
+  size: 146, 75
+  orig: 154, 83
+  offset: 4, 4
+  index: -1
+circle
+  rotate: false
+  xy: 260, 363
+  size: 158, 158
+  orig: 168, 168
+  offset: 5, 5
+  index: -1
+circle_high-light
+  rotate: true
+  xy: 232, 19
+  size: 52, 95
+  orig: 67, 110
+  offset: 6, 5
+  index: -1
+circle_star
+  rotate: true
+  xy: 260, 523
+  size: 178, 143
+  orig: 186, 151
+  offset: 4, 4
+  index: -1
+circle_vfx
+  rotate: false
+  xy: 240, 226
+  size: 137, 135
+  orig: 145, 143
+  offset: 4, 4
+  index: -1
+vfx_lightBackShine
+  rotate: true
+  xy: 2, 230
+  size: 222, 236
+  orig: 256, 256
+  offset: 17, 9
+  index: -1

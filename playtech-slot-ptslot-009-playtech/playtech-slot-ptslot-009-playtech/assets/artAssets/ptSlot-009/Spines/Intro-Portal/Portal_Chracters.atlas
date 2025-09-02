@@ -1,0 +1,13 @@
+
+Portal_Chracters.png
+size: 16,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hi
+  rotate: false
+  xy: 2, 2
+  size: 2, 2
+  orig: 80, 80
+  offset: 37, 41
+  index: -1

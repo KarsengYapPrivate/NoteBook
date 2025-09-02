@@ -1,0 +1,34 @@
+
+5-of-kind.png
+size: 831,504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5 of kind
+  rotate: true
+  xy: 504, 76
+  size: 426, 75
+  orig: 426, 75
+  offset: 0, 0
+  index: -1
+BIG WIN
+  rotate: true
+  xy: 757, 158
+  size: 344, 72
+  orig: 344, 72
+  offset: 0, 0
+  index: -1
+TOtal win
+  rotate: true
+  xy: 581, 221
+  size: 281, 174
+  orig: 281, 174
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1

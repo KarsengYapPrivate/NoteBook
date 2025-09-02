@@ -1,0 +1,235 @@
+
+Background-H.png
+size: 2048,1505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bg_rock debris 1-1
+  rotate: false
+  xy: 1713, 963
+  size: 13, 10
+  orig: 21, 19
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-10
+  rotate: false
+  xy: 1929, 1346
+  size: 78, 75
+  orig: 86, 84
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-11
+  rotate: false
+  xy: 1929, 1281
+  size: 69, 63
+  orig: 78, 72
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-12
+  rotate: true
+  xy: 1929, 1229
+  size: 50, 61
+  orig: 58, 70
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-13
+  rotate: false
+  xy: 1741, 1097
+  size: 180, 173
+  orig: 199, 184
+  offset: 14, 6
+  index: -1
+Bg_rock debris 1-14
+  rotate: false
+  xy: 1929, 1423
+  size: 85, 80
+  orig: 93, 89
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-15
+  rotate: false
+  xy: 1713, 1011
+  size: 18, 17
+  orig: 27, 26
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-16
+  rotate: false
+  xy: 2016, 1418
+  size: 22, 21
+  orig: 30, 31
+  offset: 4, 4
+  index: -1
+Bg_rock debris 1-17
+  rotate: true
+  xy: 2016, 1476
+  size: 27, 30
+  orig: 40, 39
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-18
+  rotate: true
+  xy: 1713, 993
+  size: 16, 18
+  orig: 26, 26
+  offset: 5, 4
+  index: -1
+Bg_rock debris 1-19
+  rotate: false
+  xy: 1713, 975
+  size: 18, 16
+  orig: 27, 24
+  offset: 5, 4
+  index: -1
+Bg_rock debris 1-2
+  rotate: false
+  xy: 2031, 1350
+  size: 15, 17
+  orig: 23, 25
+  offset: 4, 4
+  index: -1
+Bg_rock debris 1-3
+  rotate: true
+  xy: 2030, 1330
+  size: 18, 16
+  orig: 27, 27
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-4
+  rotate: true
+  xy: 2009, 1351
+  size: 16, 20
+  orig: 25, 29
+  offset: 4, 5
+  index: -1
+Bg_rock debris 1-5
+  rotate: false
+  xy: 2016, 1441
+  size: 27, 33
+  orig: 35, 43
+  offset: 4, 6
+  index: -1
+Bg_rock debris 1-6
+  rotate: false
+  xy: 2009, 1332
+  size: 19, 17
+  orig: 27, 25
+  offset: 4, 4
+  index: -1
+Bg_rock debris 1-7
+  rotate: true
+  xy: 1444, 674
+  size: 124, 129
+  orig: 133, 182
+  offset: 5, 27
+  index: -1
+Bg_rock debris 1-8
+  rotate: true
+  xy: 1991, 850
+  size: 56, 53
+  orig: 65, 61
+  offset: 5, 4
+  index: -1
+Bg_rock debris 1-9
+  rotate: true
+  xy: 2009, 1369
+  size: 47, 36
+  orig: 58, 51
+  offset: 6, 11
+  index: -1
+Bg_small planet 1
+  rotate: false
+  xy: 1450, 800
+  size: 261, 228
+  orig: 270, 236
+  offset: 4, 4
+  index: -1
+Bg_small planet 2 Ball
+  rotate: false
+  xy: 1741, 835
+  size: 248, 260
+  orig: 485, 319
+  offset: 138, 55
+  index: -1
+Bg_small planet 2 Ball front mask
+  rotate: false
+  xy: 1713, 662
+  size: 240, 171
+  orig: 485, 319
+  offset: 138, 144
+  index: -1
+Bg_small planet 2 Ring
+  rotate: false
+  xy: 1450, 1272
+  size: 477, 231
+  orig: 485, 319
+  offset: 4, 55
+  index: -1
+Bg_small planet 2 Ring line dark magenta
+  rotate: true
+  xy: 2000, 908
+  size: 420, 46
+  orig: 420, 420
+  offset: 0, 203
+  index: -1
+Fx_04-2
+  rotate: false
+  xy: 1991, 797
+  size: 51, 51
+  orig: 256, 256
+  offset: 103, 102
+  index: -1
+Fx_Smoke_1
+  rotate: false
+  xy: 1450, 1030
+  size: 289, 240
+  orig: 400, 400
+  offset: 53, 85
+  index: -1
+StarFlickring_01
+  rotate: false
+  xy: 2, 2
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1
+bottom planet
+  rotate: false
+  xy: 2, 814
+  size: 1446, 689
+  orig: 1446, 689
+  offset: 0, 0
+  index: -1
+
+Background-H2.png
+size: 1444,1626
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+StarFlickring_02
+  rotate: false
+  xy: 2, 814
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1
+bg_freegame
+  rotate: false
+  xy: 2, 2
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1
+
+Background-H3.png
+size: 1444,814
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_normal
+  rotate: false
+  xy: 2, 2
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1

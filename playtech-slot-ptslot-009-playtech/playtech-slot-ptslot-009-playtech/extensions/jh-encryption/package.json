@@ -1,0 +1,53 @@
+{
+  "package_version": 2,
+  "version": "1.0.0",
+  "name": "jh-encryption",
+  "description": "JH Encryption",
+  "main": "./main.js",
+  "author": "JH",
+
+  "panels": {
+    "default": {
+      "title": "JH Encryption Panel",
+      "type": "dockable",
+      "main": "panel",
+      "size": {
+          "width": 400,
+          "height": 225,
+          "min-width": 400,
+          "min-height": 225,
+          "max-width": 1920,
+          "max-height": 1080
+      }
+    }
+  },
+
+  "contributions": {
+    "menu": [
+        {
+            "path": "Encryption",
+            "label": "Open Panel",
+            "message": "open-panel"
+        },
+        {
+            "path": "Encryption",
+            "label": "Encrypt",
+            "message": "start-encryption"
+        }
+    ],
+    "messages": {
+        "open-panel": {
+            "methods": [
+                "openPanel"
+            ]
+        },
+        "start-encryption": {
+            "methods": [
+                "startEncryption"
+            ]
+        }
+    }
+  },
+  "editor": ">=3.8.1"
+}
+

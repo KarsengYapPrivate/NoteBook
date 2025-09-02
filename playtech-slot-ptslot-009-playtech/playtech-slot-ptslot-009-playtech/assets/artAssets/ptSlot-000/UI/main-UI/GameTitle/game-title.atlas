@@ -1,0 +1,97 @@
+
+game-title.png
+size: 353,353
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 317
+  size: 34, 46
+  orig: 348, 48
+  offset: 0, 2
+  index: -1
+02
+  rotate: false
+  xy: 100, 303
+  size: 84, 48
+  orig: 348, 48
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 186, 303
+  size: 121, 48
+  orig: 348, 48
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 70, 253
+  size: 142, 48
+  orig: 348, 48
+  offset: 15, 0
+  index: -1
+05
+  rotate: false
+  xy: 214, 253
+  size: 137, 48
+  orig: 348, 48
+  offset: 56, 0
+  index: -1
+06
+  rotate: false
+  xy: 2, 203
+  size: 142, 48
+  orig: 348, 48
+  offset: 87, 0
+  index: -1
+07
+  rotate: false
+  xy: 146, 203
+  size: 142, 48
+  orig: 348, 48
+  offset: 123, 0
+  index: -1
+08
+  rotate: false
+  xy: 2, 153
+  size: 135, 48
+  orig: 348, 48
+  offset: 159, 0
+  index: -1
+09
+  rotate: false
+  xy: 139, 153
+  size: 141, 48
+  orig: 348, 48
+  offset: 197, 0
+  index: -1
+10
+  rotate: true
+  xy: 290, 134
+  size: 117, 48
+  orig: 348, 48
+  offset: 231, 0
+  index: -1
+11
+  rotate: false
+  xy: 2, 257
+  size: 66, 48
+  orig: 348, 48
+  offset: 282, 0
+  index: -1
+12
+  rotate: true
+  xy: 50, 307
+  size: 44, 48
+  orig: 348, 48
+  offset: 304, 0
+  index: -1
+title
+  rotate: false
+  xy: 2, 84
+  size: 348, 48
+  orig: 348, 48
+  offset: 0, 0
+  index: -1

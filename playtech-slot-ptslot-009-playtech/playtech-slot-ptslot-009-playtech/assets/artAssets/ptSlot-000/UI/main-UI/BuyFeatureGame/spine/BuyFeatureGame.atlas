@@ -1,0 +1,97 @@
+
+BuyFeatureGame.png
+size: 606,373
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BUY
+  rotate: false
+  xy: 488, 23
+  size: 85, 56
+  orig: 91, 62
+  offset: 3, 3
+  index: -1
+BUY shine
+  rotate: false
+  xy: 241, 149
+  size: 64, 35
+  orig: 70, 41
+  offset: 3, 3
+  index: -1
+FEATURE GAME
+  rotate: false
+  xy: 0, 63
+  size: 252, 56
+  orig: 258, 62
+  offset: 3, 3
+  index: -1
+FEATURE GAME shine
+  rotate: false
+  xy: 0, 33
+  size: 231, 30
+  orig: 237, 36
+  offset: 3, 3
+  index: -1
+glitter
+  rotate: false
+  xy: 313, 79
+  size: 293, 294
+  orig: 375, 375
+  offset: 41, 41
+  index: -1
+pearl
+  rotate: false
+  xy: 252, 74
+  size: 47, 47
+  orig: 53, 53
+  offset: 3, 3
+  index: -1
+shadow
+  rotate: false
+  xy: 0, 0
+  size: 187, 33
+  orig: 193, 39
+  offset: 3, 3
+  index: -1
+shell_bottom
+  rotate: false
+  xy: 252, 7
+  size: 236, 67
+  orig: 242, 79
+  offset: 3, 9
+  index: -1
+shell_top
+  rotate: false
+  xy: 0, 119
+  size: 241, 65
+  orig: 242, 65
+  offset: 1, 0
+  index: -1
+shellglow
+  rotate: false
+  xy: 0, 184
+  size: 313, 189
+  orig: 326, 200
+  offset: 7, 5
+  index: -1
+starfish1
+  rotate: false
+  xy: 187, 16
+  size: 21, 17
+  orig: 27, 23
+  offset: 3, 3
+  index: -1
+starfish2
+  rotate: false
+  xy: 271, 122
+  size: 30, 27
+  orig: 36, 33
+  offset: 3, 3
+  index: -1
+starfish3
+  rotate: false
+  xy: 241, 121
+  size: 30, 28
+  orig: 36, 34
+  offset: 3, 3
+  index: -1

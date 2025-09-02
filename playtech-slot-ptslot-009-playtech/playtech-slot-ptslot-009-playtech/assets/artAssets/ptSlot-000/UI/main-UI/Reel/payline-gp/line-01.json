@@ -1,0 +1,86 @@
+{
+"skeleton": {
+	"hash": "TOdc8/MUs+rbk7cod5T5UbNyisw=",
+	"spine": "3.8.75",
+	"x": -632.91,
+	"y": -10.14,
+	"width": 1266.82,
+	"height": 83,
+	"images": "./New folder/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Payline-01", "parent": "root", "y": 30.86 },
+	{ "name": "payline-ctrl", "parent": "Payline-01" },
+	{ "name": "payline", "parent": "payline-ctrl" },
+	{ "name": "mid", "parent": "payline" },
+	{ "name": "payline-num-main", "parent": "Payline-01" },
+	{ "name": "paynum-frame-left", "parent": "payline-num-main", "x": -589.91 },
+	{ "name": "right-01", "parent": "payline", "x": 212.44, "scaleX": 1.3986 },
+	{ "name": "left-01", "parent": "payline", "x": -212.44, "scaleX": 1.3986 },
+	{ "name": "left-02", "parent": "payline", "x": -406.64 },
+	{ "name": "left-03", "parent": "payline", "x": -569.01 },
+	{ "name": "right-03", "parent": "payline", "x": 569.01 },
+	{ "name": "right-02", "parent": "payline", "x": 406.64 },
+	{ "name": "paynum-frame-right", "parent": "payline-num-main", "x": 589.91 },
+	{ "name": "number2", "parent": "paynum-frame-right" }
+],
+"slots": [
+	{ "name": "payline", "bone": "payline", "attachment": "payline" },
+	{ "name": "frame", "bone": "paynum-frame-left", "attachment": "frame" },
+	{ "name": "frame2", "bone": "paynum-frame-right", "attachment": "frame" },
+	{ "name": "number", "bone": "paynum-frame-left", "attachment": "1" },
+	{ "name": "number2", "bone": "number2", "attachment": "1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"number": {
+				"0": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"1": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"2": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"3": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"4": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"5": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"6": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"7": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"8": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"9": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			},
+			"payline": {
+				"payline": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.83333, 1, 0.66667, 1, 0.5, 1, 0.33333, 1, 0.16667, 1, 0, 1, 0, 0, 0.16667, 0, 0.33333, 0, 0.5, 0, 0.66667, 0, 0.83333, 0, 1, 0 ],
+					"triangles": [ 1, 13, 0, 2, 12, 1, 1, 12, 13, 2, 11, 12, 3, 11, 2, 4, 10, 3, 3, 10, 11, 6, 7, 8, 6, 8, 5, 5, 8, 9, 5, 9, 4, 4, 9, 10 ],
+					"vertices": [ 1, 11, -0.01, -13.5, 1, 1, 12, -0.57, -13.5, 1, 1, 7, 0.1, -13.5, 1, 1, 4, 0, -13.5, 1, 1, 8, -0.1, -13.5, 1, 1, 9, 0.57, -13.5, 1, 1, 10, 0.01, -13.5, 1, 1, 10, 0.01, 13.5, 1, 1, 9, 0.57, 13.5, 1, 1, 8, -0.1, 13.5, 1, 1, 4, 0, 13.5, 1, 1, 7, 0.1, 13.5, 1, 1, 12, -0.57, 13.5, 1, 1, 11, -0.01, 13.5, 1 ],
+					"hull": 14,
+					"edges": [ 12, 14, 26, 0, 20, 22, 4, 6, 18, 20, 6, 8, 22, 24, 2, 4, 24, 26, 0, 2, 14, 16, 10, 12, 16, 18, 8, 10 ],
+					"width": 1138,
+					"height": 27
+				}
+			},
+			"frame2": {
+				"frame": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			},
+			"number2": {
+				"0": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"1": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"10": { "x": 0.5, "width": 73, "height": 64 },
+				"11": { "width": 70, "height": 64 },
+				"12": { "width": 74, "height": 64 },
+				"13": { "x": 0.5, "width": 73, "height": 64 },
+				"14": { "x": 0.5, "width": 75, "height": 64 },
+				"15": { "x": 0.5, "width": 73, "height": 64 }
+			},
+			"frame": {
+				"frame": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

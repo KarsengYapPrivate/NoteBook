@@ -1,0 +1,79 @@
+{
+    "resultArray": [
+        {
+            "result": {
+                    "data":{
+                        "total_win_amount": 1000,
+                        "is_FreeSpin": false,
+                        "is_freespin_on": false,
+                        "is_bonus": false,
+                        "array": [
+                            [
+                                ["PS", "P08", "P06", "P11", "P07"],
+                                ["P09", "P03"],
+                                ["PS", "P05"],
+                                ["P08", "P06", "P08"],
+                                ["P02", "P10"],
+                                ["P05", "P08", "P06", "P07", "P03"],
+                                ["P11", "P10", "P06", "P07"]
+                            ]
+                        ],
+                        "sizeArray": [
+                            [
+                                [1, 1, 1, 1, 1],
+                                [4, 1],
+                                [1, 4],
+                                [2, 2, 1],
+                                [1, 4],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1, 1]
+                            ]
+                        ],
+                        "balance": 10162.85,
+                        "before_balance": 10162.85,
+                        "data": [{
+                            "ways": 2700,
+                            "winnings": 0,
+                            "winningWays": 0,
+                            "tumbleMultiplier": 1,
+                            "allSymbolWinnings": {},
+                            "resultNewSpawnIndexes": [
+                                [1, 1, 1, 1, 1],
+                                [1, 1],
+                                [1, 1],
+                                [1, 1, 1],
+                                [1, 1],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1, 1]
+                            ],
+                            "destroySymbolIndexes": [],
+                            "p01MultiplierArray": [
+                                [0, 0, 0, 0, 0],
+                                [0, 0],
+                                [0, 0],
+                                [0, 0, 0],
+                                [0, 0],
+                                [0, 0, 0, 0, 0],
+                                [0, 0, 0, 0]
+                            ],
+                            "p01MultiplierCount": 0
+                        }],
+                        "extra_payout": 0,
+                        "ticket_id": 888,
+                        "is_eclipse_bonus": false,
+                        "p01MultiplierCount": 0,
+                        "extraFeatureWildChance": 5,
+                        "extraFeatureIsWildChance": false,
+                        "wildResultArray": [
+                            [0, 0, 0, 0, 0],
+                            [0, 0],
+                            [0, 0],
+                            [0, 0, 0],
+                            [0, 0],
+                            [0, 0, 0, 0, 0]
+                        ]
+                    }
+            }
+        }
+    ]
+}

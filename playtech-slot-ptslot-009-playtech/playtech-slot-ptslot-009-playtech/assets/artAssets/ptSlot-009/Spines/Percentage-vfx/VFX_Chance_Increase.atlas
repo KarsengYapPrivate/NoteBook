@@ -1,0 +1,76 @@
+
+VFX_Chance_Increase.png
+size: 599,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+charge_0
+  rotate: false
+  xy: 147, 2
+  size: 135, 59
+  orig: 240, 145
+  offset: 47, 38
+  index: -1
+charge_1
+  rotate: true
+  xy: 416, 90
+  size: 136, 66
+  orig: 240, 145
+  offset: 49, 34
+  index: -1
+charge_2
+  rotate: false
+  xy: 416, 228
+  size: 180, 66
+  orig: 240, 145
+  offset: 27, 37
+  index: -1
+charge_3
+  rotate: false
+  xy: 288, 16
+  size: 151, 67
+  orig: 240, 145
+  offset: 40, 37
+  index: -1
+charge_4
+  rotate: false
+  xy: 2, 9
+  size: 137, 48
+  orig: 240, 145
+  offset: 46, 44
+  index: -1
+charge_5
+  rotate: false
+  xy: 2, 9
+  size: 137, 48
+  orig: 240, 145
+  offset: 46, 44
+  index: -1
+charge_6
+  rotate: true
+  xy: 484, 52
+  size: 174, 113
+  orig: 240, 145
+  offset: 32, 13
+  index: -1
+charge_7
+  rotate: true
+  xy: 288, 85
+  size: 209, 126
+  orig: 240, 145
+  offset: 15, 10
+  index: -1
+charge_8
+  rotate: true
+  xy: 2, 59
+  size: 235, 143
+  orig: 240, 145
+  offset: 2, 1
+  index: -1
+charge_9
+  rotate: true
+  xy: 147, 63
+  size: 231, 139
+  orig: 240, 145
+  offset: 4, 3
+  index: -1

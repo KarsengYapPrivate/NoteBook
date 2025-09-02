@@ -1,0 +1,287 @@
+{
+"skeleton": {
+	"hash": "QhRjWvEgIlbN9lcDiTBazVU+LIM=",
+	"spine": "3.8.75",
+	"x": -71,
+	"y": -73,
+	"width": 143,
+	"height": 143,
+	"images": "./images/",
+	"audio": "C:/Users/Admin/OneDrive - ISJ Technology Sdn Bhd/Art/Playtech/PT-009 Galactic Colonies/Animation/Progress Bar"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "progress_green", "parent": "root" },
+	{ "name": "vfx_glowring_1", "parent": "root" },
+	{ "name": "vfx_glowring_2", "parent": "root" },
+	{ "name": "vfx_glow", "parent": "root" },
+	{ "name": "vfx_sparkles", "parent": "root" }
+],
+"slots": [
+	{ "name": "progress_red", "bone": "root", "attachment": "progress_red" },
+	{ "name": "progress_red_glow", "bone": "root", "attachment": "progress_red_glow" },
+	{ "name": "progress_orange", "bone": "root", "attachment": "progress_orange" },
+	{ "name": "progress_orange_glow", "bone": "root", "attachment": "progress_orange_glow" },
+	{ "name": "progress_yellow", "bone": "root", "attachment": "progress_yellow" },
+	{ "name": "progress_yellow_glow", "bone": "root", "attachment": "progress_yellow_glow" },
+	{ "name": "progress_green", "bone": "progress_green" },
+	{ "name": "progress_green_glow", "bone": "progress_green", "color": "ffffff00" },
+	{ "name": "vfx_glow", "bone": "vfx_glow", "color": "ffffff00", "attachment": "vfx_glow" },
+	{ "name": "vfx_glowring_2", "bone": "vfx_glowring_2", "color": "ffffff00", "attachment": "vfx_glowring_2" },
+	{ "name": "vfx_glowring_1", "bone": "vfx_glowring_1", "color": "ffffff00", "attachment": "vfx_glowring_1" },
+	{ "name": "vfx_sparkles", "bone": "vfx_sparkles", "color": "ffffff00", "attachment": "vfx_sparkles" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"progress_orange": {
+				"progress_orange": { "x": 0.5, "y": -0.5, "width": 19, "height": 59 }
+			},
+			"vfx_glowring_1": {
+				"vfx_glowring_1": { "x": 0.5, "y": -1.5, "width": 115, "height": 115 }
+			},
+			"progress_yellow": {
+				"progress_yellow": { "x": 0.5, "y": -0.5, "width": 19, "height": 59 }
+			},
+			"vfx_glowring_2": {
+				"vfx_glowring_2": { "x": 0.5, "y": -1.5, "width": 83, "height": 83 }
+			},
+			"progress_red_glow": {
+				"progress_red_glow": { "x": 0.5, "y": -0.5, "width": 69, "height": 105 }
+			},
+			"progress_green_glow": {
+				"progress_green_glow": { "x": 0.5, "y": -0.5, "width": 69, "height": 105 }
+			},
+			"vfx_glow": {
+				"vfx_glow": { "x": 0.5, "y": -1.5, "width": 143, "height": 143 }
+			},
+			"progress_yellow_glow": {
+				"progress_yellow_glow": { "x": 0.5, "y": -0.5, "width": 69, "height": 105 }
+			},
+			"progress_orange_glow": {
+				"progress_orange_glow": { "x": 0.5, "y": -0.5, "width": 69, "height": 105 }
+			},
+			"progress_green": {
+				"progress_green": { "x": 0.5, "y": -0.5, "width": 19, "height": 59 }
+			},
+			"vfx_sparkles": {
+				"vfx_sparkles": { "x": 0.5, "y": 7, "width": 67, "height": 102 }
+			},
+			"progress_red": {
+				"progress_red": { "x": 0.5, "y": -0.5, "width": 19, "height": 59 }
+			}
+		}
+	}
+],
+"animations": {
+	"intro": {
+		"slots": {
+			"vfx_glow": {
+				"color": [
+					{ "color": "1eff0000", "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.1667, "color": "1eff0080", "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.3333, "color": "1eff0078", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "1eff0000" }
+				]
+			},
+			"progress_green_glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "progress_green_glow" }
+				]
+			},
+			"progress_green": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "progress_green" }
+				]
+			},
+			"vfx_glowring_2": {
+				"color": [
+					{ "color": "9bff0000", "curve": 0.168, "c3": 0.411 },
+					{ "time": 0.3333, "color": "9bff00ff", "curve": 0.305, "c3": 0.64, "c4": 0.36 },
+					{ "time": 0.3667, "color": "1eff00f4", "curve": 0.289, "c2": 0.17, "c3": 0.755 },
+					{ "time": 0.6667, "color": "9bff0000" }
+				]
+			},
+			"vfx_glowring_1": {
+				"color": [
+					{ "color": "9bff0000", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "9bff00ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "9bff0000" }
+				]
+			}
+		},
+		"bones": {
+			"progress_green": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"vfx_glow": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.716, "y": 0.716, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"vfx_glowring_1": {
+				"scale": [
+					{ "x": 0.729, "y": 0.729, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.428, "y": 1.428 }
+				]
+			},
+			"vfx_glowring_2": {
+				"scale": [
+					{ "x": 0.729, "y": 0.729, "curve": 0.168, "c3": 0.411 },
+					{ "time": 0.6667, "x": 1.114, "y": 1.114 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"vfx_glow": {
+				"color": [
+					{ "color": "1eff0000" }
+				]
+			},
+			"progress_green_glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffff7b", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "progress_green_glow" }
+				]
+			},
+			"progress_green": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "progress_green" }
+				]
+			},
+			"vfx_glowring_2": {
+				"color": [
+					{ "color": "9bff0000" }
+				]
+			},
+			"vfx_glowring_1": {
+				"color": [
+					{ "color": "9bff0000", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "9bff00ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "9bff0000" }
+				]
+			}
+		},
+		"bones": {
+			"progress_green": {
+				"scale": [
+					{}
+				]
+			},
+			"vfx_glow": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5 }
+				]
+			},
+			"vfx_glowring_1": {
+				"scale": [
+					{ "x": 0.729, "y": 0.729, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "x": 1.428, "y": 1.428 }
+				]
+			},
+			"vfx_glowring_2": {
+				"scale": [
+					{ "x": 0.729, "y": 0.729 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"vfx_glow": {
+				"color": [
+					{ "color": "1eff0000", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "1eff0080", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "1eff0078", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "1eff0000" }
+				]
+			},
+			"progress_green_glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "progress_green_glow" }
+				]
+			},
+			"progress_green": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "progress_green" }
+				]
+			},
+			"vfx_glowring_2": {
+				"color": [
+					{ "color": "9bff0000" }
+				]
+			},
+			"vfx_glowring_1": {
+				"color": [
+					{ "color": "9bff0000", "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.3333, "color": "9bff00ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "9bff0000" }
+				]
+			}
+		},
+		"bones": {
+			"progress_green": {
+				"scale": [
+					{ "time": 0.3333, "curve": 0.5, "c2": 0.38, "c4": 0.75 },
+					{ "time": 0.6667, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"vfx_glow": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.716, "y": 0.716, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"vfx_glowring_1": {
+				"scale": [
+					{ "x": 0.729, "y": 0.729, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.428, "y": 1.428 }
+				]
+			},
+			"vfx_glowring_2": {
+				"scale": [
+					{ "x": 1.019, "y": 1.019 }
+				]
+			}
+		}
+	}
+}
+}

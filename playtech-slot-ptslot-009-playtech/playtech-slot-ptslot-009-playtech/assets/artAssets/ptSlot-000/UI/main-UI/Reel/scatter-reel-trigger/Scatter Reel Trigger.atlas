@@ -1,0 +1,27 @@
+
+Scatter Reel Trigger.png
+size: 1951,1820
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vfx.outerGlow
+  rotate: true
+  xy: 1219, 2
+  size: 950, 730
+  orig: 963, 743
+  offset: 6, 8
+  index: -1
+vfx.rays
+  rotate: false
+  xy: 2, 100
+  size: 1215, 852
+  orig: 1227, 862
+  offset: 6, 5
+  index: -1
+vfx.rays2
+  rotate: false
+  xy: 2, 954
+  size: 1452, 864
+  orig: 1673, 998
+  offset: 110, 67
+  index: -1

@@ -1,0 +1,41 @@
+
+Scatter Reel Frame.png
+size: 1092,586
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_03
+  rotate: true
+  xy: 834, 151
+  size: 175, 256
+  orig: 256, 256
+  offset: 41, 0
+  index: -1
+Fx_circle1
+  rotate: false
+  xy: 734, 2
+  size: 147, 147
+  orig: 196, 196
+  offset: 25, 25
+  index: -1
+frame
+  rotate: true
+  xy: 2, 52
+  size: 214, 730
+  orig: 339, 849
+  offset: 60, 61
+  index: -1
+frameglow
+  rotate: true
+  xy: 2, 268
+  size: 316, 830
+  orig: 339, 849
+  offset: 9, 11
+  index: -1
+gradient
+  rotate: false
+  xy: 834, 328
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

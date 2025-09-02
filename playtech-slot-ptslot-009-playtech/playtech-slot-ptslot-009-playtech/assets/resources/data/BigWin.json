@@ -1,0 +1,63 @@
+{
+    "resultArray":[
+        {
+            "result" : {
+                "data":
+                {
+                    "array": [
+                        ["P08", "P10", "PW"],
+                        ["P09", "P01", "P10"],
+                        ["P06", "P06", "P10"],
+                        ["P01", "P05", "P02"],
+                        ["P05", "P01", "P11"]
+                    ],
+                    "array_wild": [
+                        ["P08", "P10", "PW"],
+                        ["P09", "P01", "P10"],
+                        ["P06", "P06", "P10"],
+                        ["P01", "P05", "P02"],
+                        ["P05", "P01", "P11"]
+                    ],
+                    "balance": 9999.16,
+                    "before_balance": 9998.95,
+                    "data": [
+                        {
+                            "count": 3,
+                            "direction": "left",
+                            "icon_type": "P10",
+                            "icons": ["PW", "P10", "P10", "P02", "P01"],
+                            "index": [2, 2, 2, 2, 1],
+                            "line": 7,
+                            "multiplier": 2,
+                            "payout": 0.21
+                        },
+                        {
+                            "count": 3,
+                            "direction": "left",
+                            "icon_type": "P10",
+                            "icons": ["P10", "P10", "P10", "P02", "P01"],
+                            "index": [1, 2, 2, 2, 1],
+                            "line": 8,
+                            "multiplier": 2,
+                            "payout": 0.21
+                        }
+                    ],
+                    "extra_payout": 0,
+                    "is_FreeSpin": false,
+                    "is_bonus": false,
+                    "is_eclipse_bonus": false,
+                    "is_freespin_on": false,
+                    "is_mega_wild": false,
+                    "new_wild_position": [0, 0, 0, 0, 0],
+                    "reels": [5, 5, 5, 5, 5],
+                    "ticket_id": 888,
+                    "top_reel_result": ["PX", "PW", "PX"],
+                    "total_win_amount": 300,
+                    "wild_position": [0, 0, 0, 0, 0],
+                    "wild_spawn_from_point": [0, 0, 0, 0, 0]
+                }
+            }
+        }
+    ]
+}
+        

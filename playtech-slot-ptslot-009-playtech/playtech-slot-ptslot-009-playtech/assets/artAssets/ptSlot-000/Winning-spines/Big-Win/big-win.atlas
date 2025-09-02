@@ -1,0 +1,55 @@
+
+big-win.png
+size: 1581,1389
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1531, 1290
+  size: 26, 97
+  orig: 26, 97
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1432, 468
+  size: 58, 97
+  orig: 58, 97
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1432, 369
+  size: 58, 97
+  orig: 58, 97
+  offset: 0, 0
+  index: -1
+BIG WIN
+  rotate: true
+  xy: 1432, 992
+  size: 395, 97
+  orig: 395, 97
+  offset: 0, 0
+  index: -1
+blank
+  rotate: false
+  xy: 1432, 567
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2, 2
+  size: 1385, 1428
+  orig: 1730, 1774
+  offset: 105, 267
+  index: -1
+rainbow-flare
+  rotate: true
+  xy: 1432, 669
+  size: 321, 147
+  orig: 352, 162
+  offset: 28, 14
+  index: -1

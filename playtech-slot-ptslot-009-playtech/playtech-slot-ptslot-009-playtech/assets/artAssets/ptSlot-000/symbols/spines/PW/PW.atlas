@@ -1,0 +1,55 @@
+
+PW.png
+size: 176,156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+APPEAR
+  rotate: false
+  xy: 2, 90
+  size: 146, 31
+  orig: 146, 31
+  offset: 0, 0
+  index: -1
+HIT
+  rotate: true
+  xy: 143, 28
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+HIT LOOP
+  rotate: false
+  xy: 2, 123
+  size: 170, 31
+  orig: 170, 31
+  offset: 0, 0
+  index: -1
+IDLE
+  rotate: true
+  xy: 110, 9
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+NONE
+  rotate: false
+  xy: 2, 2
+  size: 106, 31
+  orig: 106, 31
+  offset: 0, 0
+  index: -1
+PW
+  rotate: false
+  xy: 2, 35
+  size: 106, 53
+  orig: 106, 53
+  offset: 0, 0
+  index: -1
+animation-timer
+  rotate: true
+  xy: 110, 2
+  size: 5, 60
+  orig: 5, 60
+  offset: 0, 0
+  index: -1

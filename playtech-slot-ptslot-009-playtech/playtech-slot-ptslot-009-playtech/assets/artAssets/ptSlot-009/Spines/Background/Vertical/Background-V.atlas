@@ -1,0 +1,227 @@
+
+Background-V.png
+size: 2030,1836
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bg_small planet 2 Ball
+  rotate: true
+  xy: 1768, 1586
+  size: 248, 260
+  orig: 485, 319
+  offset: 138, 55
+  index: -1
+Bg_small planet 2 Ball front mask
+  rotate: false
+  xy: 1526, 1663
+  size: 240, 171
+  orig: 485, 319
+  offset: 138, 144
+  index: -1
+Bg_small planet 2 Ring
+  rotate: false
+  xy: 649, 1496
+  size: 477, 231
+  orig: 485, 319
+  offset: 4, 55
+  index: -1
+Bg_small planet 2 Ring line dark magenta
+  rotate: false
+  xy: 434, 1774
+  size: 420, 60
+  orig: 420, 420
+  offset: 0, 198
+  index: -1
+Fx_04-2
+  rotate: false
+  xy: 381, 1783
+  size: 51, 51
+  orig: 256, 256
+  offset: 103, 102
+  index: -1
+Fx_Smoke_1
+  rotate: false
+  xy: 1468, 1421
+  size: 289, 240
+  orig: 400, 400
+  offset: 53, 85
+  index: -1
+bg_freegame
+  rotate: false
+  xy: 2, 2
+  size: 1177, 756
+  orig: 1181, 764
+  offset: 4, 4
+  index: -1
+bg_normal
+  rotate: false
+  xy: 481, 760
+  size: 1173, 659
+  orig: 1181, 667
+  offset: 4, 4
+  index: -1
+rock debris_1_1
+  rotate: false
+  xy: 274, 1785
+  size: 51, 49
+  orig: 59, 58
+  offset: 4, 4
+  index: -1
+rock debris_1_10
+  rotate: false
+  xy: 108, 1803
+  size: 34, 31
+  orig: 42, 39
+  offset: 4, 4
+  index: -1
+rock debris_1_11
+  rotate: true
+  xy: 1322, 1689
+  size: 145, 202
+  orig: 153, 210
+  offset: 4, 4
+  index: -1
+rock debris_1_12
+  rotate: false
+  xy: 1049, 1729
+  size: 110, 105
+  orig: 125, 115
+  offset: 11, 5
+  index: -1
+rock debris_1_13
+  rotate: false
+  xy: 327, 1785
+  size: 52, 49
+  orig: 61, 58
+  offset: 4, 4
+  index: -1
+rock debris_1_14
+  rotate: false
+  xy: 144, 1802
+  size: 34, 32
+  orig: 43, 40
+  offset: 5, 4
+  index: -1
+rock debris_1_15
+  rotate: true
+  xy: 2, 1607
+  size: 176, 347
+  orig: 184, 355
+  offset: 4, 4
+  index: -1
+rock debris_1_16
+  rotate: false
+  xy: 351, 1550
+  size: 296, 222
+  orig: 306, 230
+  offset: 5, 4
+  index: -1
+rock debris_1_17
+  rotate: true
+  xy: 1128, 1453
+  size: 234, 338
+  orig: 242, 347
+  offset: 4, 5
+  index: -1
+rock debris_1_18
+  rotate: true
+  xy: 2, 1281
+  size: 267, 477
+  orig: 275, 485
+  offset: 4, 4
+  index: -1
+rock debris_1_2
+  rotate: false
+  xy: 937, 1729
+  size: 110, 105
+  orig: 124, 115
+  offset: 10, 5
+  index: -1
+rock debris_1_3
+  rotate: true
+  xy: 33, 1803
+  size: 31, 37
+  orig: 39, 45
+  offset: 4, 4
+  index: -1
+rock debris_1_5
+  rotate: false
+  xy: 180, 1795
+  size: 42, 39
+  orig: 50, 47
+  offset: 4, 4
+  index: -1
+rock debris_1_6
+  rotate: false
+  xy: 224, 1788
+  size: 48, 46
+  orig: 68, 54
+  offset: 16, 4
+  index: -1
+rock debris_1_7
+  rotate: false
+  xy: 2, 1812
+  size: 29, 22
+  orig: 38, 34
+  offset: 4, 8
+  index: -1
+rock debris_1_8
+  rotate: true
+  xy: 856, 1758
+  size: 76, 79
+  orig: 84, 114
+  offset: 4, 18
+  index: -1
+rock debris_1_9
+  rotate: false
+  xy: 72, 1803
+  size: 34, 31
+  orig: 42, 40
+  offset: 4, 4
+  index: -1
+small planet
+  rotate: false
+  xy: 1161, 1696
+  size: 159, 138
+  orig: 168, 146
+  offset: 4, 4
+  index: -1
+
+Background-V2.png
+size: 1915,1010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+StarFlickring_02
+  rotate: false
+  xy: 2, 2
+  size: 1911, 1006
+  orig: 1920, 1080
+  offset: 9, 74
+  index: -1
+
+Background-V3.png
+size: 1924,1084
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+StarFlickring_01
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+
+Background-V4.png
+size: 1554,1920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom planet
+  rotate: false
+  xy: 2, 2
+  size: 1550, 1916
+  orig: 1608, 1920
+  offset: 30, 4
+  index: -1

@@ -1,0 +1,194 @@
+{
+"skeleton": {
+	"hash": "L7z2gOZgDeIAJ5eqRcGmERKpWP8",
+	"spine": "3.8.75",
+	"x": -1061.25,
+	"y": -707.56,
+	"width": 2091.25,
+	"height": 1362.61,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "vfx", "parent": "root", "scaleX": 1.25, "scaleY": 1.25 },
+	{ "name": "vfx.outerGlow2", "parent": "vfx", "x": -5.5, "y": 52.5 },
+	{ "name": "vfx.rays2Scaler", "parent": "vfx", "x": -12.5, "y": -21, "scaleY": 0.7095 },
+	{ "name": "vfx.rays2", "parent": "vfx.rays2Scaler", "scaleY": 1.5395 },
+	{ "name": "vfx.raysScaler", "parent": "vfx", "x": 3.5, "y": 52, "scaleY": 0.7573 },
+	{ "name": "vfx.rays", "parent": "vfx.raysScaler", "scaleY": 1.3337 }
+],
+"slots": [
+	{ "name": "vfx.rays2", "bone": "vfx.rays2", "color": "ffffff00", "attachment": "vfx.rays2" },
+	{ "name": "vfx.rays", "bone": "vfx.rays", "color": "ffffff00", "attachment": "vfx.rays" },
+	{ "name": "vfx.outerGlow", "bone": "vfx.outerGlow2", "color": "ffffff00", "attachment": "vfx.outerGlow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vfx.outerGlow": {
+				"vfx.outerGlow": { "width": 963, "height": 743 }
+			},
+			"vfx.rays2": {
+				"vfx.rays2": { "width": 1673, "height": 998 }
+			},
+			"vfx.rays": {
+				"vfx.rays": { "width": 1227, "height": 862 }
+			}
+		}
+	}
+],
+"animations": {
+	"intro": {
+		"slots": {
+			"vfx.rays2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"vfx.outerGlow": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"vfx.rays": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"vfx.outerGlow2": {
+				"rotate": [
+					{}
+				]
+			},
+			"vfx.rays": {
+				"rotate": [
+					{ "angle": 30 },
+					{ "time": 0.3333 }
+				]
+			},
+			"vfx.rays2": {
+				"rotate": [
+					{ "angle": 30 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"vfx.rays2": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"vfx.outerGlow": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffffbb" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffffbb" },
+					{ "time": 4, "color": "ffffffff" }
+				]
+			},
+			"vfx.rays": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"vfx.outerGlow2": {
+				"rotate": [
+					{ "time": 3.6667 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 1.05, "y": 1.05 },
+					{ "time": 2 },
+					{ "time": 3, "x": 1.05, "y": 1.05 },
+					{ "time": 4 }
+				]
+			},
+			"vfx.rays2": {
+				"rotate": [
+					{},
+					{ "time": 2, "angle": 180 },
+					{ "time": 3.6667, "angle": 30 },
+					{ "time": 4 }
+				]
+			},
+			"vfx.rays": {
+				"rotate": [
+					{},
+					{ "time": 2, "angle": 180 },
+					{ "time": 3.6667, "angle": 30 },
+					{ "time": 4 }
+				]
+			},
+			"vfx.rays2Scaler": {
+				"scale": [
+					{},
+					{ "time": 2, "x": 1.188, "y": 1.188 },
+					{ "time": 4 }
+				]
+			},
+			"vfx.raysScaler": {
+				"scale": [
+					{},
+					{ "time": 2, "x": 1.072, "y": 1.072 },
+					{ "time": 4 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"vfx.rays2": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"vfx.outerGlow": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"vfx.rays": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"vfx.rays2": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -30 }
+				]
+			},
+			"vfx.rays": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -30 }
+				]
+			},
+			"vfx.outerGlow2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

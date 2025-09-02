@@ -1,0 +1,535 @@
+import { _decorator, Component, CurveRange, director, Enum, instantiate, Node, Tween, tween, UITransform, v3 } from 'cc';
+import { ReelSpinPrototype } from '../../../SlotsCore/Scripts/Core/ReelSpinPrototype';
+import { Reel, ReelStopOptions } from '../../../SlotsCore/Scripts/Core/Reel';
+import GameData from '../../../SlotsCore/Scripts/Model/GameData';
+import Utils from '../../../SlotsCore/Scripts/Util/Utils';
+import { Symbol } from '../../../SlotsCore/Scripts/Core/Symbol';
+import { CacasdingSymbol } from './CacasdingSymbol';
+import { GameSpinType, GameType, UIButtonEvent } from '../../../SlotsCore/Scripts/Model/GameStateData';
+import { ReelController } from '../../../SlotsCore/Scripts/Core/ReelController';
+import { CacasdingReelController } from './CacasdingReelController';
+const { ccclass, property } = _decorator;
+
+export enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+@ccclass('CacasdingReelDopController')
+export class CacasdingReelDopController extends ReelSpinPrototype {
+    @property({ type: Enum(Direction) }) direction: Direction = Direction.Down;
+    @property(CurveRange) moveUpCurveRange = new CurveRange();
+
+    @property(Number) symbolDropIntervel: number = 0;
+    @property(Number) symbolDropTime: number = 0;
+    public symbolHeight = 0;
+    private symbolWidth = 0;
+    public symbolNodes: Node[] = [];
+    private isSpawn: boolean = false;
+    private symbolStopIndex = 0;
+    private isSpinning = false;
+
+    protected onLoad(): void {
+        addEventListener(UIButtonEvent[UIButtonEvent.spin_stop_clicked], this.ForceStop.bind(this));
+    }
+
+    override InitReel(callback: () => void) {
+        let nodeHeight = this.node.getComponent(UITransform).contentSize.height;
+        let nodeWidth = this.node.getComponent(UITransform).contentSize.width;
+        switch (this.direction) {
+            case Direction.Down:
+            case Direction.Up:
+                if (this.symbolHeight == 0) {
+                    this.symbolHeight = nodeHeight / this.numberOfSymbols;
+                }
+                if (this.isSpawn == false) {
+
+                    let startY = nodeHeight - (this.symbolHeight / 2);
+
+                    for (let i = 0; i < this.numberOfSymbols; i++) {
+                        let symbol = instantiate(this.symbolPrefab);
+                        this.node.addChild(symbol);
+                        symbol.setPosition(0, startY, 0);
+                        startY = startY - this.symbolHeight;
+                        this.symbolNodes.push(symbol);
+                    }
+
+                    this.SetRandomSpriteToAllSymbols();
+                    this.isSpawn = true;
+                }
+                break;
+            case Direction.Left:
+            case Direction.Right:
+                if (this.symbolWidth == 0) {
+                    this.symbolWidth = nodeWidth / this.numberOfSymbols;
+                }
+                if (this.isSpawn == false) {
+
+                    let startX = nodeWidth - (this.symbolWidth / 2);
+
+                    for (let i = 0; i < this.numberOfSymbols; i++) {
+                        let symbol = instantiate(this.symbolPrefab);
+                        this.node.addChild(symbol);
+                        symbol.setPosition(startX, 0, 0);
+                        startX = startX - this.symbolWidth;
+                        this.symbolNodes.push(symbol);
+                    }
+
+                    this.SetRandomSpriteToAllSymbols();
+                    this.isSpawn = true;
+                }
+                break;
+        }
+
+        callback?.call(null);
+    }
+
+    SetRandomSpriteToAllSymbols() {
+        let maxRand: number = 13;
+        let index = 0;
+
+        while (index < this.symbolNodes.length) {
+            let rand = Utils.RandomValueInt(0, maxRand);
+            let symbolID = "";
+            if ((symbolID = GameData.instance.spriteDatas[rand]['_name']) != "PS" && (symbolID = GameData.instance.spriteDatas[rand]['_name']) != "PW") {
+                this.symbolNodes[index].getComponent(Symbol).UpdateSymbol(symbolID);
+                this.symbolNodes[index].getComponent(Symbol).LoadIdleAnimation();
+                index += 1;
+            }
+        }
+    }
+
+    override StartSpin(reelIndex: number, totalReels: number, callback: () => void, speed: number) {
+        let firstNode = this.node.children[0];
+        let lastNode = this.node.children[this.node.children.length - 1];
+        this.isSpinning = false;
+        for (let i = 0; i < this.node.children.length; i++) {
+            this.node.children[i].getComponent(CacasdingSymbol).CallMyChildBack();
+        }
+
+        this.symbolStopIndex = 0;
+
+        let index = 0;
+        switch (this.direction) {
+            case Direction.Up:
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let targetPositionY = this.node.children[i].position.y + (this.symbolHeight * (this.numberOfSymbols))
+                    let dropTween = tween(this.node.children[i])
+                        .to(0.1, { position: v3(0, targetPositionY, 0) })
+                        .call((() => {
+                            index++
+                            dropTween.stop();
+                            this.node.children[i].getComponent(CacasdingSymbol).Destroy();
+                            if (index == this.node.children.length - 1) {
+                                callback?.call(null);
+                            }
+                        }).bind(this))
+                        .start()
+                }
+                break;
+
+            case Direction.Down:
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let targetPositionY = this.node.children[i].position.y - (this.symbolHeight * (this.numberOfSymbols))
+                    let dropTween = tween(this.node.children[i])
+                        .to(0.1, { position: v3(0, targetPositionY, 0) })
+                        .call((() => {
+                            index++
+                            dropTween.stop();
+                            this.node.children[i].getComponent(CacasdingSymbol).Destroy();
+                            if (index == this.node.children.length - 1) {
+                                callback?.call(null);
+                            }
+                        }).bind(this))
+                        .start()
+                }
+                break;
+
+            case Direction.Left:
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let targetPositionX = this.node.children[i].position.x - (this.symbolWidth * (this.node.children.length))
+                    let dropTween = tween(this.node.children[i])
+                        .to(0.1, { position: v3(targetPositionX, 0, 0) })
+                        .call((() => {
+                            index++
+                            dropTween.stop();
+                            this.node.children[i].getComponent(CacasdingSymbol).Destroy();
+                            if (index == this.node.children.length - 1) {
+                                callback?.call(null);
+                            }
+                        }).bind(this))
+                        .start()
+                }
+                break;
+
+            case Direction.Right:
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let targetPositionX = this.node.children[i].position.x + (this.symbolWidth * (this.node.children.length))
+                    let dropTween = tween(this.node.children[i])
+                        .to(0.1, { position: v3(targetPositionX, 0, 0) })
+                        .call((() => {
+                            index++
+                            dropTween.stop();
+                            this.node.children[i].getComponent(CacasdingSymbol).Destroy();
+                            if (index == this.node.children.length - 1) {
+                                callback?.call(null);
+                            }
+                        }).bind(this))
+                        .start()
+                }
+                break;
+        }
+    }
+
+    override SlowSpin(initialSpeedMultiplier: number, speedMultiplier: number, durationSeconds: number) {
+
+    }
+
+    override async StopSpin(reelStopOptions: ReelStopOptions) {
+        this.isSpinning = true;
+
+        switch (this.direction) {
+            case Direction.Up: {
+                let startY = 0;
+                let endPosition = this.node.getComponent(UITransform).contentSize.height
+                for (let i = 0; i < reelStopOptions.reelResult[this.node.getSiblingIndex()].length; i++) {
+                    let symbol = instantiate(this.symbolPrefab);
+                    this.node.addChild(symbol);
+
+                    symbol.getComponent(CacasdingSymbol).UpdateSize(GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateSymbol(reelStopOptions.reelResult[this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateName();
+                    symbol.getComponent(CacasdingSymbol).UpdateRemainTime(this.symbolDropTime);
+                    let number = 0;
+                    for (let j = 0; j < this.node.children.length; j++) {
+                        number += GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j];
+                        if (j == this.node.children.length - 1) {
+                            symbol.getComponent(CacasdingSymbol).symbolIndex = number - GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j]
+                        }
+                    }
+                }
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let symbol = this.node.children[i];
+                    symbol.setPosition(v3(0, -(this.symbolHeight / 2) - ((this.symbolHeight * (symbol.getComponent(CacasdingSymbol).symbolIndex) + ((symbol.getComponent(CacasdingSymbol).symbolSize - 1) * (this.symbolHeight / 2)))), 0));
+                    symbol.getComponent(CacasdingSymbol).UpdateStopPosition(symbol.position.y + endPosition);
+                }
+                let time = 0
+                if (this.node.getComponent(Reel).instantStop || GameData.instance.IsTurboSpin()) {
+                    time = this.symbolDropTime / 2;
+                } else {
+                    time = this.symbolDropTime
+                }
+
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let symbol = this.node.children[i];
+
+                    if (symbol.getComponent(CacasdingSymbol).isInstantStop) {
+                        return;
+                    }
+                    let positionTween = tween(symbol)
+                        .tag(1)
+                        .to(time, { position: v3(0, symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0) }, {
+                            onUpdate: ((target: Node, ratio: number) => {
+                                let currentPos = v3(symbol.position.x, symbol.position.y + this.moveUpCurveRange.evaluate(ratio, 0.5), 0);
+                                target.setPosition(currentPos);
+                            }).bind(this)
+                        })
+                        .call((() => {
+                            this.AllSymbolStop();
+                            symbol.getComponent(Symbol).LoadAppearAnimation();
+                            if (this.symbolStopIndex == this.node.children.length) {
+                                reelStopOptions.stopCompletedCallback(-1);
+                            }
+                        }).bind(this))
+                        .start();
+                    if (!this.node.getComponent(Reel).instantStop && !GameData.instance.IsTurboSpin()) {
+                        await Utils.WaitForSeconds(this.symbolDropIntervel - ((this.symbolDropIntervel / (this.numberOfSymbols + 2)) * (this.node.children.length - i)))
+                    }
+                }
+                break;
+            }
+            case Direction.Down: {
+                let startY = this.node.getComponent(UITransform).contentSize.height;
+                let endPosition = (this.node.getComponent(UITransform).contentSize.height + this.symbolHeight) - (this.symbolHeight / 2)
+                for (let i = 0; i < reelStopOptions.reelResult[this.node.getSiblingIndex()].length; i++) {
+                    let symbol = instantiate(this.symbolPrefab);
+                    this.node.addChild(symbol);
+
+                    symbol.getComponent(CacasdingSymbol).UpdateSize(GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateSymbol(reelStopOptions.reelResult[this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateName();
+                    symbol.getComponent(CacasdingSymbol).UpdateRemainTime(this.symbolDropTime);
+                    let number = 0;
+                    for (let j = 0; j < this.node.children.length; j++) {
+                        number += GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j];
+                        if (j == this.node.children.length - 1) {
+                            symbol.getComponent(CacasdingSymbol).symbolIndex = number - GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j]
+                        }
+                    }
+                }
+
+                for (let i = this.node.children.length - 1; i >= 0; i--) {
+                    let symbol = this.node.children[i];
+                    symbol.setPosition(v3(0, startY + ((this.symbolHeight * (this.numberOfSymbols - symbol.getComponent(CacasdingSymbol).symbolIndex) - ((symbol.getComponent(CacasdingSymbol).symbolSize - 1) * (this.symbolHeight / 2)))), 0));
+                    symbol.getComponent(CacasdingSymbol).UpdateStopPosition(symbol.position.y - endPosition);
+                }
+
+
+                let time = 0
+                if (this.node.getComponent(Reel).instantStop || GameData.instance.IsTurboSpin()) {
+                    time = this.symbolDropTime / 2;
+                } else {
+                    time = this.symbolDropTime;
+                }
+
+                for (let i = this.node.children.length - 1; i >= 0; i--) {
+                    let symbol = this.node.children[i];
+
+                    if (symbol.getComponent(CacasdingSymbol).isInstantStop) {
+                        return;
+                    }
+
+                    let positionTween = tween(symbol)
+                        .tag(2)
+                        .to(time, { position: v3(0, symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0) }, {
+                            onUpdate: ((target: Node, ratio: number) => {
+                                // if (!this.node.getComponent(Reel).instantStop) {
+                                //     symbol.getComponent(CacasdingSymbol).UpdateRemainTime(time - (time * ratio));
+                                //     let currentPos = v3(symbol.position.x, symbol.position.y + this.moveUpCurveRange.evaluate(ratio, 0.5), 0);
+                                //     target.setPosition(currentPos);
+                                // }
+                            }).bind(this)
+                        })
+                        .call((() => {
+                            this.AllSymbolStop();
+                            symbol.getComponent(Symbol).LoadAppearAnimation();
+                            if (this.symbolStopIndex == this.node.children.length) {
+                                reelStopOptions.stopCompletedCallback(-1);
+                                this.isSpinning = false
+                            }
+                        }).bind(this))
+                        .start();
+                    if (!this.node.getComponent(Reel).instantStop && !GameData.instance.IsTurboSpin()) {
+                        await Utils.WaitForSeconds(this.symbolDropIntervel - ((this.symbolDropIntervel / (this.numberOfSymbols + 2)) * (this.node.children.length - i)))
+                    }
+                }
+
+                break;
+            }
+            case Direction.Left: {
+                let startX = this.node.getComponent(UITransform).contentSize.width;
+                let endPositionX = (this.node.getComponent(UITransform).contentSize.width + this.symbolWidth) - (this.symbolWidth / 2)
+                for (let i = 0; i < reelStopOptions.reelResult[this.node.getSiblingIndex()].length; i++) {
+                    let symbol = instantiate(this.symbolPrefab);
+                    this.node.addChild(symbol);
+                    symbol.getComponent(CacasdingSymbol).UpdateSymbol(reelStopOptions.reelResult[this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateName();
+                    symbol.getComponent(CacasdingSymbol).UpdateRemainTime(this.symbolDropTime);
+                    let number = 0;
+                    for (let j = 0; j < this.node.children.length; j++) {
+                        number += GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j];
+                        if (j == this.node.children.length - 1) {
+                            symbol.getComponent(CacasdingSymbol).symbolIndex = number - GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j]
+                        }
+                    }
+                    symbol.getComponent(CacasdingSymbol).UpdateSize(GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][i]);
+                }
+                for (let i = this.node.children.length - 1; i >= 0; i--) {
+                    let symbol = this.node.children[i];
+                    symbol.setPosition(v3(startX + (this.symbolWidth / 2) + ((this.symbolWidth * (symbol.getComponent(CacasdingSymbol).symbolIndex) - ((symbol.getComponent(CacasdingSymbol).symbolSize - 1) * (this.symbolWidth / 2)))), 0, 0));
+                }
+
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let symbol = this.node.children[i];
+                    symbol.getComponent(CacasdingSymbol).UpdateStopPosition(symbol.position.x - endPositionX + (this.symbolWidth / 2));
+                }
+
+                let time = 0
+                if (this.node.getComponent(Reel).instantStop || !GameData.instance.IsTurboSpin()) {
+                    time = this.symbolDropTime / 2;
+                } else {
+                    time = this.symbolDropTime
+                }
+
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let symbol = this.node.children[i];
+                    if (symbol.getComponent(CacasdingSymbol).isInstantStop) {
+                        return;
+                    }
+                    tween(symbol)
+                        .tag(3)
+                        .to(time, { position: v3(symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0, 0) })
+                        .call((() => {
+                            
+                            this.AllSymbolStop();
+                            symbol.getComponent(Symbol).LoadAppearAnimation();
+                            if (this.symbolStopIndex == this.node.children.length) {
+                                reelStopOptions.stopCompletedCallback(-1);
+                            }
+                        }).bind(this))
+                        .start();
+                    if (!this.node.getComponent(Reel).instantStop && !GameData.instance.IsTurboSpin()) {
+                        await Utils.WaitForSeconds(this.symbolDropIntervel - ((this.symbolDropIntervel / (this.numberOfSymbols + 2)) * (this.node.children.length - i)))
+                    }
+                }
+                break;
+            }
+            case Direction.Right: {
+                let startX = this.node.getComponent(UITransform).contentSize.width;
+                let endPositionX = this.node.getComponent(UITransform).contentSize.width
+                for (let i = 0; i < reelStopOptions.reelResult[this.node.getSiblingIndex()].length; i++) {
+                    let symbol = instantiate(this.symbolPrefab);
+                    this.node.addChild(symbol);
+                    symbol.getComponent(CacasdingSymbol).UpdateSymbol(reelStopOptions.reelResult[this.node.getSiblingIndex()][i]);
+                    symbol.getComponent(CacasdingSymbol).UpdateName();
+                    symbol.getComponent(CacasdingSymbol).UpdateRemainTime(this.symbolDropTime);
+                    let number = 0;
+                    for (let j = 0; j < this.node.children.length; j++) {
+                        number += GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j];
+                        if (j == this.node.children.length - 1) {
+                            symbol.getComponent(CacasdingSymbol).symbolIndex = number - GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][j]
+                        }
+                    }
+                    symbol.getComponent(CacasdingSymbol).UpdateSize(GameData.instance.GetResult().sizeArray[0][this.node.getSiblingIndex()][i]);
+                }
+                for (let i = 0; i < this.node.children.length; i++) {
+                    let symbol = this.node.children[i];
+                    symbol.setPosition(v3((0 + (this.symbolWidth / 2)) - (this.symbolWidth * (this.numberOfSymbols - symbol.getComponent(CacasdingSymbol).symbolIndex) - ((symbol.getComponent(CacasdingSymbol).symbolSize - 1) * (this.symbolWidth / 2))), 0, 0));
+                    symbol.getComponent(CacasdingSymbol).UpdateStopPosition(symbol.position.x + endPositionX);
+                }
+
+                let time = 0
+                if (this.node.getComponent(Reel).instantStop || !GameData.instance.IsTurboSpin()) {
+                    time = this.symbolDropTime / 2;
+                } else {
+                    time = this.symbolDropTime
+                }
+
+                for (let i = this.node.children.length - 1; i >= 0; i--) {
+                    let symbol = this.node.children[i];
+                    if (symbol.getComponent(CacasdingSymbol).isInstantStop) {
+                        return;
+                    }
+                    tween(symbol)
+                        .tag(4)
+                        .to(time, { position: v3(symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0, 0) })
+                        .call((() => {
+                            this.AllSymbolStop();
+                            symbol.getComponent(Symbol).LoadAppearAnimation();
+                            if (this.symbolStopIndex == this.node.children.length) {
+                                reelStopOptions.stopCompletedCallback(-1);
+                            }
+                        }).bind(this))
+                        .start();
+                    if (!this.node.getComponent(Reel).instantStop && !GameData.instance.IsTurboSpin()) {
+                        await Utils.WaitForSeconds(this.symbolDropIntervel - ((this.symbolDropIntervel / (this.numberOfSymbols + 2)) * (this.node.children.length - i)))
+                    }
+                }
+                break;
+            }
+        }
+    }
+
+    async ForceStop() {
+        //director.pause();
+        if (this.isSpinning) {
+            switch (this.direction) {
+                case Direction.Up: {
+                    Tween.stopAllByTag(1);
+                    for (let i = 0; i < this.node.children.length; i++) {
+                        let symbol = this.node.children[i];
+                        symbol.getComponent(CacasdingSymbol).isInstantStop = true;
+                        let positionTween = tween(symbol)
+                            .to(symbol.getComponent(CacasdingSymbol).remainTime / 2, { position: v3(0, symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0) }, {
+                                onUpdate: ((target: Node, ratio: number) => {
+                                    let currentPos = v3(symbol.position.x, symbol.position.y + this.moveUpCurveRange.evaluate(ratio, 0.5), 0);
+                                    target.setPosition(currentPos);
+                                }).bind(this)
+                            })
+                            .call((() => {
+                                this.AllSymbolStop();
+                                symbol.getComponent(Symbol).LoadAppearAnimation();
+                                if (this.symbolStopIndex == this.node.children.length) {
+                                    ReelController.instance.StopCompletedCallback(this.node.getSiblingIndex());
+                                    this.isSpinning = false;
+                                }
+                            }).bind(this))
+                            .start();
+                    }
+                    break;
+                }
+                case Direction.Down: {
+                    Tween.stopAllByTag(2);
+                    for (let i = this.node.children.length - 1; i >= 0; i--) {
+                        let symbol = this.node.children[i];
+                        symbol.getComponent(CacasdingSymbol).isInstantStop = true;
+                        let positionTween = tween(symbol) 
+                            .to(symbol.getComponent(CacasdingSymbol).remainTime / 2, { position: v3(0, symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0) }, {
+                                onUpdate: ((target: Node, ratio: number) => {
+                                }).bind(this)
+                            })
+                            .call((() => {
+                                this.AllSymbolStop();
+                                symbol.getComponent(Symbol).LoadAppearAnimation();
+                                if (this.symbolStopIndex == this.node.children.length) {
+                                    ReelController.instance.StopCompletedCallback(this.node.getSiblingIndex());
+                                    this.isSpinning = false;
+                                }
+                            }).bind(this))
+                            .start();
+                    }
+
+                    break;
+                }
+                case Direction.Left: {
+                    Tween.stopAllByTag(3);
+                    for (let i = 0; i < this.node.children.length; i++) {
+                        let symbol = this.node.children[i];
+                        symbol.getComponent(CacasdingSymbol).isInstantStop = true;
+                        tween(symbol)
+                            .to(symbol.getComponent(CacasdingSymbol).remainTime / 2, { position: v3(symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0, 0) })
+                            .call((() => {
+                                this.AllSymbolStop();
+                                symbol.getComponent(Symbol).LoadAppearAnimation();
+                                if (this.symbolStopIndex == this.node.children.length) {
+                                    ReelController.instance.StopCompletedCallback(this.node.getSiblingIndex());
+                                    this.isSpinning = false;
+                                }
+                            }).bind(this))
+                            .start();
+                    }
+                    break;
+                }
+                case Direction.Right: {
+                    Tween.stopAllByTag(4);
+                    for (let i = this.node.children.length - 1; i >= 0; i--) {
+                        let symbol = this.node.children[i];
+                        symbol.getComponent(CacasdingSymbol).isInstantStop = true;
+                        tween(symbol)
+                            .to(symbol.getComponent(CacasdingSymbol).remainTime / 2, { position: v3(symbol.getComponent(CacasdingSymbol).symbolStopPosition, 0, 0) })
+                            .call((() => {
+                                this.AllSymbolStop();
+                                symbol.getComponent(Symbol).LoadAppearAnimation();
+                                if (this.symbolStopIndex == this.node.children.length) {
+                                    ReelController.instance.StopCompletedCallback(this.node.getSiblingIndex());
+                                    this.isSpinning = false;
+                                }
+                            }).bind(this))
+                            .start();
+                    }
+                    break;
+                }
+            }
+        }
+    }
+
+    AllSymbolStop() {
+        if (this.symbolStopIndex < this.numberOfSymbols) {
+            this.symbolStopIndex++
+        }
+    }
+}
+
+

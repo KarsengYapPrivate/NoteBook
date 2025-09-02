@@ -1,0 +1,90 @@
+
+SpinButton.png
+size: 464,867
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_02
+  rotate: false
+  xy: 298, 254
+  size: 145, 239
+  orig: 256, 256
+  offset: 60, 11
+  index: -1
+Fx_05-2
+  rotate: true
+  xy: 357, 675
+  size: 190, 68
+  orig: 256, 128
+  offset: 8, 27
+  index: -1
+PLAY
+  rotate: true
+  xy: 357, 594
+  size: 79, 94
+  orig: 81, 96
+  offset: 1, 1
+  index: -1
+STOP
+  rotate: true
+  xy: 357, 514
+  size: 78, 94
+  orig: 80, 96
+  offset: 1, 1
+  index: -1
+back frame
+  rotate: false
+  xy: 2, 537
+  size: 353, 328
+  orig: 355, 331
+  offset: 1, 1
+  index: -1
+front frame
+  rotate: false
+  xy: 2, 241
+  size: 294, 294
+  orig: 296, 296
+  offset: 1, 1
+  index: -1
+fx_light
+  rotate: true
+  xy: 2, 2
+  size: 237, 221
+  orig: 922, 861
+  offset: 343, 320
+  index: -1
+light1
+  rotate: false
+  xy: 427, 728
+  size: 25, 41
+  orig: 29, 44
+  offset: 2, 1
+  index: -1
+light2
+  rotate: false
+  xy: 427, 771
+  size: 35, 45
+  orig: 38, 47
+  offset: 2, 1
+  index: -1
+light3
+  rotate: false
+  xy: 298, 495
+  size: 41, 40
+  orig: 45, 44
+  offset: 2, 2
+  index: -1
+light4
+  rotate: true
+  xy: 427, 818
+  size: 47, 34
+  orig: 50, 38
+  offset: 1, 2
+  index: -1
+vfx_bloom
+  rotate: false
+  xy: 225, 23
+  size: 216, 216
+  orig: 256, 256
+  offset: 20, 20
+  index: -1

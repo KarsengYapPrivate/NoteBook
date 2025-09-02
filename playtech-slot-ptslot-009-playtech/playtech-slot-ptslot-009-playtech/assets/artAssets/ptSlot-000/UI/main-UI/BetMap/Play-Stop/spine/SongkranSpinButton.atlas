@@ -1,0 +1,48 @@
+
+SongkranSpinButton.png
+size: 1215,359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Foam
+  rotate: true
+  xy: 663, 66
+  size: 291, 291
+  orig: 291, 291
+  offset: 0, 0
+  index: -1
+Frame
+  rotate: false
+  xy: 366, 53
+  size: 295, 304
+  orig: 521, 521
+  offset: 113, 110
+  index: -1
+Play
+  rotate: true
+  xy: 933, 15
+  size: 83, 97
+  orig: 91, 105
+  offset: 4, 4
+  index: -1
+SpinEffect
+  rotate: false
+  xy: 2, 2
+  size: 362, 355
+  orig: 377, 371
+  offset: 7, 8
+  index: -1
+Stop
+  rotate: false
+  xy: 1032, 4
+  size: 80, 94
+  orig: 88, 102
+  offset: 4, 4
+  index: -1
+WATER
+  rotate: true
+  xy: 956, 100
+  size: 257, 256
+  orig: 265, 264
+  offset: 4, 4
+  index: -1

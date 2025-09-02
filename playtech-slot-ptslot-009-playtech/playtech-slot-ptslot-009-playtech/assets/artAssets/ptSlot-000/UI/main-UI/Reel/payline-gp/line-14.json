@@ -1,0 +1,109 @@
+{
+"skeleton": {
+	"hash": "JBbFi3oBonbSbUZy203BFxD1Goo=",
+	"spine": "3.8.75",
+	"x": -569,
+	"y": -268.69,
+	"width": 1202.91,
+	"height": 545.31,
+	"images": "./New folder/",
+	"audio": "C:/Users/AliceLeong/Documents/PlayTech/PT-005 Peking Serenade/1_Horizontal/3_Normal Game/h_Payline/payline"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Payline-14", "parent": "root", "y": 234.62 },
+	{ "name": "payline-ctrl", "parent": "Payline-14" },
+	{ "name": "payline", "parent": "payline-ctrl" },
+	{ "name": "mid-main", "parent": "payline" },
+	{ "name": "mid", "parent": "mid-main" },
+	{ "name": "payline-num-main", "parent": "Payline-14" },
+	{ "name": "paynum-frame-left", "parent": "payline-num-main", "x": -589.91 },
+	{ "name": "right-01-main", "parent": "payline", "x": 212.44, "y": -489.81, "scaleX": 1.3986 },
+	{ "name": "right-01", "parent": "right-01-main", "scaleX": 1.3986 },
+	{ "name": "left-01-main", "parent": "payline", "x": -212.44, "y": -489.81, "scaleX": 1.3986 },
+	{ "name": "left-01", "parent": "left-01-main", "scaleX": 1.3986 },
+	{ "name": "left-02-main", "parent": "payline", "x": -406.64 },
+	{ "name": "left-02", "parent": "left-02-main" },
+	{ "name": "left-03", "parent": "payline", "x": -569.01 },
+	{ "name": "right-03", "parent": "payline", "x": 569.01 },
+	{ "name": "right-02-main", "parent": "payline", "x": 406.64 },
+	{ "name": "right-02", "parent": "right-02-main" },
+	{ "name": "paynum-frame-right", "parent": "payline-num-main", "x": 589.91 },
+	{ "name": "left-1", "parent": "left-01-main", "x": -9.09, "y": 0.62 },
+	{ "name": "left-2", "parent": "left-01-main", "x": 16.02, "y": 0.62 },
+	{ "name": "left-3", "parent": "left-02-main", "x": -18.15, "y": 0.05 },
+	{ "name": "left-4", "parent": "left-02-main", "x": 18.15, "y": 0.05 },
+	{ "name": "mid2", "parent": "mid-main", "x": -17.59, "y": 0.33 },
+	{ "name": "mid3", "parent": "mid-main", "x": 17.59, "y": 0.33 },
+	{ "name": "right-1", "parent": "right-01-main", "x": -9.09, "y": 0.54 },
+	{ "name": "right-2", "parent": "right-01-main", "x": 9.09, "y": 0.54 },
+	{ "name": "right-3", "parent": "right-02-main", "x": -16.13, "y": 0.42 },
+	{ "name": "right-4", "parent": "right-02-main", "x": 16.13, "y": 0.42 },
+	{ "name": "number2", "parent": "paynum-frame-right", "y": 3.02 }
+],
+"slots": [
+	{ "name": "payline", "bone": "payline", "attachment": "payline" },
+	{ "name": "frame", "bone": "paynum-frame-left" },
+	{ "name": "frame2", "bone": "paynum-frame-right", "attachment": "frame" },
+	{ "name": "number", "bone": "paynum-frame-left" },
+	{ "name": "number2", "bone": "number2", "attachment": "14" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"number": {
+				"0": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"1": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"2": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"3": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"4": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"5": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"6": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"7": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"8": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"9": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			},
+			"payline": {
+				"payline": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.85057, 1, 0.66667, 1, 0.65632, 1, 0.34509, 1, 0.33333, 1, 0.1468, 1, 0, 1, 0, 0, 0.14845, 0, 0.16667, 0, 0.34684, 0, 0.65674, 0, 0.83333, 0, 0.85118, 0, 1, 0 ],
+					"triangles": [ 1, 14, 0, 1, 13, 14, 3, 12, 2, 3, 11, 12, 6, 9, 10, 9, 6, 8, 4, 11, 3, 4, 5, 11, 14, 15, 0, 2, 13, 1, 2, 12, 13, 6, 7, 8, 5, 6, 10, 5, 10, 11 ],
+					"vertices": [ 1, 15, -0.01, -13.5, 1, 1, 28, 0.4, -13.92, 1, 1, 9, 0.1, -13.5, 1, 1, 25, -0.09, -14.04, 1, 1, 20, -0.06, -14.12, 1, 1, 11, -0.1, -13.5, 1, 1, 21, 0.04, -13.55, 1, 1, 14, 0.01, -13.5, 1, 1, 14, 0.01, 13.5, 1, 1, 21, 0.16, 13.45, 1, 1, 13, 0.57, 13.5, 1, 1, 20, -2.18, 12.88, 1, 1, 25, 0, 12.96, 1, 1, 17, -0.57, 13.5, 1, 1, 28, 0.5, 13.08, 1, 1, 15, -0.01, 13.5, 1 ],
+					"hull": 16,
+					"edges": [ 14, 16, 30, 0, 4, 6, 26, 28, 28, 30, 0, 2, 8, 10, 16, 18, 18, 20, 12, 14, 22, 24, 6, 8, 2, 4, 24, 26, 10, 12, 20, 22 ],
+					"width": 1138,
+					"height": 27
+				}
+			},
+			"frame2": {
+				"frame": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			},
+			"number2": {
+				"0": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"1": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"2": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"3": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"4": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"5": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"6": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"7": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"8": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"9": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 },
+				"10": { "x": 0.5, "width": 73, "height": 64 },
+				"11": { "width": 70, "height": 64 },
+				"12": { "width": 74, "height": 64 },
+				"13": { "x": 0.5, "width": 73, "height": 64 },
+				"14": { "x": 0.5, "width": 75, "height": 64 },
+				"15": { "x": 0.5, "width": 73, "height": 64 }
+			},
+			"frame": {
+				"frame": { "x": 0.5, "y": 0.5, "width": 87, "height": 83 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

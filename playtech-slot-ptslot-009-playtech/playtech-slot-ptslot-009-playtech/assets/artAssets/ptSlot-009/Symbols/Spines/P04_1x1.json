@@ -1,0 +1,874 @@
+{
+"skeleton": {
+	"hash": "pbalOhrKpjrIr2K2OjOryJR3uAE=",
+	"spine": "3.8.75",
+	"x": -89,
+	"y": -72,
+	"width": 179,
+	"height": 162,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Scale_Ctrl", "parent": "root", "color": "0003ffff" },
+	{ "name": "frame_light", "parent": "Scale_Ctrl", "scaleY": 0.25 },
+	{ "name": "frame_inside", "parent": "frame_light" },
+	{ "name": "frame", "parent": "Scale_Ctrl" },
+	{ "name": "frame_up", "parent": "frame", "y": 38.52 },
+	{ "name": "frame_down", "parent": "frame", "y": -39.36 },
+	{ "name": "gun_master", "parent": "root", "x": 19.29, "y": -34.49, "color": "1aff00ff" },
+	{ "name": "rotate", "parent": "gun_master", "color": "1aff00ff" },
+	{
+		"name": "gun_1-1",
+		"parent": "rotate",
+		"length": 56.82,
+		"rotation": -176.71,
+		"x": 42.42,
+		"y": 46.69,
+		"color": "1aff00ff"
+	},
+	{ "name": "gun_1-2", "parent": "gun_1-1", "length": 28.87, "rotation": -4.29, "x": 56.82, "color": "1aff00ff" },
+	{
+		"name": "gun_1-3",
+		"parent": "gun_1-2",
+		"length": 68.77,
+		"rotation": 1,
+		"x": 28.87,
+		"transform": "noScale",
+		"color": "1aff00ff"
+	},
+	{
+		"name": "gun_2",
+		"parent": "gun_1-1",
+		"length": 25.41,
+		"rotation": -126.2,
+		"x": -0.84,
+		"y": -32.13,
+		"color": "1aff00ff"
+	},
+	{ "name": "gun_1-4", "parent": "gun_1-1", "x": 36.52, "y": -51.54, "color": "1aff00ff" },
+	{ "name": "gun_1-5", "parent": "gun_1-3", "x": 40.13, "y": -0.2, "color": "1aff00ff" },
+	{ "name": "gun_1-6", "parent": "gun_1-3", "x": 40.13, "y": -0.2, "color": "1aff00ff" },
+	{ "name": "fire", "parent": "gun_1-3", "x": 40.11, "color": "1aff00ff" },
+	{ "name": "line vfx_1", "parent": "Scale_Ctrl", "transform": "noScale", "color": "ff7100ff" },
+	{ "name": "electricity_set 1", "parent": "line vfx_1", "rotation": 90, "x": -0.75, "y": -123.8, "color": "ef00ffff" },
+	{ "name": "electricity_set 2", "parent": "line vfx_1", "rotation": 90, "x": -0.75, "y": -123.8, "color": "ef00ffff" },
+	{ "name": "line vfx_2", "parent": "Scale_Ctrl", "transform": "noScale", "color": "ff7100ff" },
+	{ "name": "electricity_set 3", "parent": "line vfx_2", "rotation": 90, "x": -0.75, "y": -123.8, "color": "ef00ffff" },
+	{ "name": "electricity_set 4", "parent": "line vfx_2", "rotation": 90, "x": -0.75, "y": -123.8, "color": "ef00ffff" },
+	{ "name": "Vfx_electricity_glow", "parent": "root", "scaleX": 0.4532, "scaleY": 0.4532 }
+],
+"slots": [
+	{ "name": "Layer 0", "bone": "Scale_Ctrl" },
+	{ "name": "frame_1x1", "bone": "Scale_Ctrl", "attachment": "P04_frame_1x1" },
+	{ "name": "frame_light", "bone": "frame_light", "color": "00e6ffff" },
+	{ "name": "frame", "bone": "frame", "attachment": "frame" },
+	{ "name": "clipping", "bone": "Scale_Ctrl", "attachment": "clipping" },
+	{ "name": "gun_back", "bone": "gun_2", "attachment": "gun_back" },
+	{ "name": "gun_body", "bone": "gun_1-1", "attachment": "gun_body" },
+	{ "name": "gun_body_light", "bone": "gun_1-1" },
+	{ "name": "gun_body_light2", "bone": "gun_1-4" },
+	{ "name": "gun_middle", "bone": "gun_1-2", "attachment": "gun_middle" },
+	{ "name": "gun_head", "bone": "gun_1-3", "attachment": "gun_head" },
+	{ "name": "vfx_inner light 1", "bone": "gun_1-3" },
+	{ "name": "vfx_light orbs 2", "bone": "gun_1-3" },
+	{ "name": "vfx_small circle 3", "bone": "gun_1-5" },
+	{ "name": "vfx_small circle 4", "bone": "gun_1-6" },
+	{ "name": "vfx 4", "bone": "fire" },
+	{ "name": "line conection_violet_A", "bone": "electricity_set 1" },
+	{ "name": "line conection_violet_A3", "bone": "electricity_set 3" },
+	{ "name": "line conection_violet_A2", "bone": "electricity_set 2" },
+	{ "name": "line conection_violet_A4", "bone": "electricity_set 4" },
+	{ "name": "line conection_violet_B", "bone": "electricity_set 1" },
+	{ "name": "line conection_violet_B3", "bone": "electricity_set 3" },
+	{ "name": "line conection_violet_B2", "bone": "electricity_set 2" },
+	{ "name": "line conection_violet_B4", "bone": "electricity_set 4" },
+	{ "name": "line conection_violet_C", "bone": "electricity_set 1" },
+	{ "name": "line conection_violet_C3", "bone": "electricity_set 3" },
+	{ "name": "line conection_violet_C2", "bone": "electricity_set 2" },
+	{ "name": "line conection_violet_C4", "bone": "electricity_set 4" },
+	{ "name": "vfx.glowball22", "bone": "Vfx_electricity_glow", "dark": "000000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vfx_small circle 4": {
+				"vfx_small circle 3": { "x": -1.24, "y": -0.33, "rotation": 180, "width": 86, "height": 160 }
+			},
+			"gun_body": {
+				"gun_body": { "x": 24.71, "y": 2.28, "rotation": 176.71, "width": 101, "height": 163 }
+			},
+			"clipping": {
+				"clipping": {
+					"type": "clipping",
+					"end": "vfx 4",
+					"vertexCount": 20,
+					"vertices": [ -78.7, 241.96, -78.65, -38.16, -73.83, -43.05, -73.7, -46.74, -71.81, -48, -70.94, -52.82, -66.08, -53, -65.73, -56.6, -61.89, -56.85, -59.6, -60.51, 60.12, -60.86, 63.45, -56.92, 66.49, -56.69, 66.95, -53.85, 72.03, -52.45, 72.76, -48.22, 74.62, -46.62, 74.74, -43, 79.79, -38.83, 79.96, 241.41 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"line conection_violet_C3": {
+				"line conection_violet_C": {
+					"type": "mesh",
+					"uvs": [ 0.10638, 0.05467, 0.38178, 0.00783, 0.71588, 0.02436, 0.91075, 0.13457, 0.96557, 0.28854, 0.94673, 0.49832, 0.93319, 0.70834, 0.8739, 0.87917, 0.64816, 0.98249, 0.24182, 0.98387, 0.0016, 0.88191, 0, 0.70834, 0, 0.49756, 0, 0.29918, 0.0316, 0.14626 ],
+					"triangles": [ 6, 11, 5, 13, 14, 5, 5, 11, 12, 4, 5, 14, 5, 12, 13, 8, 9, 7, 7, 9, 10, 10, 11, 7, 7, 11, 6, 3, 14, 1, 3, 1, 2, 1, 14, 0, 4, 14, 3 ],
+					"vertices": [ 273.71, 36.5, 289.21, 8.69, 283.74, -25.06, 240.02, -51.29, 191.12, -79.25, 126.86, -52.51, 60.45, -70.81, 0.8, -41.02, -33.4, -18.22, -33.86, 22.82, -0.11, 47.09, 57.34, 41.38, 127.11, 43.11, 194.5, 57.25, 243.39, 44.06 ],
+					"hull": 15,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 0, 28 ],
+					"width": 101,
+					"height": 331
+				}
+			},
+			"frame_light": {
+				"frame_light": {
+					"type": "mesh",
+					"uvs": [ 1, 0.96026, 1, 1, 0.77822, 1, 0.27928, 1, 0, 1, 0, 0.96026, 0, 0.83333, 0, 0.16667, 0, 0.03752, 0, 0, 0.30614, 0, 0.70913, 0, 1, 0, 1, 0.03826, 1, 0.16667, 1, 0.83333, 0.29847, 0.16624, 0.72065, 0.16624, 0.26393, 0.83208, 0.77438, 0.83208, 0.30438, 0.0383, 0.71173, 0.03744, 0.27556, 0.95937, 0.77729, 0.9595 ],
+					"triangles": [ 22, 18, 19, 19, 18, 17, 18, 16, 17, 19, 17, 14, 18, 7, 16, 17, 16, 21, 2, 0, 1, 3, 23, 2, 2, 23, 0, 4, 22, 3, 3, 22, 23, 4, 5, 22, 23, 15, 0, 5, 18, 22, 5, 6, 18, 22, 19, 23, 23, 19, 15, 18, 6, 7, 15, 19, 14, 17, 13, 14, 7, 8, 16, 17, 21, 13, 16, 8, 20, 20, 11, 21, 20, 10, 11, 10, 20, 9, 21, 12, 13, 20, 8, 9, 21, 11, 12, 16, 20, 21 ],
+					"vertices": [ 1, 2, 88.8, -213.47, 1, 1, 2, 90, -272.4, 1, 1, 2, 50.3, -272.4, 1, 1, 2, -39.01, -272.4, 1, 1, 2, -86.04, -272.4, 1, 1, 2, -88.22, -208.48, 1, 1, 2, -89, -184, 1, 1, 2, -89, 184, 1, 1, 2, -88.88, 197.7, 1, 1, 2, -89, 267.43, 1, 1, 2, -34.2, 267.43, 1, 1, 2, 37.93, 267.43, 1, 1, 2, 90, 267.43, 1, 1, 2, 89.51, 200, 1, 1, 2, 90, 184, 1, 1, 2, 89.23, -181.25, 1, 1, 3, -35.57, 184.24, 1, 1, 3, 40, 184.24, 1, 1, 3, -41.76, -183.31, 1, 1, 3, 49.61, -183.31, 1, 1, 2, -34.52, 254.86, 1, 1, 2, 38.4, 255.33, 1, 2, 2, -39.67, -253.57, 0.992, 3, -39.67, -253.57, 0.008, 1, 2, 50.14, -253.64, 1 ],
+					"hull": 16,
+					"edges": [ 18, 20, 32, 36, 20, 22, 22, 24, 34, 38, 2, 4, 4, 6, 6, 8, 12, 36, 36, 38, 38, 30, 14, 32, 32, 34, 34, 28, 12, 14, 28, 30, 14, 16, 16, 18, 20, 40, 40, 32, 16, 40, 22, 42, 42, 34, 40, 42, 24, 26, 26, 28, 42, 26, 8, 10, 10, 12, 6, 44, 44, 36, 10, 44, 4, 46, 46, 38, 44, 46, 2, 0, 0, 30, 46, 0 ],
+					"width": 179,
+					"height": 552
+				}
+			},
+			"gun_back": {
+				"gun_back": { "x": 12.3, "y": -2.12, "rotation": -57.09, "width": 45, "height": 47 }
+			},
+			"gun_body_light": {
+				"gun_body_light": { "x": 38.32, "y": -57.1, "rotation": 176.71, "width": 40, "height": 50 }
+			},
+			"frame_1x1": {
+				"P04_frame_1x1": { "x": 0.5, "y": -0.5, "width": 179, "height": 143 }
+			},
+			"line conection_violet_B": {
+				"line conection_violet_B": {
+					"type": "mesh",
+					"uvs": [ 0.14131, 0.08653, 0.39164, 0.01532, 0.69964, 0.01153, 0.94527, 0.09127, 0.96435, 0.24008, 0.97363, 0.38972, 0.97293, 0.52883, 0.98597, 0.68183, 0.98905, 0.81706, 0.85692, 0.92476, 0.6016, 0.98083, 0.26134, 0.98203, 0.02137, 0.88966, 0, 0.79492, 0.02022, 0.64907, 0.03849, 0.5169, 0.06324, 0.37546, 0.09207, 0.24137 ],
+					"triangles": [ 7, 14, 6, 6, 14, 15, 6, 15, 5, 5, 15, 16, 5, 16, 17, 5, 17, 4, 11, 12, 10, 10, 12, 9, 8, 9, 13, 9, 12, 13, 7, 13, 14, 7, 8, 13, 4, 0, 3, 4, 17, 0, 0, 1, 3, 1, 2, 3 ],
+					"vertices": [ 258.68, 40.69, 281.82, 14.91, 283.06, -16.82, 257.14, -42.12, 208.78, -44.08, 137.32, -38.94, 101.62, -55.74, 65.21, -46.31, 21.26, -46.62, -13.74, -33.02, -31.97, -6.72, -32.35, 28.33, -2.34, 53.05, 28.46, 55.25, 75.86, 53.16, 126.68, 72.61, 160.66, 55.78, 208.36, 45.76 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 0, 34 ],
+					"width": 103,
+					"height": 325
+				}
+			},
+			"line conection_violet_C4": {
+				"line conection_violet_C": {
+					"type": "mesh",
+					"uvs": [ 0.10638, 0.05467, 0.38178, 0.00783, 0.71588, 0.02436, 0.91075, 0.13457, 0.96557, 0.28854, 0.94673, 0.49832, 0.93319, 0.70834, 0.8739, 0.87917, 0.64816, 0.98249, 0.24182, 0.98387, 0.0016, 0.88191, 0, 0.70834, 0, 0.49756, 0, 0.29918, 0.0316, 0.14626 ],
+					"triangles": [ 3, 1, 2, 8, 9, 7, 7, 9, 10, 10, 11, 7, 7, 11, 6, 3, 14, 1, 1, 14, 0, 4, 14, 3, 6, 11, 5, 13, 14, 5, 5, 11, 12, 4, 5, 14, 5, 12, 13 ],
+					"vertices": [ -19.31, 36.5, -34.82, 8.69, -29.35, -25.06, 7.13, -44.74, 59.58, -79.95, 133.58, -40.21, 197.39, -48.35, 253.59, -41.02, 287.79, -18.22, 288.25, 22.82, 254.5, 47.09, 197.05, 47.25, 127.28, 47.25, 58.59, 40.19, 13.69, 39.69 ],
+					"hull": 15,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 0, 28 ],
+					"width": 101,
+					"height": 331
+				}
+			},
+			"line conection_violet_A3": {
+				"line conection_violet_A": {
+					"type": "mesh",
+					"uvs": [ 0.23441, 0.03935, 0.50578, 0, 0.79642, 0.03238, 0.94543, 0.14288, 0.9508, 0.2912, 0.94252, 0.43601, 0.92577, 0.60263, 0.92881, 0.73974, 0.95768, 0.86485, 0.78208, 0.97244, 0.50507, 0.98809, 0.22638, 0.96603, 0.07173, 0.88303, 0.02101, 0.75855, 0.01884, 0.60439, 0.0247, 0.42911, 0.02872, 0.28447, 0.10223, 0.13783 ],
+					"triangles": [ 7, 14, 6, 14, 15, 6, 6, 15, 5, 5, 15, 4, 4, 15, 16, 9, 10, 8, 12, 8, 10, 10, 11, 12, 12, 7, 8, 12, 13, 7, 7, 13, 14, 4, 17, 3, 17, 4, 16, 17, 0, 3, 3, 1, 2, 3, 0, 1 ],
+					"vertices": [ 272.25, 30.17, 284.8, 1.13, 274.47, -29.97, 239.22, -45.91, 168.45, -70.9, 145.72, -49.41, 110.95, -27.96, 48.83, -44.14, 8.92, -47.22, -25.4, -28.44, -30.4, 1.2, -23.36, 31.02, 3.12, 47.57, 50.44, 78.68, 104.37, 51.01, 146.97, 30.73, 185.81, 48.69, 231.96, 37.97 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 0, 34, 32, 34, 10, 12 ],
+					"width": 117,
+					"height": 329
+				}
+			},
+			"line conection_violet_A2": {
+				"line conection_violet_A": {
+					"type": "mesh",
+					"uvs": [ 0.23441, 0.03935, 0.50578, 0, 0.79642, 0.03238, 0.94543, 0.14288, 0.9508, 0.2912, 0.94252, 0.43601, 0.92577, 0.60263, 0.92881, 0.73974, 0.95768, 0.86485, 0.78208, 0.97244, 0.50507, 0.98809, 0.22638, 0.96603, 0.07173, 0.88303, 0.02101, 0.75855, 0.01884, 0.60439, 0.0247, 0.42911, 0.02872, 0.28447, 0.10223, 0.13783 ],
+					"triangles": [ 9, 10, 8, 12, 8, 10, 10, 11, 12, 12, 7, 8, 12, 13, 7, 7, 13, 14, 4, 17, 3, 17, 4, 16, 17, 0, 3, 3, 1, 2, 3, 0, 1, 7, 14, 6, 14, 15, 6, 6, 15, 5, 5, 15, 4, 4, 15, 16 ],
+					"vertices": [ -23.9, -26.11, -36.45, 2.93, -26.12, 34.02, 12.61, 61.1, 74.88, 23.05, 111.92, 66.53, 140.13, 47.86, 194.29, 50.87, 239.44, 51.28, 273.75, 32.49, 278.75, 2.85, 271.71, -26.97, 245.23, -43.52, 207.43, -62.58, 134.46, -33.57, 108.79, -48.55, 54.29, -48.12, 7.51, -40.25 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 0, 34, 32, 34, 10, 12 ],
+					"width": 117,
+					"height": 329
+				}
+			},
+			"line conection_violet_A": {
+				"line conection_violet_A": {
+					"type": "mesh",
+					"uvs": [ 0.23441, 0.03935, 0.50578, 0, 0.79642, 0.03238, 0.94543, 0.14288, 0.9508, 0.2912, 0.94252, 0.43601, 0.92577, 0.60263, 0.92881, 0.73974, 0.95768, 0.86485, 0.78208, 0.97244, 0.50507, 0.98809, 0.22638, 0.96603, 0.07173, 0.88303, 0.02101, 0.75855, 0.01884, 0.60439, 0.0247, 0.42911, 0.02872, 0.28447, 0.10223, 0.13783 ],
+					"triangles": [ 7, 14, 6, 14, 15, 6, 6, 15, 5, 5, 15, 4, 4, 15, 16, 9, 10, 8, 12, 8, 10, 10, 11, 12, 12, 7, 8, 12, 13, 7, 7, 13, 14, 4, 17, 3, 17, 4, 16, 17, 0, 3, 3, 1, 2, 3, 0, 1 ],
+					"vertices": [ 272.25, 30.17, 284.8, 1.13, 274.47, -29.97, 239.22, -45.91, 168.45, -70.9, 145.72, -49.41, 110.95, -27.96, 48.83, -44.14, 8.92, -47.22, -25.4, -28.44, -30.4, 1.2, -23.36, 31.02, 3.12, 47.57, 50.44, 78.68, 104.37, 51.01, 146.97, 30.73, 185.82, 48.69, 231.96, 37.97 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 0, 34, 32, 34, 10, 12 ],
+					"width": 117,
+					"height": 329
+				}
+			},
+			"line conection_violet_C2": {
+				"line conection_violet_C": {
+					"type": "mesh",
+					"uvs": [ 0.10638, 0.05467, 0.38178, 0.00783, 0.71588, 0.02436, 0.91075, 0.13457, 0.96557, 0.28854, 0.94673, 0.49832, 0.93319, 0.70834, 0.8739, 0.87917, 0.64816, 0.98249, 0.24182, 0.98387, 0.0016, 0.88191, 0, 0.70834, 0, 0.49756, 0, 0.29918, 0.0316, 0.14626 ],
+					"triangles": [ 3, 1, 2, 8, 9, 7, 7, 9, 10, 10, 11, 7, 7, 11, 6, 3, 14, 1, 1, 14, 0, 4, 14, 3, 6, 11, 5, 13, 14, 5, 5, 11, 12, 4, 5, 14, 5, 12, 13 ],
+					"vertices": [ -19.31, 36.5, -34.82, 8.69, -29.35, -25.06, 7.13, -44.74, 59.58, -79.95, 133.58, -40.21, 197.39, -48.35, 253.59, -41.02, 287.79, -18.22, 288.25, 22.82, 254.5, 47.09, 197.05, 47.25, 127.28, 47.25, 58.59, 40.19, 13.69, 39.69 ],
+					"hull": 15,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 0, 28 ],
+					"width": 101,
+					"height": 331
+				}
+			},
+			"vfx 4": {
+				"vfx 4": { "x": 48.78, "y": -3.52, "rotation": 180, "width": 120, "height": 42 }
+			},
+			"vfx_inner light 1": {
+				"vfx_inner light 1": { "x": 41.39, "y": -0.52, "rotation": 180, "width": 47, "height": 80 }
+			},
+			"vfx_light orbs 2": {
+				"vfx_light orbs 2": { "x": 38.89, "y": -3.02, "rotation": 180, "width": 94, "height": 105 }
+			},
+			"frame": {
+				"frame": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.5, 1, 0, 1, 0, 0.875, 0, 0.125, 0, 0, 1, 0, 1, 0.125, 1, 0.875 ],
+					"triangles": [ 4, 5, 6, 4, 6, 7, 3, 4, 7, 3, 7, 8, 1, 2, 3, 1, 8, 0, 8, 1, 3 ],
+					"vertices": [ 1, 6, 90, -32.62, 1, 1, 6, 0.5, -32.62, 1, 1, 6, -89, -32.62, 1, 1, 6, -89, 36.38, 1, 1, 5, -89, -36.38, 1, 1, 5, -89, 32.62, 1, 1, 5, 90, 32.62, 1, 1, 5, 90, -36.38, 1, 1, 6, 90, 36.38, 1 ],
+					"hull": 9,
+					"edges": [ 0, 2, 2, 4, 4, 6, 8, 10, 12, 14, 16, 0, 10, 12, 6, 8, 14, 16, 6, 16, 8, 14 ],
+					"width": 179,
+					"height": 552
+				}
+			},
+			"vfx.glowball22": {
+				"vfx.glowball": { "scaleX": 0.7, "scaleY": 0.7, "width": 50, "height": 48 }
+			},
+			"vfx_small circle 3": {
+				"vfx_small circle 3": { "x": -1.24, "y": -0.33, "rotation": 180, "width": 86, "height": 160 }
+			},
+			"gun_middle": {
+				"gun_middle": { "x": 19.31, "y": 0.26, "rotation": -179, "width": 66, "height": 58 }
+			},
+			"gun_body_light2": {
+				"gun_body_light2": { "x": 1.81, "y": -5.56, "rotation": 176.71, "width": 97, "height": 102 }
+			},
+			"line conection_violet_C": {
+				"line conection_violet_C": {
+					"type": "mesh",
+					"uvs": [ 0.10638, 0.05467, 0.38178, 0.00783, 0.71588, 0.02436, 0.91075, 0.13457, 0.96557, 0.28854, 0.94673, 0.49832, 0.93319, 0.70834, 0.8739, 0.87917, 0.64816, 0.98249, 0.24182, 0.98387, 0.0016, 0.88191, 0, 0.70834, 0, 0.49756, 0, 0.29918, 0.0316, 0.14626 ],
+					"triangles": [ 6, 11, 5, 13, 14, 5, 5, 11, 12, 4, 5, 14, 5, 12, 13, 8, 9, 7, 7, 9, 10, 10, 11, 7, 7, 11, 6, 3, 14, 1, 3, 1, 2, 1, 14, 0, 4, 14, 3 ],
+					"vertices": [ 273.71, 36.5, 289.21, 8.69, 283.74, -25.06, 240.02, -51.29, 191.12, -79.25, 126.86, -52.51, 60.45, -70.81, 0.8, -41.02, -33.4, -18.22, -33.86, 22.82, -0.11, 47.09, 57.34, 41.38, 127.11, 43.11, 194.5, 57.25, 243.39, 44.06 ],
+					"hull": 15,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 0, 28 ],
+					"width": 101,
+					"height": 331
+				}
+			},
+			"line conection_violet_A4": {
+				"line conection_violet_A": {
+					"type": "mesh",
+					"uvs": [ 0.23441, 0.03935, 0.50578, 0, 0.79642, 0.03238, 0.94543, 0.14288, 0.9508, 0.2912, 0.94252, 0.43601, 0.92577, 0.60263, 0.92881, 0.73974, 0.95768, 0.86485, 0.78208, 0.97244, 0.50507, 0.98809, 0.22638, 0.96603, 0.07173, 0.88303, 0.02101, 0.75855, 0.01884, 0.60439, 0.0247, 0.42911, 0.02872, 0.28447, 0.10223, 0.13783 ],
+					"triangles": [ 9, 10, 8, 12, 8, 10, 10, 11, 12, 12, 7, 8, 12, 13, 7, 7, 13, 14, 4, 17, 3, 17, 4, 16, 17, 0, 3, 3, 1, 2, 3, 0, 1, 7, 14, 6, 14, 15, 6, 6, 15, 5, 5, 15, 4, 4, 15, 16 ],
+					"vertices": [ -23.9, -26.11, -36.45, 2.93, -26.12, 34.02, 12.61, 61.1, 74.88, 23.05, 111.92, 66.53, 140.13, 47.86, 194.29, 50.87, 239.44, 51.28, 273.75, 32.49, 278.75, 2.85, 271.71, -26.97, 245.23, -43.52, 207.43, -62.58, 134.46, -33.57, 108.79, -48.55, 54.29, -48.12, 7.51, -40.25 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 0, 34, 32, 34, 10, 12 ],
+					"width": 117,
+					"height": 329
+				}
+			},
+			"line conection_violet_B2": {
+				"line conection_violet_B": {
+					"type": "mesh",
+					"uvs": [ 0.14131, 0.08653, 0.39164, 0.01532, 0.69964, 0.01153, 0.94527, 0.09127, 0.96435, 0.24008, 0.97363, 0.38972, 0.97293, 0.52883, 0.98597, 0.68183, 0.98905, 0.81706, 0.85692, 0.92476, 0.6016, 0.98083, 0.26134, 0.98203, 0.02137, 0.88966, 0, 0.79492, 0.02022, 0.64907, 0.03849, 0.5169, 0.06324, 0.37546, 0.09207, 0.24137 ],
+					"triangles": [ 11, 12, 10, 10, 12, 9, 8, 9, 13, 9, 12, 13, 7, 13, 14, 7, 8, 13, 4, 0, 3, 4, 17, 0, 0, 1, 3, 1, 2, 3, 7, 14, 6, 6, 14, 15, 6, 15, 5, 5, 15, 16, 5, 16, 17, 5, 17, 4 ],
+					"vertices": [ -3.96, 33.13, -38.62, 14.91, -39.86, -16.82, -7.1, -42.12, 45.94, -42.28, 80.54, -55.48, 119.99, -57.56, 162.87, -38.75, 212.25, -81.35, 256.94, -33.02, 275.17, -6.72, 275.56, 28.33, 245.54, 53.05, 214.75, 55.25, 167.7, 58.2, 88.51, 64.7, 65.82, 36.13, 35.92, 69.88 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 0, 34 ],
+					"width": 103,
+					"height": 325
+				}
+			},
+			"line conection_violet_B3": {
+				"line conection_violet_B": {
+					"type": "mesh",
+					"uvs": [ 0.14131, 0.08653, 0.39164, 0.01532, 0.69964, 0.01153, 0.94527, 0.09127, 0.96435, 0.24008, 0.97363, 0.38972, 0.97293, 0.52883, 0.98597, 0.68183, 0.98905, 0.81706, 0.85692, 0.92476, 0.6016, 0.98083, 0.26134, 0.98203, 0.02137, 0.88966, 0, 0.79492, 0.02022, 0.64907, 0.03849, 0.5169, 0.06324, 0.37546, 0.09207, 0.24137 ],
+					"triangles": [ 7, 14, 6, 6, 14, 15, 6, 15, 5, 5, 15, 16, 5, 16, 17, 5, 17, 4, 11, 12, 10, 10, 12, 9, 8, 9, 13, 9, 12, 13, 7, 13, 14, 7, 8, 13, 4, 0, 3, 4, 17, 0, 0, 1, 3, 1, 2, 3 ],
+					"vertices": [ 258.68, 40.69, 281.82, 14.91, 283.06, -16.82, 257.14, -42.12, 208.78, -44.08, 137.32, -38.94, 101.62, -55.74, 65.21, -46.31, 21.26, -46.62, -13.74, -33.01, -31.97, -6.72, -32.35, 28.33, -2.34, 53.05, 28.46, 55.25, 75.86, 53.16, 126.68, 72.61, 160.66, 55.78, 208.36, 45.76 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 0, 34 ],
+					"width": 103,
+					"height": 325
+				}
+			},
+			"line conection_violet_B4": {
+				"line conection_violet_B": {
+					"type": "mesh",
+					"uvs": [ 0.14131, 0.08653, 0.39164, 0.01532, 0.69964, 0.01153, 0.94527, 0.09127, 0.96435, 0.24008, 0.97363, 0.38972, 0.97293, 0.52883, 0.98597, 0.68183, 0.98905, 0.81706, 0.85692, 0.92476, 0.6016, 0.98083, 0.26134, 0.98203, 0.02137, 0.88966, 0, 0.79492, 0.02022, 0.64907, 0.03849, 0.5169, 0.06324, 0.37546, 0.09207, 0.24137 ],
+					"triangles": [ 11, 12, 10, 10, 12, 9, 8, 9, 13, 9, 12, 13, 7, 13, 14, 7, 8, 13, 4, 0, 3, 4, 17, 0, 0, 1, 3, 1, 2, 3, 7, 14, 6, 6, 14, 15, 6, 15, 5, 5, 15, 16, 5, 16, 17, 5, 17, 4 ],
+					"vertices": [ -3.96, 33.13, -38.62, 14.91, -39.86, -16.82, -7.1, -42.12, 45.94, -42.28, 80.54, -55.48, 119.99, -57.56, 162.87, -38.75, 212.25, -81.35, 256.94, -33.02, 275.17, -6.72, 275.56, 28.33, 245.54, 53.05, 214.75, 55.25, 167.7, 58.2, 88.51, 64.7, 65.82, 36.13, 35.92, 69.88 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 0, 34 ],
+					"width": 103,
+					"height": 325
+				}
+			},
+			"gun_head": {
+				"gun_head": { "x": 28.45, "y": -2.07, "rotation": 180, "width": 96, "height": 115 }
+			}
+		}
+	}
+],
+"animations": {
+	"P04": {
+		"slots": {
+			"vfx_small circle 4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "vfx_small circle 3" }
+				]
+			},
+			"frame_light": {
+				"color": [
+					{ "color": "00e6ff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "00e6ff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "00e6ffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "00e6ff00" }
+				],
+				"attachment": [
+					{ "name": "frame_light" }
+				]
+			},
+			"line conection_violet_B": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.2667, "name": "line conection_violet_B" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"vfx 4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "vfx 4" }
+				]
+			},
+			"frame": {
+				"color": [
+					{ "time": 0.6667, "color": "00e6ff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "00e6ffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "00e6ff00" }
+				]
+			},
+			"gun_body_light2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff6b" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff6b" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff6b" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "gun_body_light2" }
+				]
+			},
+			"vfx.glowball22": {
+				"twoColor": [
+					{ "light": "ffd1f9ff", "dark": "000000", "curve": "stepped" },
+					{ "time": 2.3667, "light": "ffd1f9ff", "dark": "000000", "curve": "stepped" },
+					{ "time": 2.4333, "light": "ffd1f9ff", "dark": "000000" },
+					{ "time": 2.5, "light": "ffffff00", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.3667, "name": "vfx.glowball" }
+				]
+			},
+			"line conection_violet_A": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": "line conection_violet_A" },
+					{ "time": 2.2667, "name": null }
+				]
+			},
+			"line conection_violet_B2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1, "name": "line conection_violet_B" },
+					{ "time": 2.1667, "name": null }
+				]
+			},
+			"vfx_light orbs 2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff63" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff66" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "vfx_light orbs 2" }
+				]
+			},
+			"line conection_violet_A3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.2, "name": "line conection_violet_A" },
+					{ "time": 2.2667, "name": null }
+				]
+			},
+			"line conection_violet_C": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line conection_violet_C" },
+					{ "time": 2, "name": "line conection_violet_C" },
+					{ "time": 2.0667, "name": null },
+					{ "time": 2.3, "name": "line conection_violet_C" },
+					{ "time": 2.3667, "name": null }
+				]
+			},
+			"line conection_violet_C4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1667, "name": "line conection_violet_C" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"frame_1x1": {
+				"color": [
+					{ "time": 2.3, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				]
+			},
+			"line conection_violet_B3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.2667, "name": "line conection_violet_B" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"line conection_violet_C2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1667, "name": "line conection_violet_C" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"vfx_inner light 1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff63" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff66" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "vfx_inner light 1" }
+				]
+			},
+			"gun_body_light": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff6b" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff6b" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff6b" },
+					{ "time": 0.9, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "gun_body_light" }
+				]
+			},
+			"line conection_violet_C3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "line conection_violet_C" },
+					{ "time": 2, "name": "line conection_violet_C" },
+					{ "time": 2.0667, "name": null },
+					{ "time": 2.3, "name": "line conection_violet_C" },
+					{ "time": 2.3667, "name": null }
+				]
+			},
+			"vfx_small circle 3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "vfx_small circle 3" }
+				]
+			},
+			"line conection_violet_A2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.0667, "name": "line conection_violet_A" },
+					{ "time": 2.1, "name": null },
+					{ "time": 2.3667, "name": "line conection_violet_A" }
+				]
+			},
+			"line conection_violet_B4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.1, "name": "line conection_violet_B" },
+					{ "time": 2.1667, "name": null }
+				]
+			},
+			"line conection_violet_A4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.0667, "name": "line conection_violet_A" },
+					{ "time": 2.1, "name": null },
+					{ "time": 2.3667, "name": "line conection_violet_A" }
+				]
+			}
+		},
+		"bones": {
+			"frame_inside": {
+				"scale": [
+					{ "time": 1 },
+					{ "time": 1.3333, "x": 0.2, "y": 0.646 },
+					{ "time": 1.6667 }
+				]
+			},
+			"gun_1-4": {
+				"scale": [
+					{ "time": 0.3333, "x": 1.5, "y": 1.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "curve": 0.25, "c3": 0, "c4": 0.99 },
+					{ "time": 1.6667, "x": 2, "y": 2 }
+				]
+			},
+			"gun_master": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "y": 18.37, "curve": 0.25, "c3": 0, "c4": 0.97 },
+					{ "time": 0.8333, "x": -16.1, "y": -11.69, "curve": 0, "c3": 0 },
+					{ "time": 1.5, "x": 31.06, "y": -33.37, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "curve": 0.109, "c2": 0.37, "c3": 0.352, "c4": 0.94 },
+					{ "time": 2.1667, "y": 43.6, "curve": 0.764, "c2": 0.07, "c3": 0.915, "c4": 0.83 },
+					{ "time": 2.3667, "y": -123.2 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 1.11, "y": 1.11, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 0.95, "y": 0.95, "curve": 0, "c3": 0 },
+					{ "time": 1.5, "x": 1.1, "y": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"rotate": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "angle": -6, "curve": 0.25, "c3": 0 },
+					{ "time": 0.8333, "angle": 8.4, "curve": 0, "c3": 0 },
+					{ "time": 1.5, "angle": -22.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"gun_1-2": {
+				"translate": [
+					{ "time": 0.8333, "curve": 0, "c2": 1, "c3": 0 },
+					{ "time": 1.5, "x": 6.03, "y": -0.45, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.1667 },
+					{ "time": 0.8333, "x": 0.259, "curve": 0, "c2": 1, "c3": 0 },
+					{ "time": 1.5, "x": 1.566, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"gun_1-3": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 1.11, "y": 1.11, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 0.95, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "curve": 0.25, "c3": 0.75 },
+					{
+						"time": 0.8333,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": 0,
+						"c2": 0.33,
+						"c3": 0,
+						"c4": 0.98
+					},
+					{ "time": 1.5 }
+				]
+			},
+			"gun_1-5": {
+				"scale": [
+					{ "time": 0.8333, "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0 },
+					{ "time": 1.5, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"gun_1-6": {
+				"scale": [
+					{ "time": 1.1667, "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0 },
+					{ "time": 1.8333, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"fire": {
+				"scale": [
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 1.0667 },
+					{ "time": 1.1, "y": -1, "curve": "stepped" },
+					{ "time": 1.1667, "y": -1 },
+					{ "time": 1.2, "curve": "stepped" },
+					{ "time": 1.2667 },
+					{ "time": 1.3, "y": -1, "curve": "stepped" },
+					{ "time": 1.3667, "y": -1 },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 1.4667 },
+					{ "time": 1.5, "y": -1, "curve": "stepped" },
+					{ "time": 1.5667, "y": -1 },
+					{ "time": 1.6, "curve": "stepped" },
+					{ "time": 1.6667 },
+					{ "time": 1.7, "y": -1, "curve": "stepped" },
+					{ "time": 1.7667, "y": -1 },
+					{ "time": 1.8 }
+				]
+			},
+			"Scale_Ctrl": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 2.2, "y": 1.421, "curve": 0.528, "c2": 0.01, "c3": 0.921, "c4": 0.7 },
+					{ "time": 2.3667, "y": 0.001 }
+				]
+			},
+			"line vfx_2": {
+				"rotate": [
+					{ "angle": -90, "curve": "stepped" },
+					{ "time": 2, "angle": -90 }
+				],
+				"translate": [
+					{ "y": -60.41, "curve": "stepped" },
+					{ "time": 2, "y": -60.41 }
+				],
+				"scale": [
+					{ "x": 0.716, "y": 0.716, "curve": "stepped" },
+					{ "time": 2, "x": 0.716, "y": 0.716 }
+				]
+			},
+			"line vfx_1": {
+				"rotate": [
+					{ "angle": 90, "curve": "stepped" },
+					{ "time": 2, "angle": 90 }
+				],
+				"translate": [
+					{ "y": 60.04, "curve": "stepped" },
+					{ "time": 2, "y": 60.04 }
+				],
+				"scale": [
+					{ "x": 0.716, "y": 0.716, "curve": "stepped" },
+					{ "time": 2, "x": 0.716, "y": 0.716 }
+				]
+			},
+			"Vfx_electricity_glow": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{ "x": 21.316, "y": 1.381, "curve": "stepped" },
+					{ "time": 2.3667, "x": 21.316, "y": 1.381 },
+					{ "time": 2.5, "x": 31.463, "y": 0.808 }
+				]
+			}
+		}
+	},
+	"P04_appear": {
+		"bones": {
+			"gun_master": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0 },
+					{ "time": 0.3333, "y": -25.79, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"rotate": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.1667, "angle": 3.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": -3.6, "curve": 0.25 },
+					{ "time": 0.6667 }
+				]
+			},
+			"gun_1-2": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.1667, "angle": -3.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": 3.53, "curve": 0.25 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.78, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"gun_2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -14, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"P04_idle": {
+		"bones": {
+			"gun_master": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": -5.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"rotate": {
+				"rotate": [
+					{ "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.5, "angle": 3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "angle": -3, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 2 }
+				]
+			},
+			"gun_1-2": {
+				"rotate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.5, "angle": -3.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "angle": 3.53, "curve": 0.25 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0.78, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"gun_2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -14, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

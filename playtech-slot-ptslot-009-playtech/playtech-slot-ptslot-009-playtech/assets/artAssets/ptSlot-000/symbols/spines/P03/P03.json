@@ -1,0 +1,148 @@
+{
+"skeleton": {
+	"hash": "ZxLopagtwbkgh8R/KqfTu067pOs=",
+	"spine": "3.8.75",
+	"x": -58,
+	"y": -65,
+	"width": 116,
+	"height": 92,
+	"images": "./resources/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "symbol-main", "parent": "main" },
+	{ "name": "state-text", "parent": "main", "y": -50 },
+	{ "name": "timer-clock", "parent": "main" }
+],
+"slots": [
+	{ "name": "animation-timer", "bone": "timer-clock" },
+	{ "name": "symbol-main", "bone": "symbol-main", "attachment": "P03" },
+	{ "name": "state-text", "bone": "state-text", "attachment": "NONE" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"symbol-main": {
+				"P03": { "width": 116, "height": 54 }
+			},
+			"state-text": {
+				"APPEAR": { "width": 146, "height": 31 },
+				"HIT": { "y": 0.5, "width": 60, "height": 31 },
+				"HIT LOOP": { "y": 0.5, "width": 170, "height": 31 },
+				"IDLE": { "x": 0.5, "y": 0.5, "width": 79, "height": 31 },
+				"NONE": { "y": 0.5, "width": 106, "height": 31 }
+			},
+			"animation-timer": {
+				"animation-timer": { "y": 30, "width": 5, "height": 60 }
+			}
+		}
+	}
+],
+"animations": {
+	"P03": {
+		"slots": {
+			"state-text": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"animation-timer": {
+				"attachment": [
+					{ "name": "animation-timer" }
+				]
+			},
+			"symbol-main": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ff0000ff" },
+					{ "time": 0.6667, "color": "0095ffff" },
+					{ "time": 1, "color": "ff0000ff" },
+					{ "time": 1.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"timer-clock": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"P03_appear": {
+		"slots": {
+			"state-text": {
+				"attachment": [
+					{ "name": "APPEAR" }
+				]
+			},
+			"animation-timer": {
+				"attachment": [
+					{ "name": "animation-timer" }
+				]
+			}
+		},
+		"bones": {
+			"symbol-main": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "y": -10, "curve": 0.245, "c3": 0.637, "c4": 0.56 },
+					{ "time": 0.2333, "y": 3.81, "curve": 0.381, "c2": 0.55, "c3": 0.742 },
+					{ "time": 0.3333 }
+				]
+			},
+			"state-text": {
+				"translate": [
+					{},
+					{ "time": 0.1, "y": -5.71 },
+					{ "time": 0.2333, "y": 2.63 },
+					{ "time": 0.3333 }
+				]
+			},
+			"timer-clock": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 180 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"P03_idle": {
+		"slots": {
+			"state-text": {
+				"attachment": [
+					{ "name": "IDLE" }
+				]
+			},
+			"animation-timer": {
+				"attachment": [
+					{ "name": "animation-timer" }
+				]
+			}
+		},
+		"bones": {
+			"symbol-main": {
+				"translate": [
+					{ "curve": 0, "c3": 0.75 },
+					{ "time": 0.3333, "y": -3.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 3.96, "curve": 0.25 },
+					{ "time": 1.3333 }
+				]
+			},
+			"timer-clock": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	}
+}
+}

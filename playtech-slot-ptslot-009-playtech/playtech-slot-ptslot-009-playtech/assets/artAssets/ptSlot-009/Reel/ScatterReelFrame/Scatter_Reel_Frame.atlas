@@ -1,0 +1,34 @@
+
+Scatter_Reel_Frame.png
+size: 1298,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flowing dot_1
+  rotate: false
+  xy: 805, 32
+  size: 13, 61
+  orig: 23, 79
+  offset: 5, 14
+  index: -1
+flwo lline vfx_1
+  rotate: true
+  xy: 805, 95
+  size: 205, 355
+  orig: 230, 395
+  offset: 19, 31
+  index: -1
+glowing frame
+  rotate: true
+  xy: 2, 2
+  size: 298, 801
+  orig: 316, 821
+  offset: 9, 10
+  index: -1
+top light
+  rotate: true
+  xy: 1162, 5
+  size: 295, 134
+  orig: 311, 149
+  offset: 8, 8
+  index: -1

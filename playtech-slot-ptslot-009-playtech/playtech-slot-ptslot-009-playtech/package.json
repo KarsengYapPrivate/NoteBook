@@ -1,0 +1,10 @@
+{
+  "name": "playtech-slot_1",
+  "uuid": "a16a82c0-984a-4887-92db-4a8e4d1fff4e",
+  "creator": {
+    "version": "3.8.1"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.0"
+  }
+}

@@ -1,0 +1,90 @@
+
+Progress_Bar_Green.png
+size: 418,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+progress_green
+  rotate: true
+  xy: 2, 29
+  size: 15, 55
+  orig: 19, 59
+  offset: 2, 2
+  index: -1
+progress_green_glow
+  rotate: true
+  xy: 233, 9
+  size: 56, 93
+  orig: 69, 105
+  offset: 6, 6
+  index: -1
+progress_orange
+  rotate: true
+  xy: 2, 12
+  size: 15, 55
+  orig: 19, 59
+  offset: 2, 2
+  index: -1
+progress_orange_glow
+  rotate: false
+  xy: 244, 83
+  size: 56, 93
+  orig: 69, 105
+  offset: 6, 6
+  index: -1
+progress_red
+  rotate: true
+  xy: 59, 29
+  size: 15, 55
+  orig: 19, 59
+  offset: 2, 2
+  index: -1
+progress_red_glow
+  rotate: false
+  xy: 302, 83
+  size: 56, 93
+  orig: 69, 105
+  offset: 6, 6
+  index: -1
+progress_yellow
+  rotate: true
+  xy: 59, 12
+  size: 15, 55
+  orig: 19, 59
+  offset: 2, 2
+  index: -1
+progress_yellow_glow
+  rotate: false
+  xy: 360, 83
+  size: 56, 93
+  orig: 69, 105
+  offset: 6, 6
+  index: -1
+vfx_glow
+  rotate: true
+  xy: 2, 46
+  size: 130, 129
+  orig: 143, 143
+  offset: 6, 7
+  index: -1
+vfx_glowring_1
+  rotate: false
+  xy: 133, 67
+  size: 109, 109
+  orig: 115, 115
+  offset: 3, 4
+  index: -1
+vfx_glowring_2
+  rotate: false
+  xy: 328, 4
+  size: 77, 77
+  orig: 83, 83
+  offset: 3, 4
+  index: -1
+vfx_sparkles
+  rotate: true
+  xy: 133, 2
+  size: 63, 98
+  orig: 67, 102
+  offset: 2, 2
+  index: -1

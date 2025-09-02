@@ -1,0 +1,139 @@
+
+Title.png
+size: 1622,1003
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Antenna 1
+  rotate: false
+  xy: 1334, 518
+  size: 182, 195
+  orig: 189, 214
+  offset: 2, 3
+  index: -1
+Bulb buttom
+  rotate: false
+  xy: 1232, 424
+  size: 108, 66
+  orig: 139, 153
+  offset: 2, 3
+  index: -1
+Bulb cover
+  rotate: false
+  xy: 1107, 235
+  size: 134, 146
+  orig: 142, 176
+  offset: 3, 27
+  index: -1
+Bulb wick
+  rotate: false
+  xy: 1291, 70
+  size: 56, 54
+  orig: 100, 109
+  offset: 35, 48
+  index: -1
+Bulb_glow_B
+  rotate: false
+  xy: 1334, 715
+  size: 286, 286
+  orig: 308, 308
+  offset: 11, 11
+  index: -1
+Colonies
+  rotate: false
+  xy: 2, 192
+  size: 1103, 193
+  orig: 1107, 197
+  offset: 2, 2
+  index: -1
+Frame
+  rotate: false
+  xy: 2, 387
+  size: 1119, 614
+  orig: 1216, 698
+  offset: 88, 2
+  index: -1
+Frame 2
+  rotate: true
+  xy: 1123, 383
+  size: 618, 107
+  orig: 623, 112
+  offset: 2, 2
+  index: -1
+Galactic
+  rotate: false
+  xy: 2, 10
+  size: 1097, 180
+  orig: 1101, 184
+  offset: 2, 2
+  index: -1
+Glow bottom
+  rotate: true
+  xy: 1232, 492
+  size: 509, 100
+  orig: 542, 115
+  offset: 15, 12
+  index: -1
+Light glow_vfx
+  rotate: false
+  xy: 1101, 2
+  size: 188, 188
+  orig: 202, 202
+  offset: 7, 7
+  index: -1
+letrik vfx _B_4
+  rotate: false
+  xy: 1434, 127
+  size: 125, 127
+  orig: 131, 132
+  offset: 3, 3
+  index: -1
+letrik vfx_A _1
+  rotate: false
+  xy: 1386, 256
+  size: 124, 129
+  orig: 130, 135
+  offset: 3, 3
+  index: -1
+letrik vfx_A _2
+  rotate: false
+  xy: 1342, 387
+  size: 142, 129
+  orig: 148, 135
+  offset: 3, 3
+  index: -1
+letrik vfx_A _4
+  rotate: false
+  xy: 1486, 389
+  size: 125, 127
+  orig: 131, 132
+  offset: 3, 3
+  index: -1
+letrik vfx_A_3
+  rotate: false
+  xy: 1243, 257
+  size: 141, 128
+  orig: 147, 134
+  offset: 3, 3
+  index: -1
+letrik vfx_B _1
+  rotate: true
+  xy: 1518, 519
+  size: 72, 83
+  orig: 78, 89
+  offset: 3, 3
+  index: -1
+letrik vfx_B _2
+  rotate: false
+  xy: 1518, 593
+  size: 100, 120
+  orig: 105, 126
+  offset: 3, 3
+  index: -1
+letrik vfx_B _3
+  rotate: false
+  xy: 1291, 126
+  size: 141, 128
+  orig: 147, 134
+  offset: 3, 3
+  index: -1

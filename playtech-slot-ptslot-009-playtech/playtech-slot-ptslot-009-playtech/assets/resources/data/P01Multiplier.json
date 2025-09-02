@@ -1,0 +1,145 @@
+{
+    "resultArray": [
+        {
+            "result": {
+                    "data": {
+                        "total_win_amount": 2.4,
+                        "is_FreeSpin": false,
+                        "is_freespin_on": false,
+                        "is_bonus": false,
+                        "array": [
+                            [
+                                ["P08", "P03", "P07", "P05", "P01"],
+                                ["P09", "PW", "P06"],
+                                ["P07", "P10", "P07", "P09"],
+                                ["P06", "P06"],
+                                ["P06", "P05", "P08"],
+                                ["P01", "P04", "P01", "P08", "P09"],
+                                ["P01", "PS", "PW", "P09"]
+                            ],
+                            [
+                                ["P10", "P08", "P03", "P05", "P01"],
+                                ["P06", "P09", "P06"],
+                                ["P03", "P08", "P04", "P10", "P09"],
+                                ["P06", "P06"],
+                                ["P06", "P05", "P08"],
+                                ["P01", "P04", "P01", "P08", "P09"],
+                                ["P01", "PS", "P09", "P06"]
+                            ]
+                        ],
+                        "sizeArray": [
+                            [
+                                [1, 1, 1, 1, 1],
+                                [2, 1, 2],
+                                [2, 1, 1, 1],
+                                [3, 2],
+                                [2, 1, 2],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1, 1]
+                            ],
+                            [
+                                [1, 1, 1, 1, 1],
+                                [1, 2, 2],
+                                [1, 1, 1, 1, 1],
+                                [3, 2],
+                                [2, 1, 2],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1, 1]
+                            ]
+                        ],
+                        "balance": 10000.4,
+                        "before_balance": 9998,
+                        "data": [{
+                            "ways": 6000,
+                            "winnings": 2.4000000000000004,
+                            "winningWays": 2,
+                            "tumbleMultiplier": 1,
+                            "allSymbolWinnings": {
+                                "P07": {
+                                    "symbol": "P07",
+                                    "indexes": [
+                                        [2],
+                                        [1],
+                                        [0, 2],
+                                        [99]
+                                    ],
+                                    "ways": 2,
+                                    "wayWinnings": 0.6000000000000001,
+                                    "totalWays": 2,
+                                    "totalWinnings": 0.6000000000000001
+                                }
+                            },
+                            "resultNewSpawnIndexes": [
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1],
+                                [1, 1, 1, 1],
+                                [1, 1],
+                                [1, 1, 1],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 1, 1]
+                            ],
+                            "destroySymbolIndexes": [
+                                [1, 1, 0, 1, 1],
+                                [1, 0, 1],
+                                [0, 1, 0, 1],
+                                [1, 1],
+                                [1, 1, 1],
+                                [1, 1, 1, 1, 1],
+                                [1, 1, 0, 1]
+                            ],
+                            "p01MultiplierArray": [
+                                [0, 0, 0, 0, 1],
+                                [0, 0, 0],
+                                [0, 0, 0, 0],
+                                [0, 0],
+                                [0, 0, 0],
+                                [0, 0, 1, 0, 0],
+                                [0, 0, 0, 0]
+                            ],
+                            "p01MultiplierCount": 2
+                        }, {
+                            "ways": 7200,
+                            "winnings": 0,
+                            "winningWays": 0,
+                            "tumbleMultiplier": 2,
+                            "allSymbolWinnings": {},
+                            "resultNewSpawnIndexes": [
+                                [1, 0, 0, 0, 0],
+                                [1, 0, 0],
+                                [1, 1, 1, 0, 0],
+                                [0, 0],
+                                [0, 0, 0],
+                                [0, 0, 0, 0, 0],
+                                [0, 0, 0, 1]
+                            ],
+                            "destroySymbolIndexes": [],
+                            "p01MultiplierArray": [
+                                [0, 0, 0, 0, 0],
+                                [0, 0, 0],
+                                [0, 0, 0, 0, 0],
+                                [0, 0],
+                                [0, 0, 0],
+                                [0, 0, 0, 0, 0],
+                                [0, 0, 0, 0]
+                            ],
+                            "p01MultiplierCount": 0
+                        }],
+                        "extra_payout": 0,
+                        "ticket_id": 888,
+                        "is_eclipse_bonus": false,
+                        "p01MultiplierCount": 2,
+                        "extraFeatureWildChance": 5,
+                        "extraFeatureIsWildChance": false,
+                        "wildResultArray": [
+                            [0, 0, 0, 0, 0],
+                            [0, 0, 0],
+                            [0, 0, 0, 0],
+                            [0, 0],
+                            [0, 0, 0],
+                            [0, 0, 0, 0, 0]
+                        ]
+                    }
+            }
+        }
+    ]
+}

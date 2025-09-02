@@ -1,0 +1,261 @@
+{
+"skeleton": {
+	"hash": "zXC2KuNwFWmspHbL50xwc2WlRWA=",
+	"spine": "3.8.75",
+	"x": -172.5,
+	"y": -436.33,
+	"width": 345.5,
+	"height": 3243.63,
+	"images": "./resources/",
+	"audio": "C:/Users/AliceLeong/Documents/spinningreel/023-spinning"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "symbols", "parent": "root", "color": "ffffffff" },
+	{ "name": "symbol-1", "parent": "symbols", "y": -263.33, "color": "ffffffff" },
+	{ "name": "symbol-2", "parent": "symbols", "color": "ffffffff" },
+	{ "name": "symbol-3", "parent": "symbols", "y": 263.33, "color": "ffffffff" },
+	{ "name": "symbol-4", "parent": "symbols", "y": 526.66, "color": "ffffffff" },
+	{ "name": "symbol-5", "parent": "symbols", "y": 789.99, "color": "ffffffff" },
+	{ "name": "symbol-6", "parent": "symbols", "y": 1053.32, "color": "ffffffff" },
+	{ "name": "symbol-7", "parent": "symbols", "y": 1316.65, "color": "ffffffff" },
+	{ "name": "symbol-8", "parent": "symbols", "y": 1579.98, "color": "ffffffff" },
+	{ "name": "symbol-9", "parent": "symbols", "y": 1843.31, "color": "ffffffff" },
+	{ "name": "symbol-10", "parent": "symbols", "y": 2106.64, "color": "ffffffff" },
+	{ "name": "symbol-11", "parent": "symbols", "y": 2369.97, "color": "ffffffff" },
+	{ "name": "symbol-12", "parent": "symbols", "y": 2633.3, "color": "ffffffff" }
+],
+"slots": [
+	{ "name": "symbol-1", "bone": "symbol-1", "attachment": "symbol-01" },
+	{ "name": "symbol-2", "bone": "symbol-2", "attachment": "symbol-02" },
+	{ "name": "symbol-3", "bone": "symbol-3", "attachment": "symbol-03" },
+	{ "name": "symbol-4", "bone": "symbol-4", "attachment": "symbol-04" },
+	{ "name": "symbol-5", "bone": "symbol-5", "attachment": "symbol-05" },
+	{ "name": "symbol-6", "bone": "symbol-6", "attachment": "symbol-06" },
+	{ "name": "symbol-7", "bone": "symbol-7", "attachment": "symbol-07" },
+	{ "name": "symbol-8", "bone": "symbol-8", "attachment": "symbol-08" },
+	{ "name": "symbol-9", "bone": "symbol-9", "attachment": "symbol-09" },
+	{ "name": "symbol-10", "bone": "symbol-10", "attachment": "symbol-10" },
+	{ "name": "symbol-11", "bone": "symbol-11", "attachment": "symbol-11" },
+	{ "name": "symbol-12", "bone": "symbol-12", "attachment": "symbol-12" }
+],
+"skins": [
+	{
+		"name": "reel-01",
+		"attachments": {
+			"symbol-5": {
+				"symbol-05": { "name": "P05", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-6": {
+				"symbol-06": { "name": "P11", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-7": {
+				"symbol-07": { "name": "P07", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-8": {
+				"symbol-08": { "name": "P04", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-9": {
+				"symbol-09": { "name": "PS", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-10": {
+				"symbol-10": { "name": "P01", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-11": {
+				"symbol-11": { "name": "P10", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-12": {
+				"symbol-12": { "name": "P03", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-1": {
+				"symbol-01": { "name": "P01", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-2": {
+				"symbol-02": { "name": "P09", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-3": {
+				"symbol-03": { "name": "P03", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-4": {
+				"symbol-04": { "name": "P08", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			}
+		}
+	},
+	{
+		"name": "reel-02",
+		"attachments": {
+			"symbol-5": {
+				"symbol-05": { "name": "P02", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-6": {
+				"symbol-06": { "name": "PW", "x": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-7": {
+				"symbol-07": { "name": "P09", "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-8": {
+				"symbol-08": { "name": "P08", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-9": {
+				"symbol-09": { "name": "PS", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-10": {
+				"symbol-10": { "name": "P10", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-11": {
+				"symbol-11": { "name": "P05", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-12": {
+				"symbol-12": { "name": "P06", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-1": {
+				"symbol-01": { "name": "P11", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-2": {
+				"symbol-02": { "name": "P04", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-3": {
+				"symbol-03": { "name": "P06", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-4": {
+				"symbol-04": { "name": "P07", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			}
+		}
+	},
+	{
+		"name": "reel-03",
+		"attachments": {
+			"symbol-5": {
+				"symbol-05": { "name": "P01", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-6": {
+				"symbol-06": { "name": "PW", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-7": {
+				"symbol-07": { "name": "P08", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-8": {
+				"symbol-08": { "name": "P04", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-9": {
+				"symbol-09": { "name": "P10", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-10": {
+				"symbol-10": { "name": "PS", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-11": {
+				"symbol-11": { "name": "P06", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-12": {
+				"symbol-12": { "name": "P11", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-1": {
+				"symbol-01": { "name": "P05", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-2": {
+				"symbol-02": { "name": "P04", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-3": {
+				"symbol-03": { "name": "P07", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-4": {
+				"symbol-04": { "name": "P02", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			}
+		}
+	},
+	{
+		"name": "reel-04",
+		"attachments": {
+			"symbol-5": {
+				"symbol-05": { "name": "P08", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-6": {
+				"symbol-06": { "name": "P02", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-7": {
+				"symbol-07": { "name": "P10", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-8": {
+				"symbol-08": { "name": "P01", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-9": {
+				"symbol-09": { "name": "P08", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-10": {
+				"symbol-10": { "name": "P07", "width": 230, "height": 130 }
+			},
+			"symbol-11": {
+				"symbol-11": { "name": "PW", "x": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-12": {
+				"symbol-12": { "name": "P09", "width": 230, "height": 130 }
+			},
+			"symbol-1": {
+				"symbol-01": { "name": "P11", "x": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-2": {
+				"symbol-02": { "name": "PW", "x": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-3": {
+				"symbol-03": { "name": "P06", "width": 230, "height": 130 }
+			},
+			"symbol-4": {
+				"symbol-04": { "name": "P03", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			}
+		}
+	},
+	{
+		"name": "reel-05",
+		"attachments": {
+			"symbol-5": {
+				"symbol-05": { "name": "P07", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-6": {
+				"symbol-06": { "name": "P08", "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-7": {
+				"symbol-07": { "name": "PW", "x": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-8": {
+				"symbol-08": { "name": "P03", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-9": {
+				"symbol-09": { "name": "P09", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-10": {
+				"symbol-10": { "name": "PS", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-11": {
+				"symbol-11": { "name": "P06", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-12": {
+				"symbol-12": { "name": "P10", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-1": {
+				"symbol-01": { "name": "P01", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-2": {
+				"symbol-02": { "name": "P05", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-3": {
+				"symbol-03": { "name": "P11", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			},
+			"symbol-4": {
+				"symbol-04": { "name": "P04", "x": 0.5, "y": 0.5, "width": 230, "height": 130 }
+			}
+		}
+	}
+],
+"animations": {
+	"reel-spinning": {
+		"bones": {
+			"symbols": {
+				"translate": [
+					{},
+					{ "time": 0.2, "y": -2118 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,48 @@
+
+WildLineConnection.png
+size: 641,321
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+line conection_green_A
+  rotate: false
+  xy: 538, 3
+  size: 101, 316
+  orig: 107, 319
+  offset: 2, 3
+  index: -1
+line conection_green_B
+  rotate: false
+  xy: 330, 2
+  size: 102, 317
+  orig: 103, 325
+  offset: 0, 5
+  index: -1
+line conection_green_C
+  rotate: true
+  xy: 2, 108
+  size: 98, 324
+  orig: 101, 331
+  offset: 0, 5
+  index: -1
+line conection_violet_A
+  rotate: true
+  xy: 2, 208
+  size: 111, 326
+  orig: 117, 329
+  offset: 2, 3
+  index: -1
+line conection_violet_B
+  rotate: false
+  xy: 434, 2
+  size: 102, 317
+  orig: 103, 325
+  offset: 0, 5
+  index: -1
+line conection_violet_C
+  rotate: true
+  xy: 2, 8
+  size: 98, 324
+  orig: 101, 331
+  offset: 0, 5
+  index: -1

@@ -1,0 +1,204 @@
+{
+"skeleton": { "hash": "nYEOAVsurhRfxswrx+ddj7PUSMM=", "spine": "3.8.75", "images": "C:/Users/Acer/Downloads/New folder (15)/resources", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "overlay", "parent": "root" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "totalwintext", "parent": "main", "y": 246.91 },
+	{ "name": "shine", "parent": "main", "scaleX": 2.0653, "scaleY": 2.0653 },
+	{ "name": "shine2", "parent": "main" },
+	{ "name": "num-holder", "parent": "main" }
+],
+"slots": [
+	{ "name": "blank", "bone": "overlay", "color": "00000079" },
+	{ "name": "totalwintext", "bone": "totalwintext" },
+	{ "name": "shine2", "bone": "shine2" },
+	{ "name": "shine", "bone": "shine" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"totalwintext": {
+				"totalwintext": { "y": 0.5, "width": 644, "height": 95 }
+			},
+			"blank": {
+				"blank": { "scaleX": 20, "scaleY": 20, "width": 100, "height": 100 }
+			},
+			"shine2": {
+				"shine2": { "y": 0.5, "scaleX": 2.5349, "scaleY": 2.5349, "width": 402, "height": 405 }
+			},
+			"shine": {
+				"shine": { "x": 0.5, "y": 0.5, "width": 933, "height": 875 }
+			}
+		}
+	}
+],
+"animations": {
+	"intro": {
+		"slots": {
+			"totalwintext": {
+				"attachment": [
+					{ "name": "totalwintext" }
+				]
+			},
+			"blank": {
+				"color": [
+					{ "color": "00000000" },
+					{ "time": 0.3333, "color": "00000079" }
+				],
+				"attachment": [
+					{ "name": "blank" }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "shine" }
+				]
+			},
+			"shine2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "shine2" }
+				]
+			}
+		},
+		"bones": {
+			"totalwintext": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.7667 }
+				]
+			},
+			"num-holder": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.9333 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"totalwintext": {
+				"attachment": [
+					{ "name": "totalwintext" }
+				]
+			},
+			"blank": {
+				"color": [
+					{ "color": "00000079" }
+				],
+				"attachment": [
+					{ "name": "blank" }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "shine" }
+				]
+			},
+			"shine2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffa4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "shine2" }
+				]
+			}
+		},
+		"bones": {
+			"totalwintext": {
+				"scale": [
+					{}
+				]
+			},
+			"num-holder": {
+				"scale": [
+					{}
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"totalwintext": {
+				"attachment": [
+					{ "name": "totalwintext" },
+					{ "time": 1, "name": "totalwintext" }
+				]
+			},
+			"blank": {
+				"color": [
+					{ "time": 0.6667, "color": "00000079" },
+					{ "time": 1, "color": "00000000" }
+				],
+				"attachment": [
+					{ "name": "blank" },
+					{ "time": 1, "name": "blank" }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "shine" },
+					{ "time": 1, "name": "shine" }
+				]
+			},
+			"shine2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "shine2" },
+					{ "time": 1, "name": "shine2" }
+				]
+			}
+		},
+		"bones": {
+			"totalwintext": {
+				"scale": [
+					{ "time": 0.2333 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"num-holder": {
+				"scale": [
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

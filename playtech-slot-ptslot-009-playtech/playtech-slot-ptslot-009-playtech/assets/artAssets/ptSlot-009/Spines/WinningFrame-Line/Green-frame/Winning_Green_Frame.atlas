@@ -1,0 +1,111 @@
+
+Winning_Green_Frame.png
+size: 760,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom glow
+  rotate: false
+  xy: 585, 507
+  size: 171, 236
+  orig: 175, 283
+  offset: 2, 2
+  index: -1
+dot
+  rotate: true
+  xy: 2, 2
+  size: 8, 23
+  orig: 14, 29
+  offset: 3, 3
+  index: -1
+dot_violet
+  rotate: false
+  xy: 222, 437
+  size: 9, 21
+  orig: 13, 27
+  offset: 2, 4
+  index: -1
+glow_lvl 4
+  rotate: false
+  xy: 2, 423
+  size: 218, 595
+  orig: 218, 595
+  offset: 0, 0
+  index: -1
+highlight_1
+  rotate: true
+  xy: 608, 13
+  size: 173, 135
+  orig: 175, 137
+  offset: 1, 1
+  index: -1
+highlight_2
+  rotate: false
+  xy: 585, 745
+  size: 173, 273
+  orig: 175, 275
+  offset: 1, 1
+  index: -1
+highlight_3
+  rotate: false
+  xy: 2, 12
+  size: 173, 409
+  orig: 175, 411
+  offset: 1, 1
+  index: -1
+highlight_4
+  rotate: false
+  xy: 409, 472
+  size: 174, 546
+  orig: 175, 547
+  offset: 0, 0
+  index: -1
+line conection_green_A
+  rotate: true
+  xy: 290, 31
+  size: 101, 316
+  orig: 107, 319
+  offset: 2, 3
+  index: -1
+line conection_green_B
+  rotate: false
+  xy: 490, 153
+  size: 102, 317
+  orig: 103, 325
+  offset: 0, 5
+  index: -1
+line conection_green_C
+  rotate: false
+  xy: 290, 134
+  size: 98, 324
+  orig: 101, 331
+  offset: 0, 5
+  index: -1
+line conection_violet_A
+  rotate: false
+  xy: 177, 95
+  size: 111, 326
+  orig: 117, 329
+  offset: 2, 3
+  index: -1
+line conection_violet_B
+  rotate: false
+  xy: 594, 188
+  size: 102, 317
+  orig: 103, 325
+  offset: 0, 5
+  index: -1
+line conection_violet_C
+  rotate: false
+  xy: 390, 134
+  size: 98, 324
+  orig: 101, 331
+  offset: 0, 5
+  index: -1
+line vfx_lvl 4
+  rotate: false
+  xy: 222, 460
+  size: 185, 558
+  orig: 185, 558
+  offset: 0, 0
+  index: -1

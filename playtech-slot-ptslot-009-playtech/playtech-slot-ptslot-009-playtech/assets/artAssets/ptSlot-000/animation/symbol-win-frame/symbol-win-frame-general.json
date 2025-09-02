@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "erficwsL9ofWjyHkLjSuMFZLJ08=", "spine": "3.8.75", "images": "C:/Users/YiChuanTang/Downloads/New folder (3)/resources", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "win-frame", "parent": "root" },
+	{ "name": "top", "parent": "win-frame", "x": 107.32, "y": 132.79 },
+	{ "name": "btm", "parent": "win-frame", "x": -108.47, "y": -133.28 },
+	{ "name": "left", "parent": "win-frame", "x": -106.95, "y": 134.91 },
+	{ "name": "right", "parent": "win-frame", "x": 106.95, "y": -129.32 }
+],
+"slots": [
+	{ "name": "obj", "bone": "top" },
+	{ "name": "obj2", "bone": "btm" },
+	{ "name": "obj3", "bone": "left" },
+	{ "name": "obj4", "bone": "right" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"obj2": {
+				"obj": { "x": 134.47, "y": 0.5, "rotation": 90, "width": 22, "height": 267 }
+			},
+			"obj3": {
+				"obj": { "y": -131.41, "width": 22, "height": 267 }
+			},
+			"obj4": {
+				"obj": { "y": 130.71, "rotation": 180, "width": 22, "height": 267 }
+			},
+			"obj": {
+				"obj": { "x": -133, "y": 0.5, "rotation": -90, "width": 22, "height": 267 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"obj4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "obj" }
+				]
+			},
+			"obj": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "obj" }
+				]
+			},
+			"obj2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "obj" }
+				]
+			},
+			"obj3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "obj" }
+				]
+			}
+		},
+		"bones": {
+			"top": {
+				"translate": [
+					{ "x": -107.85 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 0 }
+				]
+			},
+			"btm": {
+				"translate": [
+					{ "x": 101.27 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 0 }
+				]
+			},
+			"left": {
+				"translate": [
+					{ "y": -134.66 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 0 }
+				]
+			},
+			"right": {
+				"translate": [
+					{ "y": 129.74 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

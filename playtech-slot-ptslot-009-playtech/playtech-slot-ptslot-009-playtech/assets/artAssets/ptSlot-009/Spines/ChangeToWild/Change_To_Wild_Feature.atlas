@@ -1,0 +1,160 @@
+
+Change_To_Wild_Feature.png
+size: 1876,867
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+$squarebg50opacityX10
+  rotate: false
+  xy: 2, 23
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Light glow_vfx
+  rotate: false
+  xy: 1175, 83
+  size: 188, 188
+  orig: 202, 202
+  offset: 7, 7
+  index: -1
+[boneback light
+  rotate: true
+  xy: 727, 275
+  size: 590, 325
+  orig: 631, 357
+  offset: 22, 16
+  index: -1
+antenna1
+  rotate: true
+  xy: 1054, 273
+  size: 117, 145
+  orig: 133, 160
+  offset: 5, 4
+  index: -1
+antenna2
+  rotate: false
+  xy: 1365, 137
+  size: 119, 149
+  orig: 133, 160
+  offset: 9, 4
+  index: -1
+back light
+  rotate: false
+  xy: 1054, 392
+  size: 473, 473
+  orig: 521, 521
+  offset: 24, 24
+  index: -1
+back light 2
+  rotate: true
+  xy: 133, 272
+  size: 593, 592
+  orig: 653, 652
+  offset: 30, 30
+  index: -1
+chg-to-wild
+  rotate: true
+  xy: 2, 225
+  size: 640, 129
+  orig: 648, 137
+  offset: 4, 4
+  index: -1
+frame
+  rotate: false
+  xy: 204, 24
+  size: 969, 246
+  orig: 977, 254
+  offset: 4, 4
+  index: -1
+letrik vfx _B_4
+  rotate: true
+  xy: 1742, 60
+  size: 125, 127
+  orig: 135, 136
+  offset: 5, 5
+  index: -1
+letrik vfx_A _1
+  rotate: false
+  xy: 1616, 183
+  size: 124, 129
+  orig: 134, 139
+  offset: 5, 5
+  index: -1
+letrik vfx_A _2
+  rotate: false
+  xy: 1365, 6
+  size: 142, 129
+  orig: 152, 139
+  offset: 5, 5
+  index: -1
+letrik vfx_A _4
+  rotate: true
+  xy: 1742, 187
+  size: 125, 127
+  orig: 135, 136
+  offset: 5, 5
+  index: -1
+letrik vfx_A_3
+  rotate: true
+  xy: 1486, 145
+  size: 141, 128
+  orig: 151, 138
+  offset: 5, 5
+  index: -1
+letrik vfx_B _1
+  rotate: true
+  xy: 1175, 9
+  size: 72, 83
+  orig: 82, 93
+  offset: 5, 5
+  index: -1
+letrik vfx_B _2
+  rotate: false
+  xy: 1639, 61
+  size: 100, 120
+  orig: 109, 130
+  offset: 5, 5
+  index: -1
+letrik vfx_B _3
+  rotate: true
+  xy: 1509, 2
+  size: 141, 128
+  orig: 151, 138
+  offset: 5, 5
+  index: -1
+line conection_violet_A
+  rotate: true
+  xy: 1529, 414
+  size: 111, 326
+  orig: 117, 329
+  offset: 2, 3
+  index: -1
+line conection_violet_B
+  rotate: true
+  xy: 1201, 288
+  size: 102, 317
+  orig: 103, 325
+  offset: 0, 5
+  index: -1
+line conection_violet_C
+  rotate: true
+  xy: 1529, 314
+  size: 98, 324
+  orig: 101, 331
+  offset: 0, 5
+  index: -1
+radial vfx
+  rotate: true
+  xy: 1529, 527
+  size: 338, 345
+  orig: 395, 411
+  offset: 30, 33
+  index: -1
+star
+  rotate: true
+  xy: 1260, 19
+  size: 62, 61
+  orig: 70, 69
+  offset: 4, 4
+  index: -1

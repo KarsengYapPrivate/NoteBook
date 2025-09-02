@@ -1,0 +1,97 @@
+
+spinning-reels.png
+size: 1718,234
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+P01
+  rotate: true
+  xy: 2, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P02
+  rotate: true
+  xy: 134, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P03
+  rotate: true
+  xy: 266, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P04
+  rotate: true
+  xy: 398, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P05
+  rotate: true
+  xy: 530, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P06
+  rotate: true
+  xy: 662, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P07
+  rotate: true
+  xy: 794, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P08
+  rotate: true
+  xy: 926, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P09
+  rotate: true
+  xy: 1058, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P10
+  rotate: true
+  xy: 1190, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+P11
+  rotate: true
+  xy: 1322, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+PS
+  rotate: true
+  xy: 1454, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+PW
+  rotate: true
+  xy: 1586, 2
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,237 @@
+
+Alien_2.png
+size: 1293,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Electric_1
+  rotate: false
+  xy: 352, 289
+  size: 239, 239
+  orig: 256, 256
+  offset: 9, 12
+  index: -1
+Electric_2
+  rotate: false
+  xy: 501, 52
+  size: 193, 235
+  orig: 214, 256
+  offset: 20, 0
+  index: -1
+Electric_3
+  rotate: true
+  xy: 821, 308
+  size: 220, 197
+  orig: 252, 244
+  offset: 24, 22
+  index: -1
+Electric_4
+  rotate: false
+  xy: 2, 3
+  size: 239, 252
+  orig: 256, 256
+  offset: 17, 0
+  index: -1
+Fx_06
+  rotate: false
+  xy: 243, 13
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Fx_07
+  rotate: true
+  xy: 593, 300
+  size: 228, 226
+  orig: 256, 256
+  offset: 13, 14
+  index: -1
+Fx_Smoke_1
+  rotate: true
+  xy: 137, 271
+  size: 257, 213
+  orig: 267, 256
+  offset: 4, 32
+  index: -1
+body
+  rotate: false
+  xy: 1134, 348
+  size: 157, 180
+  orig: 160, 183
+  offset: 1, 2
+  index: -1
+close eye
+  rotate: true
+  xy: 939, 4
+  size: 84, 80
+  orig: 87, 86
+  offset: 1, 0
+  index: -1
+cover
+  rotate: false
+  xy: 696, 70
+  size: 218, 228
+  orig: 220, 246
+  offset: 1, 17
+  index: -1
+eyeball
+  rotate: false
+  xy: 652, 8
+  size: 42, 42
+  orig: 46, 46
+  offset: 2, 2
+  index: -1
+finger_1
+  rotate: false
+  xy: 564, 2
+  size: 42, 48
+  orig: 46, 52
+  offset: 2, 2
+  index: -1
+finger_2
+  rotate: false
+  xy: 608, 2
+  size: 42, 48
+  orig: 46, 54
+  offset: 2, 3
+  index: -1
+finger_3
+  rotate: true
+  xy: 857, 18
+  size: 50, 38
+  orig: 57, 43
+  offset: 2, 2
+  index: -1
+fire
+  rotate: false
+  xy: 1166, 201
+  size: 123, 145
+  orig: 130, 152
+  offset: 3, 4
+  index: -1
+gun body_4
+  rotate: false
+  xy: 1097, 19
+  size: 90, 69
+  orig: 94, 73
+  offset: 2, 2
+  index: -1
+gun light
+  rotate: false
+  xy: 1134, 131
+  size: 41, 68
+  orig: 45, 73
+  offset: 2, 3
+  index: -1
+hair
+  rotate: false
+  xy: 771, 14
+  size: 84, 54
+  orig: 88, 57
+  offset: 2, 1
+  index: -1
+handle_4
+  rotate: true
+  xy: 501, 2
+  size: 48, 61
+  orig: 52, 65
+  offset: 2, 2
+  index: -1
+joint
+  rotate: false
+  xy: 1134, 217
+  size: 25, 25
+  orig: 29, 31
+  offset: 2, 3
+  index: -1
+left  arm
+  rotate: false
+  xy: 1020, 354
+  size: 98, 99
+  orig: 107, 102
+  offset: 1, 2
+  index: -1
+left hand
+  rotate: false
+  xy: 1020, 310
+  size: 34, 36
+  orig: 42, 43
+  offset: 5, 3
+  index: -1
+left lower arm
+  rotate: true
+  xy: 1092, 318
+  size: 28, 72
+  orig: 33, 79
+  offset: 2, 3
+  index: -1
+left upper arm
+  rotate: true
+  xy: 137, 259
+  size: 10, 40
+  orig: 16, 44
+  offset: 2, 2
+  index: -1
+mouth
+  rotate: false
+  xy: 1020, 455
+  size: 107, 73
+  orig: 112, 76
+  offset: 2, 3
+  index: -1
+part_4
+  rotate: false
+  xy: 696, 9
+  size: 73, 59
+  orig: 77, 63
+  offset: 2, 2
+  index: -1
+right arm
+  rotate: true
+  xy: 1021, 4
+  size: 84, 74
+  orig: 87, 75
+  offset: 1, 0
+  index: -1
+right hand
+  rotate: false
+  xy: 1056, 310
+  size: 34, 36
+  orig: 42, 43
+  offset: 3, 3
+  index: -1
+right lower arm
+  rotate: false
+  xy: 1134, 244
+  size: 28, 72
+  orig: 33, 79
+  offset: 3, 3
+  index: -1
+right upper arm
+  rotate: true
+  xy: 179, 259
+  size: 10, 40
+  orig: 16, 44
+  offset: 4, 2
+  index: -1
+ship BODY
+  rotate: true
+  xy: 2, 257
+  size: 271, 133
+  orig: 273, 134
+  offset: 1, 0
+  index: -1
+vfx.glowball
+  rotate: true
+  xy: 897, 26
+  size: 42, 40
+  orig: 50, 48
+  offset: 4, 4
+  index: -1
+vfx_bloom
+  rotate: false
+  xy: 916, 90
+  size: 216, 216
+  orig: 256, 256
+  offset: 20, 20
+  index: -1

@@ -1,0 +1,34 @@
+
+total-win.png
+size: 1130,665
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: false
+  xy: 784, 217
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 2
+  size: 683, 661
+  orig: 933, 875
+  offset: 136, 108
+  index: -1
+shine2
+  rotate: false
+  xy: 784, 319
+  size: 344, 344
+  orig: 402, 405
+  offset: 29, 30
+  index: -1
+totalwintext
+  rotate: true
+  xy: 687, 19
+  size: 644, 95
+  orig: 644, 95
+  offset: 0, 0
+  index: -1

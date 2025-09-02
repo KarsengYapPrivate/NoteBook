@@ -1,0 +1,272 @@
+
+Big_Win.png
+size: 1997,1874
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+$squarebg50opacityX12
+  rotate: false
+  xy: 1697, 9
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+back layer
+  rotate: true
+  xy: 936, 53
+  size: 381, 534
+  orig: 383, 537
+  offset: 1, 1
+  index: -1
+big
+  rotate: false
+  xy: 1381, 865
+  size: 281, 266
+  orig: 290, 275
+  offset: 5, 4
+  index: -1
+big win
+  rotate: true
+  xy: 1857, 711
+  size: 653, 138
+  orig: 656, 140
+  offset: 1, 1
+  index: -1
+front layer
+  rotate: true
+  xy: 748, 1413
+  size: 459, 881
+  orig: 459, 881
+  offset: 0, 0
+  index: -1
+glow_ray
+  rotate: true
+  xy: 2, 22
+  size: 1104, 431
+  orig: 1143, 461
+  offset: 20, 15
+  index: -1
+mega
+  rotate: true
+  xy: 1112, 849
+  size: 282, 267
+  orig: 290, 275
+  offset: 4, 4
+  index: -1
+mega win
+  rotate: true
+  xy: 1717, 562
+  size: 894, 138
+  orig: 898, 140
+  offset: 2, 1
+  index: -1
+ring
+  rotate: false
+  xy: 2, 1128
+  size: 744, 744
+  orig: 774, 775
+  offset: 15, 15
+  index: -1
+rock_1
+  rotate: false
+  xy: 936, 3
+  size: 44, 48
+  orig: 46, 51
+  offset: 1, 1
+  index: -1
+rock_10
+  rotate: true
+  xy: 1472, 402
+  size: 67, 55
+  orig: 71, 57
+  offset: 1, 1
+  index: -1
+rock_11
+  rotate: true
+  xy: 1899, 179
+  size: 76, 93
+  orig: 79, 100
+  offset: 2, 6
+  index: -1
+rock_12
+  rotate: false
+  xy: 1067, 11
+  size: 38, 40
+  orig: 41, 48
+  offset: 2, 7
+  index: -1
+rock_13
+  rotate: false
+  xy: 1391, 471
+  size: 142, 89
+  orig: 144, 93
+  offset: 1, 1
+  index: -1
+rock_2
+  rotate: false
+  xy: 1857, 604
+  size: 111, 105
+  orig: 114, 110
+  offset: 1, 4
+  index: -1
+rock_3
+  rotate: true
+  xy: 1026, 10
+  size: 41, 39
+  orig: 44, 41
+  offset: 2, 1
+  index: -1
+rock_4
+  rotate: true
+  xy: 982, 2
+  size: 49, 42
+  orig: 51, 44
+  offset: 1, 1
+  index: -1
+rock_5
+  rotate: false
+  xy: 1472, 347
+  size: 56, 53
+  orig: 58, 56
+  offset: 1, 1
+  index: -1
+rock_6
+  rotate: false
+  xy: 1107, 8
+  size: 34, 43
+  orig: 36, 45
+  offset: 1, 1
+  index: -1
+rock_7
+  rotate: true
+  xy: 1143, 6
+  size: 45, 25
+  orig: 47, 27
+  offset: 1, 1
+  index: -1
+rock_8
+  rotate: false
+  xy: 1753, 475
+  size: 86, 85
+  orig: 89, 88
+  offset: 2, 1
+  index: -1
+rock_9
+  rotate: false
+  xy: 1899, 114
+  size: 94, 63
+  orig: 97, 65
+  offset: 1, 1
+  index: -1
+sparkle
+  rotate: false
+  xy: 1899, 49
+  size: 64, 63
+  orig: 66, 65
+  offset: 1, 1
+  index: -1
+spiral_smoke
+  rotate: true
+  xy: 435, 21
+  size: 413, 499
+  orig: 425, 512
+  offset: 4, 1
+  index: -1
+spiral_smoke 2
+  rotate: true
+  xy: 1535, 211
+  size: 349, 216
+  orig: 351, 218
+  offset: 1, 1
+  index: -1
+spiral_smoke 3_l
+  rotate: true
+  xy: 1472, 15
+  size: 194, 223
+  orig: 196, 230
+  offset: 1, 1
+  index: -1
+spiral_smoke 3_r
+  rotate: true
+  xy: 1631, 1596
+  size: 276, 344
+  orig: 285, 365
+  offset: 8, 20
+  index: -1
+spiral_smoke 4
+  rotate: true
+  xy: 1276, 440
+  size: 120, 113
+  orig: 122, 115
+  offset: 1, 1
+  index: -1
+spiral_smoke 5a
+  rotate: false
+  xy: 1877, 1366
+  size: 110, 228
+  orig: 112, 230
+  offset: 1, 1
+  index: -1
+spiral_smoke 5b
+  rotate: false
+  xy: 1857, 506
+  size: 118, 96
+  orig: 120, 101
+  offset: 1, 3
+  index: -1
+spiral_smoke 5c
+  rotate: true
+  xy: 1112, 456
+  size: 104, 162
+  orig: 106, 164
+  offset: 1, 1
+  index: -1
+spiral_smoke 5d
+  rotate: true
+  xy: 1631, 1458
+  size: 136, 244
+  orig: 138, 256
+  offset: 1, 11
+  index: -1
+star_ray
+  rotate: false
+  xy: 435, 436
+  size: 675, 690
+  orig: 778, 809
+  offset: 56, 60
+  index: -1
+super
+  rotate: true
+  xy: 1381, 582
+  size: 281, 266
+  orig: 290, 275
+  offset: 5, 4
+  index: -1
+super win
+  rotate: false
+  xy: 748, 1273
+  size: 967, 138
+  orig: 971, 140
+  offset: 2, 1
+  index: -1
+total
+  rotate: true
+  xy: 1112, 565
+  size: 282, 267
+  orig: 290, 275
+  offset: 4, 4
+  index: -1
+total win
+  rotate: false
+  xy: 748, 1133
+  size: 957, 138
+  orig: 961, 141
+  offset: 2, 2
+  index: -1
+vfx_bloom
+  rotate: false
+  xy: 1753, 257
+  size: 216, 216
+  orig: 256, 256
+  offset: 20, 20
+  index: -1

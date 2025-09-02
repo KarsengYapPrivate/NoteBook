@@ -1,0 +1,34 @@
+
+SongkranFreeSpinButton.png
+size: 1191,561
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Foam
+  rotate: false
+  xy: 898, 268
+  size: 291, 291
+  orig: 291, 291
+  offset: 0, 0
+  index: -1
+Frame
+  rotate: false
+  xy: 2, 38
+  size: 521, 521
+  orig: 521, 521
+  offset: 0, 0
+  index: -1
+SpinEffect
+  rotate: true
+  xy: 525, 182
+  size: 377, 371
+  orig: 377, 371
+  offset: 0, 0
+  index: -1
+WATER
+  rotate: false
+  xy: 898, 2
+  size: 265, 264
+  orig: 265, 264
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,526 @@
+{
+"skeleton": {
+	"hash": "ItlkrEv0KvsEEK/BT6ThrNQ11qk=",
+	"spine": "3.8.75",
+	"x": -578.5,
+	"y": -721.5,
+	"width": 1157,
+	"height": 1443,
+	"images": "./images/",
+	"audio": "C:/ISJ/OneDrive - ISJ Technology Sdn Bhd/Playtech/PT-009 Galactic Colonies/Reel_Frame"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Master", "parent": "root", "color": "ff0000ff" },
+	{
+		"name": "Antenna",
+		"parent": "Master",
+		"length": 97.48,
+		"rotation": 105.95,
+		"x": -434.6,
+		"y": 565.96,
+		"color": "4dff00ff"
+	},
+	{ "name": "Vfx_Light glow", "parent": "Antenna", "x": 118.28, "y": 1.56, "color": "10ff00ff" },
+	{ "name": "Vfx_Glow bg", "parent": "Master", "color": "dfff00ff" },
+	{ "name": "Vfx_Wave glow", "parent": "Master", "color": "dfff00ff" },
+	{ "name": "Vfx_Wave glow2", "parent": "Master", "color": "dfff00ff" },
+	{ "name": "Vfx_Wave glow3", "parent": "Master", "color": "dfff00ff" }
+],
+"slots": [
+	{ "name": "Glow bg_vfx", "bone": "Vfx_Glow bg" },
+	{ "name": "Wave glow_vfx", "bone": "Vfx_Wave glow", "dark": "000000" },
+	{ "name": "Wave glow_vfx2", "bone": "Vfx_Wave glow2", "dark": "000000" },
+	{ "name": "Wave glow_vfx3", "bone": "Vfx_Wave glow3", "dark": "000000" },
+	{ "name": "Reel", "bone": "Master", "attachment": "reel-frame" },
+	{ "name": "Light glow_vfx", "bone": "Vfx_Light glow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Light glow_vfx": {
+				"Light glow_vfx": { "x": 3.02, "y": 0.6, "rotation": -105.95, "width": 202, "height": 202 }
+			},
+			"Wave glow_vfx2": {
+				"Wave glow_vfx": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 692, -808, -691, -808, -691, 808, 692, 808 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 692,
+					"height": 808
+				}
+			},
+			"Wave glow_vfx3": {
+				"Wave glow_vfx": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 692, -808, -691, -808, -691, 808, 692, 808 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 692,
+					"height": 808
+				}
+			},
+			"Glow bg_vfx": {
+				"Glow bg_vfx": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 795, -919, -786, -919, -786, 925, 795, 925 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 791,
+					"height": 922
+				}
+			},
+			"Reel": {
+				"reel-frame": { "width": 1157, "height": 1443 }
+			},
+			"Wave glow_vfx": {
+				"Wave glow_vfx": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 692, -808, -691, -808, -691, 808, 692, 808 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 692,
+					"height": 808
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"Glow bg_vfx": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Glow bg_vfx" }
+				]
+			},
+			"Wave glow_vfx3": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx2": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Vfx_Glow bg": {
+				"scale": [
+					{ "x": 0.654, "y": 0.654 }
+				]
+			},
+			"Vfx_Wave glow": {
+				"scale": [
+					{ "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow2": {
+				"scale": [
+					{ "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow3": {
+				"scale": [
+					{ "x": 0.879, "y": 0.879 }
+				]
+			}
+		}
+	},
+	"intro": {
+		"slots": {
+			"Glow bg_vfx": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Glow bg_vfx" }
+				]
+			},
+			"Wave glow_vfx3": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx2": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.5, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.6333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.8667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.9333, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 1, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": "Light glow_vfx" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": "Light glow_vfx" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.6, "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"Vfx_Glow bg": {
+				"translate": [
+					{ "x": -8.54, "y": 5.12 }
+				],
+				"scale": [
+					{ "x": 0.654, "y": 0.654, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.03, "y": 1.03, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1 }
+				]
+			},
+			"Vfx_Light glow": {
+				"translate": [
+					{ "x": 12.31, "y": 3.91 }
+				],
+				"scale": [
+					{ "time": 0.6 },
+					{ "time": 0.6667, "x": 1.231, "y": 1.231 },
+					{ "time": 1 }
+				]
+			},
+			"Vfx_Wave glow": {
+				"translate": [
+					{ "x": -9.39, "y": 5.63 }
+				],
+				"scale": [
+					{ "x": 0.995, "y": 0.995, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.995, "y": 0.995 },
+					{ "time": 0.9333, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 1, "x": 1.142, "y": 1.142 }
+				]
+			},
+			"Vfx_Wave glow2": {
+				"translate": [
+					{ "x": -8.43, "y": 5.06 }
+				],
+				"scale": [
+					{ "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow3": {
+				"translate": [
+					{ "x": -7.45, "y": 4.47 }
+				],
+				"scale": [
+					{ "x": 0.879, "y": 0.879 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"Glow bg_vfx": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Glow bg_vfx" }
+				]
+			},
+			"Wave glow_vfx3": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.4, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.5333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.7667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.8, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.9667, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 1.1333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 1.3333, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 1.4, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 1.5667, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 1.7, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 1.9333, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 2, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx2": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.2, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.5667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.6333, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.8, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.9333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 1.1667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 1.2, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 1.3667, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 1.5, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 1.7333, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 1.8, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 2, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.1333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.3667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.4333, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.6, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.7333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.9667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 1, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 1.1667, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 1.3333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 1.5333, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 1.6, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 2, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Light glow_vfx": {
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"Vfx_Glow bg": {
+				"translate": [
+					{ "x": -8.54, "y": 8.06 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.045, "y": 1.045, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Vfx_Light glow": {
+				"translate": [
+					{ "x": 12.31, "y": 3.91 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 0.77, "y": 0.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "x": 0.77, "y": 0.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Vfx_Wave glow": {
+				"translate": [
+					{ "y": 2.92 }
+				],
+				"scale": [
+					{ "x": 0.995, "y": 0.995 },
+					{ "time": 0.4333, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.6, "x": 0.995, "y": 0.995 },
+					{ "time": 1, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0.995, "y": 0.995 },
+					{ "time": 1.6, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 2, "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow2": {
+				"translate": [
+					{ "y": 2.92 }
+				],
+				"scale": [
+					{ "x": 0.995, "y": 0.995, "curve": "stepped" },
+					{ "time": 0.2, "x": 0.995, "y": 0.995 },
+					{ "time": 0.6333, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.8, "x": 0.995, "y": 0.995 },
+					{ "time": 1.2, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 1.3667, "x": 0.995, "y": 0.995 },
+					{ "time": 1.8, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 2, "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow3": {
+				"translate": [
+					{ "y": 3.35 }
+				],
+				"scale": [
+					{ "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.995, "y": 0.995 },
+					{ "time": 0.8, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.9667, "x": 0.995, "y": 0.995 },
+					{ "time": 1.4, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 1.5667, "x": 0.995, "y": 0.995 },
+					{ "time": 2, "x": 1.142, "y": 1.142 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"Glow bg_vfx": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Glow bg_vfx" }
+				]
+			},
+			"Wave glow_vfx3": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.4, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.5333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.6333, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.6667, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx2": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.2, "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.5667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.6333, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.6667, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" },
+					{ "time": 0.6667, "name": "Wave glow_vfx" }
+				]
+			},
+			"Wave glow_vfx": {
+				"twoColor": [
+					{ "light": "ffffff00", "dark": "ff2bfd" },
+					{ "time": 0.1333, "light": "ffffffff", "dark": "ff2cfd", "curve": "stepped" },
+					{ "time": 0.3667, "light": "ffffffff", "dark": "ff2cfd" },
+					{ "time": 0.4333, "light": "ffffff00", "dark": "ff2bfd", "curve": "stepped" },
+					{ "time": 0.6667, "light": "ffffff00", "dark": "ff2bfd" }
+				],
+				"attachment": [
+					{ "name": "Wave glow_vfx" },
+					{ "time": 0.6667, "name": "Wave glow_vfx" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"Vfx_Glow bg": {
+				"translate": [
+					{ "x": -8.54, "y": 5.12 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.064, "y": 1.064 }
+				]
+			},
+			"Vfx_Light glow": {
+				"translate": [
+					{ "x": 12.31, "y": 3.91 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.77, "y": 0.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"Vfx_Wave glow": {
+				"scale": [
+					{ "x": 0.995, "y": 0.995 },
+					{ "time": 0.4333, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow2": {
+				"scale": [
+					{ "x": 0.995, "y": 0.995, "curve": "stepped" },
+					{ "time": 0.2, "x": 0.995, "y": 0.995 },
+					{ "time": 0.6333, "x": 1.142, "y": 1.142, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0.995, "y": 0.995 }
+				]
+			},
+			"Vfx_Wave glow3": {
+				"scale": [
+					{ "x": 1.093, "y": 1.093, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.995, "y": 0.995 },
+					{ "time": 0.6667, "x": 1.093, "y": 1.093 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,1911 @@
+{
+"skeleton": { "hash": "CVb/caiqs3WzeQnr8OLD9neMQkU=", "spine": "3.8.75", "images": "./images/", "audio": "C:/ISJ/OneDrive - ISJ Technology Sdn Bhd/Playtech/PT-009 Galactic Colonies/Title" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Master", "parent": "root", "color": "ff0000ff" },
+	{ "name": "Master_scale", "parent": "Master", "color": "ff0000ff" },
+	{ "name": "Galactic", "parent": "Master_scale", "y": 54.93, "color": "ff23c8ff" },
+	{ "name": "Colonies", "parent": "Master_scale", "y": -98.92, "color": "ff23c8ff" },
+	{ "name": "Frame", "parent": "Master_scale", "color": "ff23c8ff" },
+	{ "name": "Glow bottom", "parent": "Frame", "x": 18.02, "y": -269.1, "color": "00ffb7ff" },
+	{
+		"name": "Antenna",
+		"parent": "Master_scale",
+		"length": 67.6,
+		"rotation": 42.81,
+		"x": 435.26,
+		"y": 154.56,
+		"color": "bdff00ff"
+	},
+	{
+		"name": "Bulb",
+		"parent": "Master_scale",
+		"length": 53.12,
+		"rotation": 78.07,
+		"x": 286.55,
+		"y": 233.71,
+		"color": "bdff00ff"
+	},
+	{ "name": "Bulb_glow_B", "parent": "Bulb", "x": 52.98, "y": 0.31, "color": "00ffb7ff" },
+	{ "name": "Light glow_vfx", "parent": "Antenna", "rotation": -5.94, "x": 142.23, "y": 9.13, "color": "00ffb7ff" },
+	{
+		"name": "Antenna2",
+		"parent": "Master_scale",
+		"length": 67.6,
+		"rotation": 134.18,
+		"x": -361.39,
+		"y": 133.4,
+		"scaleY": -1,
+		"color": "bdff00ff"
+	},
+	{ "name": "Light glow_vfx2", "parent": "Antenna2", "rotation": -5.94, "x": 142.23, "y": 9.13, "color": "00ffb7ff" },
+	{ "name": "VFX_Letrik B", "parent": "Master_scale", "rotation": -32.74, "x": -356.27, "y": -240.51, "color": "0029ffff" },
+	{ "name": "VFX_Letrik A", "parent": "Antenna2", "x": 66.75, "y": 15.59, "color": "0029ffff" },
+	{ "name": "VFX_Letrik A2", "parent": "Antenna", "rotation": -0.92, "x": 63.65, "y": 6.42, "color": "0029ffff" },
+	{
+		"name": "VFX_Letrik B2",
+		"parent": "Master_scale",
+		"rotation": -159.56,
+		"x": 431.26,
+		"y": -231.36,
+		"scaleY": -1,
+		"color": "0029ffff"
+	}
+],
+"slots": [
+	{ "name": "Antenna 1", "bone": "Antenna" },
+	{ "name": "Antenna 2", "bone": "Antenna2" },
+	{ "name": "Bulb wick", "bone": "Bulb" },
+	{ "name": "Bulb_glow_B", "bone": "Bulb_glow_B" },
+	{ "name": "Bulb cover", "bone": "Bulb" },
+	{ "name": "Bulb buttom", "bone": "Bulb" },
+	{ "name": "Frame 2", "bone": "Frame" },
+	{ "name": "Glow bottom", "bone": "Glow bottom" },
+	{ "name": "Frame", "bone": "Frame" },
+	{ "name": "Light glow_vfx", "bone": "Light glow_vfx" },
+	{ "name": "Light glow_vfx2", "bone": "Light glow_vfx2" },
+	{ "name": "letrik vfx_A _1", "bone": "VFX_Letrik A" },
+	{ "name": "letrik vfx_A _3", "bone": "VFX_Letrik A2" },
+	{ "name": "letrik vfx_A _2", "bone": "VFX_Letrik A" },
+	{ "name": "letrik vfx_A _5", "bone": "VFX_Letrik A2" },
+	{ "name": "letrik vfx_A_3", "bone": "VFX_Letrik A" },
+	{ "name": "letrik vfx_A_4", "bone": "VFX_Letrik A2" },
+	{ "name": "letrik vfx_A _4", "bone": "VFX_Letrik A" },
+	{ "name": "letrik vfx_A _6", "bone": "VFX_Letrik A2" },
+	{ "name": "letrik vfx_B _1", "bone": "VFX_Letrik B" },
+	{ "name": "letrik vfx_B _4", "bone": "VFX_Letrik B2" },
+	{ "name": "letrik vfx_B _2", "bone": "VFX_Letrik B" },
+	{ "name": "letrik vfx_B _5", "bone": "VFX_Letrik B2" },
+	{ "name": "letrik vfx_B _3", "bone": "VFX_Letrik B" },
+	{ "name": "letrik vfx_B _6", "bone": "VFX_Letrik B2" },
+	{ "name": "letrik vfx _B_4", "bone": "VFX_Letrik B" },
+	{ "name": "letrik vfx _B_5", "bone": "VFX_Letrik B2" },
+	{ "name": "Galactic", "bone": "Galactic" },
+	{ "name": "Colonies", "bone": "Colonies" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Bulb cover": {
+				"Bulb cover": { "x": 57.65, "y": -0.55, "rotation": -78.07, "width": 142, "height": 176 }
+			},
+			"letrik vfx _B_5": {
+				"letrik vfx _B_4": { "x": 8.17, "y": -7.3, "rotation": -56.92, "width": 131, "height": 132 }
+			},
+			"letrik vfx_A _4": {
+				"letrik vfx_A _4": { "x": 11.05, "y": -0.1, "rotation": -131.53, "width": 131, "height": 132 }
+			},
+			"Bulb buttom": {
+				"Bulb buttom": { "x": 43.15, "y": -2.08, "rotation": -78.07, "width": 139, "height": 153 }
+			},
+			"Frame": {
+				"Frame": { "y": -7, "width": 1216, "height": 698 }
+			},
+			"letrik vfx_B _1": {
+				"letrik vfx_B _1": { "x": -1.19, "y": -3.66, "rotation": -42.81, "width": 78, "height": 89 }
+			},
+			"letrik vfx_B _2": {
+				"letrik vfx_B _2": { "x": 1.15, "y": -4.51, "rotation": -47.61, "width": 105, "height": 126 }
+			},
+			"letrik vfx_B _3": {
+				"letrik vfx_B _3": { "x": 10.48, "y": -4.53, "rotation": -59.44, "width": 147, "height": 134 }
+			},
+			"Bulb wick": {
+				"Bulb wick": { "x": 21.77, "y": 7.2, "rotation": -78.07, "width": 100, "height": 109 }
+			},
+			"letrik vfx_B _5": {
+				"letrik vfx_B _2": { "x": 1.15, "y": -4.51, "rotation": -47.61, "width": 105, "height": 126 }
+			},
+			"letrik vfx_B _6": {
+				"letrik vfx_B _3": { "x": 10.48, "y": -4.53, "rotation": -59.44, "width": 147, "height": 134 }
+			},
+			"Light glow_vfx": {
+				"Light glow_vfx": { "x": -0.67, "y": 3.1, "rotation": -36.87, "width": 202, "height": 202 }
+			},
+			"Colonies": {
+				"Colonies": { "x": 37.5, "y": -3.58, "width": 1107, "height": 197 }
+			},
+			"Antenna 1": {
+				"Antenna 1": { "x": 67.36, "y": 9.08, "rotation": -42.81, "width": 189, "height": 214 }
+			},
+			"letrik vfx _B_4": {
+				"letrik vfx _B_4": { "x": 8.17, "y": -7.3, "rotation": -56.92, "width": 131, "height": 132 }
+			},
+			"Frame 2": {
+				"Frame 2": { "x": 34.5, "y": -300, "width": 623, "height": 112 }
+			},
+			"Bulb_glow_B": {
+				"Bulb_glow_B": { "x": -8.67, "y": -0.61, "rotation": -78.07, "width": 308, "height": 308 }
+			},
+			"letrik vfx_B _4": {
+				"letrik vfx_B _1": { "x": -1.19, "y": -3.66, "rotation": -42.81, "width": 78, "height": 89 }
+			},
+			"letrik vfx_A _1": {
+				"letrik vfx_A _1": { "x": 4.63, "y": -4.25, "rotation": -131.53, "width": 130, "height": 135 }
+			},
+			"letrik vfx_A _2": {
+				"letrik vfx_A _2": { "x": 10.37, "y": 1.33, "rotation": -131.53, "width": 148, "height": 135 }
+			},
+			"letrik vfx_A _3": {
+				"letrik vfx_A _1": { "x": 4.63, "y": -4.25, "rotation": -131.53, "width": 130, "height": 135 }
+			},
+			"Light glow_vfx2": {
+				"Light glow_vfx": { "x": -0.67, "y": 3.1, "rotation": -36.87, "width": 202, "height": 202 }
+			},
+			"letrik vfx_A _5": {
+				"letrik vfx_A _2": { "x": 10.37, "y": 1.33, "rotation": -131.53, "width": 148, "height": 135 }
+			},
+			"letrik vfx_A _6": {
+				"letrik vfx_A _4": { "x": 11.05, "y": -0.1, "rotation": -131.53, "width": 131, "height": 132 }
+			},
+			"Antenna 2": {
+				"Antenna 1": { "x": 67.36, "y": 9.08, "rotation": -42.81, "width": 189, "height": 214 }
+			},
+			"letrik vfx_A_3": {
+				"letrik vfx_A_3": { "x": 10.36, "y": 0.62, "rotation": -131.53, "width": 147, "height": 134 }
+			},
+			"letrik vfx_A_4": {
+				"letrik vfx_A_3": { "x": 10.36, "y": 0.62, "rotation": -131.53, "width": 147, "height": 134 }
+			},
+			"Galactic": {
+				"Galactic": { "x": 37.5, "y": 14.07, "width": 1101, "height": 184 }
+			},
+			"Glow bottom": {
+				"Glow bottom": { "x": -5.02, "y": -52.4, "width": 542, "height": 115 }
+			}
+		}
+	}
+],
+"animations": {
+	"intro": {
+		"slots": {
+			"Colonies": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Colonies" }
+				]
+			},
+			"Antenna 1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"Frame 2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Frame 2" }
+				]
+			},
+			"letrik vfx_B _6": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.7, "name": "letrik vfx_B _3" },
+					{ "time": 1.7667, "name": null }
+				]
+			},
+			"letrik vfx_B _3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.3, "name": "letrik vfx_B _3" },
+					{ "time": 1.3667, "name": null }
+				]
+			},
+			"letrik vfx_B _2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.2333, "name": "letrik vfx_B _2" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"letrik vfx_A _1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.3333, "name": "letrik vfx_A _1" },
+					{ "time": 1.4, "name": null },
+					{ "time": 1.6, "name": "letrik vfx_A _1" },
+					{ "time": 1.6667, "name": null }
+				]
+			},
+			"letrik vfx_A _4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.5333, "name": "letrik vfx_A _4" },
+					{ "time": 1.6, "name": null },
+					{ "time": 1.8, "name": "letrik vfx_A _4" },
+					{ "time": 1.8667, "name": null }
+				]
+			},
+			"Bulb wick": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Bulb wick" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff9a" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			},
+			"Galactic": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Galactic" }
+				]
+			},
+			"letrik vfx_A _3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1, "name": "letrik vfx_A _1" },
+					{ "time": 1.0667, "name": null },
+					{ "time": 1.2667, "name": "letrik vfx_A _1" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Bulb cover": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Bulb cover" }
+				]
+			},
+			"Bulb_glow_B": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Bulb_glow_B" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.4, "name": "Bulb_glow_B" },
+					{ "time": 0.4667, "name": null },
+					{ "time": 0.5333, "name": "Bulb_glow_B" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8667, "name": null },
+					{ "time": 0.9333, "name": "Bulb_glow_B" },
+					{ "time": 1, "name": null },
+					{ "time": 1.0667, "name": "Bulb_glow_B" },
+					{ "time": 1.1333, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.4, "name": "Bulb_glow_B" },
+					{ "time": 1.4667, "name": null },
+					{ "time": 1.6, "name": "Bulb_glow_B" },
+					{ "time": 1.6667, "name": null },
+					{ "time": 1.7333, "name": "Bulb_glow_B" }
+				]
+			},
+			"Frame": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Frame" }
+				]
+			},
+			"letrik vfx_A _5": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.0667, "name": "letrik vfx_A _2" },
+					{ "time": 1.1333, "name": null },
+					{ "time": 1.3333, "name": "letrik vfx_A _2" },
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"letrik vfx_A _2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.4, "name": "letrik vfx_A _2" },
+					{ "time": 1.4667, "name": null },
+					{ "time": 1.6667, "name": "letrik vfx_A _2" },
+					{ "time": 1.7333, "name": null }
+				]
+			},
+			"letrik vfx_B _4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.5667, "name": "letrik vfx_B _1" },
+					{ "time": 1.6333, "name": null }
+				]
+			},
+			"letrik vfx _B_5": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.7667, "name": "letrik vfx _B_4" },
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"letrik vfx_A_4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.1333, "name": "letrik vfx_A_3" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.4, "name": "letrik vfx_A_3" },
+					{ "time": 1.4667, "name": null }
+				]
+			},
+			"Glow bottom": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Glow bottom" }
+				]
+			},
+			"Antenna 2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"letrik vfx_A _6": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.2, "name": "letrik vfx_A _4" },
+					{ "time": 1.2667, "name": null },
+					{ "time": 1.4667, "name": "letrik vfx_A _4" },
+					{ "time": 1.5333, "name": null }
+				]
+			},
+			"Bulb buttom": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Bulb buttom" }
+				]
+			},
+			"letrik vfx _B_4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.3667, "name": "letrik vfx _B_4" },
+					{ "time": 1.4333, "name": null }
+				]
+			},
+			"letrik vfx_B _5": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.6333, "name": "letrik vfx_B _2" },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"letrik vfx_B _1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.1667, "name": "letrik vfx_B _1" },
+					{ "time": 1.2333, "name": null }
+				]
+			},
+			"letrik vfx_A_3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.4667, "name": "letrik vfx_A_3" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 1.7333, "name": "letrik vfx_A_3" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"Light glow_vfx2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff9a" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"VFX_Letrik A": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Antenna": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -5.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "angle": 2.87, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -7.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": 2.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "angle": -3.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Antenna2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -5.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "angle": 2.87, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -7.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": 2.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "angle": -3.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Bulb": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -5.11, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "angle": 10.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": -3.72, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "angle": 3.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Bulb_glow_B": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.6667 },
+					{ "time": 1.7333, "x": 1.317, "y": 1.317 },
+					{ "time": 2 }
+				]
+			},
+			"Frame": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Glow bottom": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{ "y": 9.06 }
+				],
+				"scale": [
+					{ "y": 1.229 },
+					{ "time": 0.0667, "y": 2.703 },
+					{ "time": 0.1333, "y": 1.229 },
+					{ "time": 0.2, "y": 2.703 },
+					{ "time": 0.2667, "y": 1.229 },
+					{ "time": 0.3333, "y": 2.703 },
+					{ "time": 0.4, "y": 1.229 },
+					{ "time": 0.4667, "y": 2.703 },
+					{ "time": 0.5333, "y": 1.229 },
+					{ "time": 0.6, "y": 2.703 },
+					{ "time": 0.6667, "y": 1.229 },
+					{ "time": 0.7333, "y": 2.703 },
+					{ "time": 0.8, "y": 1.229 },
+					{ "time": 0.8667, "y": 2.703 },
+					{ "time": 0.9333, "y": 1.229 },
+					{ "time": 1, "y": 2.703 },
+					{ "time": 1.0667, "y": 1.229 },
+					{ "time": 1.1667, "y": 2.703 },
+					{ "time": 1.2667, "y": 1.229 },
+					{ "time": 1.3667, "y": 2.703 },
+					{ "time": 1.4667, "y": 1.229 },
+					{ "time": 1.5667, "y": 2.703 },
+					{ "time": 1.6667, "y": 1.229 },
+					{ "time": 1.8, "y": 2.703 },
+					{ "time": 2, "y": 1.229 }
+				]
+			},
+			"Light glow_vfx": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.714, "y": 0.714 },
+					{ "time": 2 }
+				]
+			},
+			"Light glow_vfx2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.714, "y": 0.714 },
+					{ "time": 2 }
+				]
+			},
+			"Galactic": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -3.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "angle": 3.38, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -2.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": 1.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "angle": -1.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 153.8, "y": -8.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "x": -95.43, "y": -3.78, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9667, "x": 22.06, "y": -0.69, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4, "x": -14.58, "y": -0.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7, "x": 21.69, "y": -0.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Colonies": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -3.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "angle": 3.38, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -2.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": 1.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "angle": -1.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 153.72, "y": -10.26, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "x": -95.34, "y": -5.63, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "x": 22.05, "y": -0.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "x": -14.57, "y": -0.45, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "x": 21.68, "y": -0.69, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"VFX_Letrik B": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"VFX_Letrik A2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"VFX_Letrik B2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Master": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -8.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "angle": 5.86, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -3.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "angle": 1.78, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "x": 1672.45, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.2667, "x": -307.5, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.5667, "x": 420.55, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.9667, "x": -85.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4, "x": 81.4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7, "x": -14.68, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0.25, "y": 0.25, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{
+						"time": 0.3,
+						"x": 0.4,
+						"y": 0.4,
+						"curve": 0.114,
+						"c2": 0.39,
+						"c3": 0.375,
+						"c4": 0.95
+					},
+					{
+						"time": 0.6,
+						"x": 0.6,
+						"y": 0.6,
+						"curve": 0.114,
+						"c2": 0.39,
+						"c3": 0.375,
+						"c4": 0.95
+					},
+					{
+						"time": 1,
+						"x": 0.8,
+						"y": 0.8,
+						"curve": 0.114,
+						"c2": 0.39,
+						"c3": 0.375,
+						"c4": 0.95
+					},
+					{ "time": 1.4333, "x": 1.1, "y": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7333, "x": 0.876, "y": 0.876, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Master_scale": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 0.887, "y": 1.098, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667, "x": 0.887, "y": 1.098, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4, "y": 1.139, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"Colonies": {
+				"attachment": [
+					{ "name": "Colonies" }
+				]
+			},
+			"Antenna 1": {
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"Frame 2": {
+				"attachment": [
+					{ "name": "Frame 2" }
+				]
+			},
+			"letrik vfx_B _6": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.6333, "name": "letrik vfx_B _3" },
+					{ "time": 0.7, "name": null },
+					{ "time": 1.8333, "name": "letrik vfx_B _3" },
+					{ "time": 1.9, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_B _3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "letrik vfx_B _3" },
+					{ "time": 0.3667, "name": null },
+					{ "time": 1.6333, "name": "letrik vfx_B _3" },
+					{ "time": 1.7, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_B _2": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2333, "name": "letrik vfx_B _2" },
+					{ "time": 0.3, "name": null },
+					{ "time": 1.5667, "name": "letrik vfx_B _2" },
+					{ "time": 1.6333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_A _1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2333, "name": "letrik vfx_A _1" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.5, "name": "letrik vfx_A _1" },
+					{ "time": 0.5667, "name": null },
+					{ "time": 1.1333, "name": "letrik vfx_A _1" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.4, "name": "letrik vfx_A _1" },
+					{ "time": 1.4667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_A _4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.4333, "name": "letrik vfx_A _4" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7, "name": "letrik vfx_A _4" },
+					{ "time": 0.7667, "name": null },
+					{ "time": 1.3333, "name": "letrik vfx_A _4" },
+					{ "time": 1.4, "name": null },
+					{ "time": 1.6, "name": "letrik vfx_A _4" },
+					{ "time": 1.6667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Bulb wick": {
+				"attachment": [
+					{ "name": "Bulb wick" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff9a" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			},
+			"Galactic": {
+				"attachment": [
+					{ "name": "Galactic" }
+				]
+			},
+			"letrik vfx_A _3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": "letrik vfx_A _1" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.3333, "name": "letrik vfx_A _1" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.9667, "name": "letrik vfx_A _1" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.2333, "name": "letrik vfx_A _1" },
+					{ "time": 1.3, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Bulb cover": {
+				"attachment": [
+					{ "name": "Bulb cover" }
+				]
+			},
+			"Bulb_glow_B": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffffdb" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffffdb" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffffdb" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Bulb_glow_B" }
+				]
+			},
+			"Frame": {
+				"attachment": [
+					{ "name": "Frame" }
+				]
+			},
+			"letrik vfx_A _5": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1333, "name": "letrik vfx_A _2" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.4, "name": "letrik vfx_A _2" },
+					{ "time": 0.4667, "name": null },
+					{ "time": 1.0333, "name": "letrik vfx_A _2" },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.3, "name": "letrik vfx_A _2" },
+					{ "time": 1.3667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_A _2": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3, "name": "letrik vfx_A _2" },
+					{ "time": 0.3667, "name": null },
+					{ "time": 0.5667, "name": "letrik vfx_A _2" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 1.2, "name": "letrik vfx_A _2" },
+					{ "time": 1.2667, "name": null },
+					{ "time": 1.4667, "name": "letrik vfx_A _2" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_B _4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.5, "name": "letrik vfx_B _1" },
+					{ "time": 0.5667, "name": null },
+					{ "time": 1.7, "name": "letrik vfx_B _1" },
+					{ "time": 1.7667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx _B_5": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.7, "name": "letrik vfx _B_4" },
+					{ "time": 0.7667, "name": null },
+					{ "time": 1.9, "name": "letrik vfx _B_4" },
+					{ "time": 1.9667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_A_4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2, "name": "letrik vfx_A_3" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.4667, "name": "letrik vfx_A_3" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 1.1, "name": "letrik vfx_A_3" },
+					{ "time": 1.1667, "name": null },
+					{ "time": 1.3667, "name": "letrik vfx_A_3" },
+					{ "time": 1.4333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Glow bottom": {
+				"attachment": [
+					{ "name": "Glow bottom" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8333, "name": "Glow bottom" },
+					{ "time": 2, "name": "Glow bottom" }
+				]
+			},
+			"Antenna 2": {
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"letrik vfx_A _6": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2667, "name": "letrik vfx_A _4" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5333, "name": "letrik vfx_A _4" },
+					{ "time": 0.6, "name": null },
+					{ "time": 1.1667, "name": "letrik vfx_A _4" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.4333, "name": "letrik vfx_A _4" },
+					{ "time": 1.5, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Bulb buttom": {
+				"attachment": [
+					{ "name": "Bulb buttom" }
+				]
+			},
+			"letrik vfx _B_4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3667, "name": "letrik vfx _B_4" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 1.7, "name": "letrik vfx _B_4" },
+					{ "time": 1.7667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_B _5": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.5667, "name": "letrik vfx_B _2" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 1.7667, "name": "letrik vfx_B _2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_B _1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1667, "name": "letrik vfx_B _1" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 1.5, "name": "letrik vfx_B _1" },
+					{ "time": 1.5667, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"letrik vfx_A_3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3667, "name": "letrik vfx_A_3" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.6333, "name": "letrik vfx_A_3" },
+					{ "time": 0.7, "name": null },
+					{ "time": 1.2667, "name": "letrik vfx_A_3" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5333, "name": "letrik vfx_A_3" },
+					{ "time": 1.6, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Light glow_vfx2": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff9a" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"VFX_Letrik A": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Antenna": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.8333 },
+					{ "time": 0.9, "angle": -3.47 },
+					{ "time": 0.9667, "angle": 4.59 },
+					{ "time": 1.0333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Antenna2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.8333 },
+					{ "time": 0.9, "angle": 3.47 },
+					{ "time": 0.9667, "angle": -3.17 },
+					{ "time": 1.0333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Bulb": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.8333 },
+					{ "time": 0.9, "x": 1.14, "y": 5.38 },
+					{ "time": 0.9667, "x": -1.64, "y": -7.76 },
+					{ "time": 1.0333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Bulb_glow_B": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.68, "y": 0.68 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.68, "y": 0.68 },
+					{ "time": 1.3333 },
+					{ "time": 1.6667, "x": 0.68, "y": 0.68 },
+					{ "time": 2 }
+				]
+			},
+			"Frame": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Glow bottom": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "y": 9.06, "curve": "stepped" },
+					{ "time": 0.8333, "y": 9.06 },
+					{ "time": 1, "y": 16.33, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "y": 9.06 }
+				],
+				"scale": [
+					{ "y": 1.229 },
+					{ "time": 0.0667, "y": 2.703 },
+					{ "time": 0.1333, "y": 1.229 },
+					{ "time": 0.2, "y": 2.703 },
+					{ "time": 0.2667, "y": 1.229 },
+					{ "time": 0.3333, "y": 2.703 },
+					{ "time": 0.4, "y": 1.229 },
+					{ "time": 0.4667, "y": 2.703, "curve": "stepped" },
+					{ "time": 0.5333, "y": 2.703, "curve": "stepped" },
+					{ "time": 0.8333, "y": 1.229, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 1, "y": 4.196 },
+					{ "time": 1.1667, "y": 2.703 },
+					{ "time": 1.6, "y": 2.053 },
+					{ "time": 2, "y": 1.229 }
+				]
+			},
+			"Light glow_vfx": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.714, "y": 0.714 },
+					{ "time": 2 }
+				]
+			},
+			"Light glow_vfx2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.714, "y": 0.714 },
+					{ "time": 2 }
+				]
+			},
+			"Galactic": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 1.55 },
+					{ "time": 0.3333, "angle": -0.69 },
+					{ "time": 0.5 },
+					{ "time": 0.9667, "angle": -2.49, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6333, "angle": 0.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": 0.528, "c2": 0.01, "c3": 0.921, "c4": 0.7 },
+					{ "time": 0.9, "y": -20.96, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 1.3, "y": 11.43, "curve": 0.528, "c2": 0.01, "c3": 0.921, "c4": 0.7 },
+					{ "time": 1.5333, "y": -14.38, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.7333 },
+					{ "time": 0.8333, "y": 1.207 },
+					{ "time": 0.9, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Colonies": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 1.55 },
+					{ "time": 0.3333, "angle": -0.69 },
+					{ "time": 0.5 },
+					{ "time": 0.9, "angle": -2.49, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5667, "angle": 0.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": 0.528, "c2": 0.01, "c3": 0.921, "c4": 0.7 },
+					{ "time": 0.8333, "y": -20.96, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 1.2333, "y": 11.43, "curve": 0.528, "c2": 0.01, "c3": 0.921, "c4": 0.7 },
+					{ "time": 1.4667, "y": -14.38, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667 },
+					{ "time": 0.7667, "y": 1.207 },
+					{ "time": 0.8333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"VFX_Letrik B": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"VFX_Letrik A2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Master": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 1.95 },
+					{ "time": 0.3333, "angle": -1.28 },
+					{ "time": 0.5 },
+					{ "time": 0.9, "angle": -3.56, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5667, "angle": 1.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.5, "y": 101.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": -36.72, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 1.5, "y": 25.01, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"VFX_Letrik B2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"Colonies": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Colonies" }
+				]
+			},
+			"Antenna 1": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"Frame 2": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Frame 2" }
+				]
+			},
+			"letrik vfx_B _6": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_B _3": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_B _2": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_A _1": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_A _4": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bulb wick": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Bulb wick" }
+				]
+			},
+			"Light glow_vfx": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff9a" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			},
+			"Galactic": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Galactic" }
+				]
+			},
+			"letrik vfx_A _3": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bulb cover": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Bulb cover" }
+				]
+			},
+			"Bulb_glow_B": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffffdb" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Bulb_glow_B" }
+				]
+			},
+			"Frame": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Frame" }
+				]
+			},
+			"letrik vfx_A _5": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_A _2": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_B _4": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx _B_5": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_A_4": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Glow bottom": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Glow bottom" }
+				]
+			},
+			"Antenna 2": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Antenna 1" }
+				]
+			},
+			"letrik vfx_A _6": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bulb buttom": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Bulb buttom" }
+				]
+			},
+			"letrik vfx _B_4": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_B _5": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_B _1": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"letrik vfx_A_3": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Light glow_vfx2": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff9a" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Light glow_vfx" }
+				]
+			}
+		},
+		"bones": {
+			"VFX_Letrik A": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Antenna": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -6.64, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 8.91 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Antenna2": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -6.64, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 8.91 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Bulb": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -10.66, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 10.77 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Bulb_glow_B": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.68, "y": 0.68 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Frame": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Glow bottom": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{ "y": 9.06, "curve": "stepped" },
+					{ "time": 0.2, "y": 9.06 },
+					{ "time": 0.3, "y": 24.92 },
+					{ "time": 0.3667, "y": 9.06 }
+				],
+				"scale": [
+					{ "y": 1.229 },
+					{ "time": 0.0667, "y": 2.703 },
+					{ "time": 0.1333, "y": 1.229 },
+					{ "time": 0.2, "y": 2.703 },
+					{ "time": 0.3, "y": 4.196 },
+					{ "time": 0.3667, "y": 2.239 },
+					{ "time": 0.4333, "y": 4.196 },
+					{ "time": 0.5, "y": 2.239 },
+					{ "time": 0.5667, "y": 4.196 },
+					{ "time": 0.6667, "y": 2.239 },
+					{ "time": 0.8333, "y": 4.196 }
+				]
+			},
+			"Light glow_vfx": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.714, "y": 0.714 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Light glow_vfx2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.714, "y": 0.714 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Galactic": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": -4.27, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "angle": 2.7 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 71.78, "y": -5.13, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 1.094, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"Colonies": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -4.27, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 2.7 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "x": 67.32, "y": -3.83, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5667 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.094, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333 }
+				]
+			},
+			"VFX_Letrik B": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"VFX_Letrik A2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Master": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": -10.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "angle": 6.6 }
+				],
+				"translate": [
+					{ "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.2667, "x": 306.72, "curve": 0.114, "c2": 0.39, "c3": 0.375, "c4": 0.95 },
+					{ "time": 0.7333, "x": -1618.39 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"VFX_Letrik B2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"root": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"Master_scale": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 123.39, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 0.758, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.156, "y": 0.759, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.156, "y": 0.759 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,55 @@
+
+PS.png
+size: 71,368
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+APPEAR
+  rotate: true
+  xy: 35, 110
+  size: 146, 31
+  orig: 146, 31
+  offset: 0, 0
+  index: -1
+HIT
+  rotate: false
+  xy: 2, 335
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+HIT LOOP
+  rotate: true
+  xy: 2, 86
+  size: 170, 31
+  orig: 170, 31
+  offset: 0, 0
+  index: -1
+IDLE
+  rotate: true
+  xy: 2, 5
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+NONE
+  rotate: true
+  xy: 35, 2
+  size: 106, 31
+  orig: 106, 31
+  offset: 0, 0
+  index: -1
+PS
+  rotate: true
+  xy: 2, 258
+  size: 75, 55
+  orig: 75, 55
+  offset: 0, 0
+  index: -1
+animation-timer
+  rotate: false
+  xy: 64, 306
+  size: 5, 60
+  orig: 5, 60
+  offset: 0, 0
+  index: -1

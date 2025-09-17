@@ -482,16 +482,10 @@ Then only to (playtech pop/pt-production)
 
 For pt backend will need to create four gameCode.
 
-Ante Bet change to number , not going to use boolean
-Ante bet value need to change follow by bet
-Freespin Selection feature
-Rule page 
-Sound effect
-Debug
-turbo spin 
-
-
-
-zhenyi
-symbol appear , bg destroy spine animation
+destroy symbol event add by zhenyi
+update total win number in free spin
+freespin left label update
+resume spin feature
+sound import
+force stop symbol bouncing.
 

@@ -482,10 +482,7 @@ Then only to (playtech pop/pt-production)
 
 For pt backend will need to create four gameCode.
 
-destroy symbol event add by zhenyi
-update total win number in free spin
-freespin left label update
-resume spin feature
+buyFreeSpin Feature
+resume spin Feature
 sound import
-force stop symbol bouncing.
 

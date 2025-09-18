@@ -482,7 +482,8 @@ Then only to (playtech pop/pt-production)
 
 For pt backend will need to create four gameCode.
 
-buyFreeSpin Feature
-resume spin Feature
+autospin
+resume spin Feature wait JC
 sound import
+buyFreeSpin Feature
 
